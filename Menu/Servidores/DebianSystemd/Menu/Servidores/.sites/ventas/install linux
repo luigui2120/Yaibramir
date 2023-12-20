@@ -1,0 +1,4 @@
+sudo apt-get install php-curl
+sudo apt-get install php-mbstring
+sudo apt-get install php-dom
+sudo apt-get install php-gd

@@ -1,0 +1,30 @@
+$ curl -O https://pagekite.net/pk/pagekite.py
+$ chmod +x pagekite.py
+$ sudo mv -f pagekite.py /usr/local/bin
+apt-get install ssh
+apt-get install php
+apt-get install mariadb-server
+
+primero instalar el token de ngrok
+
+
+
+sudo apt install xterm 
+
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get install openssh-server
+sudo service ssh start
+
+
+sudo ssh -i  ~/.ssh/id_rsa -R 80:localhost:8080 localhost.run
+
+
+Then take the following steps to enable sshing to localhost:
+
+cd ~/.ssh
+ssh-keygen to generate a public/private rsa key pair; use the default options
+cat id_rsa.pub >> authorized_keys to append the key to the authorized_keys file
+sudo chmod 600 /root/.ssh/id_rsa
+sudo service ssh restart to pickup recent changes
+ssh localhost

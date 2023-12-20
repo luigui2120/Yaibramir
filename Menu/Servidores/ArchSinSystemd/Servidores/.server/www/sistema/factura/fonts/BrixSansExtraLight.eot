@@ -1,0 +1,1197 @@
+use of ,string struct tag, trying to unmarshal %q into %vparam: error parsing key %q: expected single value but was given %d: %vtls: client's certificate contains an unsupported public key of type %Ttoo many concurrent operations on a single file or socket (max 1048575)transport: http2Server.operateHeaders got an error from InTapHandle: %vx509: issuer has name constraints but leaf doesn't have a SAN extensionCannot change the binlog direct flag inside a stored function or triggerForeign key clause is not yet supported in conjunction with partitioningTable '%-.192s' is marked as crashed and last (automatic?) repair failedTable storage engine '%-.64s' does not support the create option '%.64s'Variable '%-.64s' is a GLOBAL variable and should be set with SET GLOBALXA_RBDEADLOCK: Transaction branch was rolled back: deadlock was detectedgrpc: Server.RegisterService found duplicate service registration for %qtls: server's certificate contains an unsupported type of public key: %TBLOB/TEXT column '%-.192s' used in key specification without a key lengthCannot add or update a child row: a foreign key constraint fails (%.192s)Explicit or implicit commit is not allowed in stored function or trigger.Incorrect table definition; all MERGE tables must be in the same databaseThe '%-.64s' syntax is reserved for purposes internal to the MySQL serverThe system variable %.200s cannot be set in stored functions or triggers.Variable '%-.64s' is a SESSION variable and can't be used with SET GLOBALtls: found a certificate rather than a key in the PEM for the private keytls: received unexpected handshake message of type %T when waiting for %T@@GLOBAL.GTID_PURGED can only be set when @@GLOBAL.GTID_EXECUTED is empty.Cannot change column '%-.192s': used in a foreign key constraint '%-.192s'Cannot drop column '%-.192s': needed in a foreign key constraint '%-.192s'Disk full (%s); waiting for someone to free some space... (errno: %d - %s)Mixing self-logging and non-self-logging engines in a statement is unsafe.Replication event checksum verification failed while reading from network.Table '%-.192s' uses an extension that doesn't exist in this MySQL versionThe file '%-.128s' must be in the database directory or be readable by allbytes.Buffer: UnreadRune: previous operation was not a successful ReadRunefile scheme doesn't support host; should appear as file:///path/to/contentmalformed response from server: malformed non-numeric status pseudo headernet/http: server replied with more than declared Content-Length; truncatedpermessage-deflate; server_no_context_takeover; client_no_context_takeoverruntime: cannot set cpu profile rate until previous profile has finished.
++-.,/0123456789=ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz:$@%! Cannot change the binary logging format inside a stored function or triggerDropping a primary key is not allowed without also adding a new primary keyGRANT with IDENTIFIED WITH is illegal because the user %-.*s already existsGot fatal error %d from master when reading data from binary log: '%-.320s'Row %ld was truncated; it contained more data than there were input columnsThis operation requires a running slave; configure slave and do START SLAVEUnsolicited response received on idle HTTP channel starting with %q; err=%vUser %-.64s already has more than 'max_user_connections' active connectionsYou can't use fixed rowlength with BLOBs; please use 'fields terminated by'file scheme url is lacking a path; should appear as file:///path/to/contentheader list size to send violates the maximum size (%d bytes) set by clientheader list size to send violates the maximum size (%d bytes) set by serverinspect db size must be a positive integer, 0 for default, or -1 to disabletls: internal error: attempted to read record with pending application data@@SESSION.GTID_NEXT cannot be set to ANONYMOUS when @@GLOBAL.GTID_MODE = ON.A size parameter was incorrectly specified, either number or on the form 10MHTTP/1.0 400 Bad Request
+
+Client sent an HTTP request to an HTTPS server.
+Skipping transaction %.200s because it has already been executed and logged.Table '%-.64s' is differently defined or of non-MyISAM type or doesn't existthis a is MAJOR update; see ngrok.com/updates (version %s, Ctrl-M to update)transport: http2Server.HandleStreams received bogus greeting from client: %qtransport: http2Server.HandleStreams saw invalid preface type %T from clienttransport: loopyWriter.writeHeader encountered error while encoding headers:transport: trying to send header list size larger than the limit set by peerCan not modify more than one base table through a join view '%-.192s.%-.192s'Cannot delete or update a parent row: a foreign key constraint fails (%.192s)Column set to default value; NULL supplied to NOT NULL column '%s' at row %ldField of view '%-.192s.%-.192s' underlying table doesn't have a default valueReplication event checksum verification failed while reading from a log file.Row expressions in VALUES IN only allowed for multi-field column partitioningThe mix of handlers in the partitions is not allowed in this version of MySQLThis operation cannot be performed with a running slave; run STOP SLAVE firstView merge algorithm can't be used here for now (assumed undefined algorithm)You must pass a single argument, the authtoken to save to configuration file.crypto/tls: ExportKeyingMaterial is unavailable when renegotiation is enabledgrpc: credentials.Bundle may not be used with individual TransportCredentialsinvalid Body.Read call. After hijacked, the original Request must not be used115792089210356248762697446949407573529996955224135760342422259061068512044369115792089210356248762697446949407573530086143415290314195533631308867097853951Aborted connection %ld to db: '%-.192s' user: '%-.48s' host: '%-.64s' (%-.64s)Can't create more than max_prepared_stmt_count statements (current value: %lu)TLS tunnel %s specified client CA roots but no crt and key for TLS terminationThe system variable %.200s cannot be set when there is an ongoing transaction.transport: http2Server.HandleStreams failed to read initial settings frame: %vwebsocket: unsupported version: 13 not found in 'Sec-Websocket-Version' headerx509: signature check attempts limit reached while verifying certificate chain@@SESSION.GTID_NEXT cannot be set to UUID:NUMBER when @@GLOBAL.GTID_MODE = OFF.Channel switches to new LB policy %q due to fallback from invalid balancer nameFor float(M,D), double(M,D) or decimal(M,D), M must be >= D (column '%-.192s').The '%s' feature is disabled; you need MySQL built with '%s' to have it workingThe definition of table '%-.192s' prevents operation %.192s on table '%-.192s'.Transaction characteristics can't be changed while a transaction is in progressYou need the SUPER privilege for creation view with '%-.192s'@'%-.192s' definerhttp2: server closing client connection; error reading frame from client %s: %vtls: client certificate private key of type %T does not implement crypto.SignerCREATE TABLE ... SELECT is forbidden when @@GLOBAL.ENFORCE_GTID_CONSISTENCY = 1.Column length too big for column '%-.192s' (max = %lu); use BLOB or TEXT insteadQuery cache is disabled; restart the server with query_cache_type=1 to enable itTarget of param.Parse must be a pointer to a struct. We instead were passed a %vYou can't combine write-locking of system tables with other tables or lock typescrypto/rand: blocked for 60 seconds waiting to read random data from the kernel
+grpc: addrConn.createTransport failed to connect to %v. Err :%v. Reconnecting...non-empty balancer configuration %q, but balancer does not implement ParseConfigtls: either ServerName or InsecureSkipVerify must be specified in the tls.Configx509: invalid signature: parent certificate cannot sign this kind of certificatexml: end tag </%s> in namespace %s does not match start tag <%s> in namespace %s'%s' is deprecated and will be removed in a future release. Please use %s insteadBLOB column '%-.192s' can't be used in key specification with the used table typeFound a Gtid_log_event or Previous_gtids_log_event when @@GLOBAL.GTID_MODE = OFF.The NDB cluster engine does not support changing the binlog format on the fly yetserver SCRAM-SHA-256 nonce is not prefixed by client nonce: got %q, want %q+"..."No supported init system detected! Supported: [windows, launchd, upstart, systemd]Some temporary tables were dropped, but these operations could not be rolled back.Table '%-.192s' has no index like the one used in CREATE INDEX; recreate the tableThe MySQL server is running with the %s option so it cannot execute this statementThe server is not configured as slave; fix in config file or with CHANGE MASTER TOThere is a foreign key check running on table '%-.192s'. Cannot discard the table.grpc: Server.RegisterService found the handler of type %v that does not satisfy %vrefusing to use HTTP_PROXY value in CGI environment; see golang.org/s/cgihttpproxytransport: http2Server.HandleStreams failed to receive the preface from client: %vwebsocket: application specific 'Sec-WebSocket-Extensions' headers are unsupportedx509: a root or intermediate certificate is not authorized to sign for this name:  (possibly because of %q while trying to verify candidate authority certificate %q)Table upgrade required. Please do "REPAIR TABLE `%-.32s`" or dump/reload to fix it!Tablespace for table '%-.192s' exists. Please DISCARD the tablespace before IMPORT.Variable '%-.64s' is not a variable component (can't be used as XXXX.variable_name)json: invalid use of ,string struct tag, trying to unmarshal unquoted value into %vx509: issuer has name constraints but leaf contains unknown or unconstrained name: Cannot modify @@session.binlog_direct_non_transactional_updates inside a transactionCreating unique indexes with IGNORE requires COPY algorithm to remove duplicate rowsThe syntax '%s' is deprecated and will be removed in MySQL %s. Please use %s insteadThere is no such grant defined for user '%-.48s' on host '%-.64s' on table '%-.192s'grpc: received message larger than max length allowed on current machine (%d vs. %d)unable to stop this ngrok agent because its configuration disables remote managementwebsocket: not a websocket handshake: 'Sec-WebSocket-Key' header is missing or blankwebsocket: the client is not using the websocket protocol: request method is not GETx509: signature algorithm specifies an %s public key, but have public key of type %TAccess denied; you need (at least one of) the %-.128s privilege(s) for this operationINSERT... ON DUPLICATE KEY UPDATE  on a table with more than one UNIQUE KEY is unsafeattempt to delete child with id %d from a parent (id=%d) that doesn't currently existhttp: WriteHeader called with both Transfer-Encoding of %q and a Content-Length of %dreflect.Value.Interface: cannot return value obtained from unexported field or methodColumn count of %s.%s is wrong. Expected %d, found %d. The table is probably corruptedSubchannel health check is unimplemented at server side, thus health check is disabledThere is no such grant defined for user '%-.48s' on host '%-.64s' on routine '%-.192s'http2: TLSConfig.CipherSuites is missing an HTTP/2-required AES_128_GCM_SHA256 cipher.unable to update this ngrok agent because its configuration disables remote managementx509: a root or intermediate certificate is not authorized for an extended key usage: %-.16s command denied to user '%-.48s'@'%-.64s' for column '%-.192s' in table '%-.192s'Field or reference '%-.192s%s%-.192s%s%-.192s' of SELECT #%d was resolved in SELECT #%dINSERT DELAYED can't be used with table '%-.192s' because it is locked with LOCK TABLESThe size number was correct but we don't allow the digit part to be more than 2 billiongrpc: no transport security set (use grpc.WithInsecure() explicitly or set credentials)invalid loadBalancingConfig: entry %v does not contain exactly 1 policy/config pair: %qunable to restart this ngrok agent because its configuration disables remote managementSentry sentry_version=%d, sentry_timestamp=%d, sentry_client=sentry.go/%s, sentry_key=%sTable rebuild required. Please do "ALTER TABLE `%-.32s` FORCE" or dump/reload to fix it!@@GLOBAL.GTID_MODE = ON or UPGRADE_STEP_2 requires @@GLOBAL.ENFORCE_GTID_CONSISTENCY = 1.@@SESSION.GTID_NEXT_LIST cannot be set to a non-NULL value when @@GLOBAL.GTID_MODE = OFF.Column count of mysql.%s is wrong. Expected %d, found %d. The table is probably corruptedSyntax error: %-.64s PARTITIONING requires definition of VALUES %-.64s for each partitionpq: Private key file has group or world access. Permissions should be u=rw (0600) or lessstrict mode has been removed. See https://github.com/go-sql-driver/mysql/wiki/strict-modeAll parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE insteadColumn '%-.192s' cannot be NOT NULL: needed in a foreign key constraint '%-.192s' SET NULLREORGANIZE PARTITION can only be used to reorganize partitions not to change their numbersXAER_RMFAIL: The command cannot be executed when global transaction is in the  %.64s statehttp2: server sent GOAWAY and closed the connection; LastStreamID=%v, ErrCode=%v, debug=%qIllegal GRANT/REVOKE command; please consult the manual to see which privileges can be usedStatement is unsafe because it uses a UDF which may not return the same value on the slave.The requested server id %d clashes with the slave startup option --replicate-same-server-idTunnel '%s' is not defined in the config files.
+Tunnels available: %s
+Config files read: %vattempt to add child of type %T with id %d to a parent (id=%d) that doesn't currently existxml: EncodeToken of ProcInst xml target only valid for xml declaration, first token encodedCHANGE MASTER TO MASTER_AUTO_POSITION = 1 can only be executed when @@GLOBAL.GTID_MODE = ON.Column %d of table '%-.192s.%-.192s' cannot be converted from type '%-.32s' to type '%-.32s'The BINLOG statement of type `%s` was not preceded by a format description BINLOG statement.XAER_RMERR: Fatal error occurred in the transaction branch - check your data for consistencypacket for query is too large. Try adjusting the 'max_allowed_packet' variable on the serverCannot change column '%-.192s': used in a foreign key constraint '%-.192s' of table '%-.192s'Cannot drop column '%-.192s': needed in a foreign key constraint '%-.192s' of table '%-.192s'Incorrect table definition; there can be only one auto column and it must be defined as a keya handshake hash for a client-certificate was requested after discarding the handshake bufferCan't execute the given command because you have active locked tables or an active transactionTLS tunnel %s specified an invalid ClientCA PEM certificate file: no valid certificates parsedTable '%s'.'%s' was skipped since its definition is being modified by concurrent DDL statementThe foreign data source you are trying to reference does not exist. Data source error:  %-.64sThe foreign server name you are trying to reference does not exist. Data source error:  %-.64sThere was a problem processing the query on the foreign data source. Data source error: %-.64sCannot proceed because system tables used by Event Scheduler were found damaged at server startCannot switch out of the row-based binary log format when the session has open temporary tablesSetting authentication options is not possible when only the Slave SQL Thread is being started.The partition info in the frm file is not consistent with what can be written into the frm file3617de4a96262c6f5d9e98bf9292dc29f8f41dbd289a147ce9da3113b5f0b8c00a60b1ce1d7e819d7a431d7c90ea0e5fCannot use %-.64s access on index '%-.64s' due to type or collation conversion on field '%-.64s'Constant, random or timezone-dependent expressions in (sub)partitioning function are not allowedPlugin '%s' is marked as not dynamically installable. You have to stop the server to install it.You are using MySQL as an anonymous user and anonymous users are not allowed to change passwordsZLIB: Not enough room in the output buffer (probably, length of uncompressed data was corrupted)aa87ca22be8b05378eb1c71ef320ad746e1d3b628ba79b9859f741e082542a385502f25dbf55296c3a545e3872760ab7b3312fa7e23ee7e4988e056be3f82d19181d9c6efe8141120314088f5013875ac656398d8a2ed19d2a85c8edd3ec2aefCalled inject.InterfaceOf with a value that is not a pointer to an interface. (*MyInterface)(nil)HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: Host '%-.64s' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'It is only possible to mix RANGE/LIST partitioning with HASH/KEY partitioning for subpartitioningThe update log is deprecated and replaced by the binary log; SET SQL_LOG_UPDATE has been ignored.aix android darwin dragonfly freebsd hurd js linux nacl netbsd openbsd plan9 solaris windows zos Cannot clean up worker info tables. Additional error messages can be found in the MySQL error log.INSERT into autoincrement field which is not the first part in the composed primary key is unsafe.OUT or INOUT argument %d for routine %s is not a variable or NEW pseudo-variable in BEFORE triggerRecursive limit %d (as set by the max_sp_recursion_depth variable) was exceeded for routine %.192sservice takes a single action argument: 'start', 'stop', 'restart', 'run', 'install', 'uninstall')transport: http2Client.handleRSTStream found no mapped gRPC status for the received http2 error %vCould not initialize master info structure; more error messages can be found in the MySQL error logStatement is unsafe because it uses a system variable that may have a different value on the slave.Unable to open underlying table which is differently defined or of non-MyISAM type or doesn't existgrpc: the credentials require transport level security (use grpc.WithTransportCredentials() to set)00000000001111111111222222222233333333334444444444555555555566666666667777777777888888888899999999990123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789Client does not support authentication protocol requested by server; consider upgrading MySQL clientFailed to add the foreign key constaint. Missing index for constraint '%s' in the foreign table '%s'Plugin '%s' is marked as not dynamically uninstallable. You have to stop the server to uninstall it.You are using safe update mode and you tried to update a table without a WHERE that uses a KEY columnStatement is unsafe because it uses a system function that may return a different value on the slave.unsupported sslmode %q; only "require" (default), "verify-full", "verify-ca", and "disable" supportedCan't create federated table. The data source connection string '%-.64s' is not in the correct formatUnsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. %sCannot delete rows from table which is parent in a foreign key constraint '%-.192s' of table '%-.192s'Sec-WebSocket-Extensions: permessage-deflate; server_no_context_takeover; client_no_context_takeover
+Only Format_description_log_event and row events are allowed in BINLOG statements (but %s was provided)Failed to add the foreign key constaint. Missing index for constraint '%s' in the referenced table '%s'@@GLOBAL.GTID_MODE = ON or UPGRADE_STEP_1 or UPGRADE_STEP_2 requires --log-bin and --log-slave-updates.Your password has expired. To log in you must change it using a client that supports expired passwords.@@GLOBAL.GTID_PURGED can only be set when there are no ongoing transactions (not even in other clients).Failed to add the foreign key constraint on table '%s'. Incorrect options in FOREIGN KEY constraint '%s'ALTER TABLE causes auto_increment resequencing, resulting in duplicate entry '%-.192s' for key '%-.192s'The system variable @@SESSION.GTID_NEXT cannot be 'AUTOMATIC' when @@SESSION.GTID_NEXT_LIST is non-NULL.You must have privileges to update tables in the mysql database to be able to change passwords for othersREORGANIZE PARTITION without parameters can only be used on auto-partitioned tables using HASH PARTITIONsLong database name and identifier for object resulted in path length exceeding %d characters. Path: '%s'.asn1: time did not serialize back to the original value and may be invalid: given %q, but serialized as %qwebsocket: the client is not using the websocket protocol: 'websocket' token not found in 'Upgrade' headerwebsocket: the client is not using the websocket protocol: 'upgrade' token not found in 'Connection' headerPrimary key/partition key update is not allowed since the table is updated both as '%-.192s' and '%-.192s'.Foreign key constraint for table '%.192s', record '%-.192s' would lead to a duplicate entry in a child tableFUNCTION %s does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference ManualThe requested value for the heartbeat period is either negative or exceeds the maximum allowed (%s seconds).MySQL is started in --skip-name-resolve mode; you must restart it without this switch for this grant to workStorage engine %s does not support rollback for this statement. Transaction rolled back and must be restartedUpholding foreign key constraints for table '%.192s', entry '%-.192s', key %d would lead to a duplicate entrygrpc: addrConn.createTransport failed to connect to %v: didn't receive server preface in time. Reconnecting...The system variable @@SESSION.GTID_NEXT has the value %.200s, which is not listed in @@SESSION.GTID_NEXT_LIST.Uncompressed data size too large; the maximum size is %d (probably, length of uncompressed data was corrupted)Reorganize of range partitions cannot change total ranges except for last partition where it can extend the rangeFailed to load routine %-.192s. The table mysql.proc is missing, corrupt, or contains bad data (internal code %d)Statement accesses nontransactional table as well as transactional or temporary table, and writes to any of them.Mixing of GROUP columns (MIN(),MAX(),COUNT(),...) with no GROUP columns is illegal if there is no GROUP BY clausehttp2: Transport: cannot retry err [%v] after Request.Body was written; define Request.GetBody to avoid this errorWhen @@SESSION.GTID_NEXT_LIST == NULL, the system variable @@SESSION.GTID_NEXT cannot change inside a transaction.Thread stack overrun:  Used: %ld of a %ld stack.  Use 'mysqld --thread_stack=#' to specify a bigger stack if needed3940200619639447921227904010014361380507973927046544666794829340424572177149687032904726608825893800186160697311231939402006196394479212279040100143613805079739270465446667946905279627659399113263569398956308152294913554433653942643tls: failed to find "CERTIFICATE" PEM block in certificate input after skipping PEM blocks of the following types: %vFirst character of the FIELDS TERMINATED string is ambiguous; please use non-optional and non-empty FIELDS ENCLOSED BYThe update log is deprecated and replaced by the binary log; SET SQL_LOG_UPDATE has been translated to SET SQL_LOG_BIN.Table handler doesn't support NULL in given index. Please change column '%-.192s' to be NOT NULL or use another handlerIncorrect table definition; there can be only one TIMESTAMP column with CURRENT_TIMESTAMP in DEFAULT or ON UPDATE clauseYou can't execute a prepared statement which has an open cursor associated with it. Reset the statement to re-execute it.Foreign key constraint for table '%.192s', record '%-.192s' would lead to a duplicate entry in table '%.192s', key '%.192s'Creating index '%-.192s' required more than 'innodb_online_alter_log_max_size' bytes of modification log. Please try again.Cannot execute statement: impossible to write to binary log since statement is in row format and BINLOG_FORMAT = STATEMENT.Event execution time is in the past and ON COMPLETION NOT PRESERVE is set. The event was dropped immediately after creation.tls: failed to find certificate PEM data in certificate input, but did find a private key; PEM inputs may have been switchedSlave running with --log-slave-updates must use row-based binary logging to be able to replicate row-based binary log eventsThe statement is unsafe because it uses a LIMIT clause. This is unsafe because the set of rows included cannot be predicted.this user requires clear text authentication. If you still want to use it, please add 'allowCleartextPasswords=1' to your DSNDuplicate index '%-.64s' defined on the table '%-.64s.%-.64s'. This is deprecated and will be disallowed in a future release.((https?|ftp|file|gopher|mailto|nntp)://([a-zA-Z0-9_@\-.\[\]:]+)([.,:;?!]*[a-zA-Z0-9$'()*+&#=@~_/\-\[\]%])*)|([\pL_][\pL_0-9]*)A sampling of memory allocations of live objects. You can specify the gc GET parameter to run GC before taking the heap sample.Parameters MASTER_LOG_FILE, MASTER_LOG_POS, RELAY_LOG_FILE and RELAY_LOG_POS cannot be set when MASTER_AUTO_POSITION is active.\000\001\002\003\004\005\006\007\008\009\010\011\012\013\014\015\016\017\018\019\020\021\022\023\024\025\026\027\028\029\030\031You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to usetls: failed to find PEM block with type ending in "PRIVATE KEY" in key input after skipping PEM blocks of the following types: %vView '%-.192s.%-.192s' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use themCannot recover after SLAVE errored out in parallel execution mode. Additional error messages can be found in the MySQL error log.c6858e06b70404e9cd9e3ecb662395b4429c648139053fb521f828af606b4d3dbaa14b5e77efe75928fe1dc127a2ffa8de3348b3c1856a429bf97e7e31c2e5bd66Multi-row statements required more than 'max_binlog_stmt_cache_size' bytes of storage; increase this mysqld variable and try againView '%-.192s'.'%-.192s' has no definer information (old table format). Current user is used as definer. Please recreate the view!051953eb9618e1c9a1f929a21a0b68540eea2da725b99b315f3b8b489918ef109e156193951ec7e937b1652c0bd3bb1bf073573df883d2c34f1ef451fd46b503f0011839296a789a3bc0045c8a5fb42c7d1bd998f54449579b446817afbd17273e662c97ee72995ef42640c550b9013fad0761353c7086a272c24088be94769fd16650The number of modified databases exceeds the maximum %d; the database names will not be included in the replication event metadata.Event execution time is in the past and ON COMPLETION NOT PRESERVE is set. The event was not changed. Specify a time in the future.@@SESSION.GTID_NEXT cannot be changed by a client that owns a GTID. The client owns %s. Ownership is released on COMMIT or ROLLBACK.Statement is unsafe because it accesses a non-transactional table after accessing a transactional table within the same transaction.Multi-statement transaction required more than 'max_binlog_cache_size' bytes of storage; increase this mysqld variable and try againThe statement is unsafe because it uses INSERT DELAYED. This is unsafe because the times when rows are inserted cannot be predicted.Server is running in --secure-auth mode, but '%s'@'%s' has a password in the old format; please change the password to the new formatOption binlog_cache_size (%lu) is greater than max_binlog_cache_size (%lu); setting binlog_cache_size equal to max_binlog_cache_size.Your configuration file must define at least one tunnel when using --all. To intentionally start no tunnels, use `ngrok start --none.`The password hash doesn't have the expected format. Check if the correct password algorithm is being used with the PASSWORD() function.Can't create a new thread (errno %d); if you are not out of available memory, you can consult the manual for a possible OS-dependent buggrpc: transport credentials are set for an insecure connection (grpc.WithTransportCredentials() and grpc.WithInsecure() are both called)unable to remotely update an ngrok client that disabled update checks. set `update_check: true` in this ngrok agent's configuration file.Cannot execute statement: impossible to write to binary log since both row-incapable engines and statement-incapable engines are involved.Thread stack overrun:  %ld bytes used of a %ld byte stack, and %ld bytes needed.  Use 'mysqld --thread_stack=#' to specify a bigger stack.Cannot execute statement: impossible to write to binary log since more than one engine is involved and at least one engine is self-logging.Can't update table '%-.192s' in stored function/trigger because it is already used by statement which invoked this stored function/trigger.Column count of mysql.%s is wrong. Expected %d, found %d. Created with MySQL %d, now running %d. Please use mysql_upgrade to fix this error.Cannot execute statements with implicit commit inside a transaction when @@SESSION.GTID_NEXT != AUTOMATIC or @@SESSION.GTID_NEXT_LIST != NULL.HTTP/1.1 431 Request Header Fields Too Large
+Content-Type: text/plain; charset=utf-8
+Connection: close
+
+431 Request Header Fields Too LargeCHANGE MASTER cannot be executed when the slave was stopped with an error or killed in MTS mode. Consider using RESET SLAVE or START SLAVE UNTIL.Impossible to generate Global Transaction Identifier: the integer component reached the maximal value. Restart the server with a new server_uuid.The SELECT would examine more than MAX_JOIN_SIZE rows; check your WHERE and use SET SQL_BIG_SELECTS=1 or SET MAX_JOIN_SIZE=# if the SELECT is okayYou do not have the SUPER privilege and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)You must specify a single argument: a port or address to tunnel to.
+You specified %d arguments: %v
+For example, to expose port 80, run 'ngrok %s 80'.NoMatchEmptyMatchLiteralCharClassAnyCharNotNLAnyCharBeginLineEndLineBeginTextEndTextWordBoundaryNoWordBoundaryCaptureStarPlusQuestRepeatConcatAlternateThe slave is connecting using CHANGE MASTER TO MASTER_AUTO_POSITION = 1, but the master has purged binary logs containing GTIDs that the slave requires.The requested value for the heartbeat period is less than 1 millisecond. The value is reset to 0, meaning that heartbeating will effectively be disabled.Option binlog_stmt_cache_size (%lu) is greater than max_binlog_stmt_cache_size (%lu); setting binlog_stmt_cache_size equal to max_binlog_stmt_cache_size.Please report a bug to github.com/gogo/protobuf if you see this message: Writing extensions is not supported for extensions stored in a byte slice field.Cannot execute statement: impossible to write to binary log since BINLOG_FORMAT = STATEMENT, and both replicated and non replicated tables are written to.Cannot rename '%s'. When logging enabled, rename to/from log table must rename two tables: the log table to an archive table and another table back to '%s'386 amd64 amd64p32 arm armbe arm64 arm64be ppc64 ppc64le mips mipsle mips64 mips64le mips64p32 mips64p32le ppc riscv riscv64 s390 s390x sparc sparc64 wasm 6864797660130609714981900799081393217269435300143305409394463459185543183397656052122559640661454554977296311391480858037121987999716643812574028291115057151Statement is unsafe because it invokes a trigger or a stored function that inserts into an AUTO_INCREMENT column. Inserted values cannot be logged correctly.Incorrect prefix key; the used key part isn't a string, the used length is longer than the key part, or the storage engine doesn't support unique prefix keys6864797660130609714981900799081393217269435300143305409394463459185543183397655394245057746333217197532963996371363321113864768612440380340372808892707005449The requested value for the heartbeat period exceeds the value of `slave_net_timeout' seconds. A sensible value for the period should be less than the timeout.SSL parameters in CHANGE MASTER are ignored because this MySQL slave was compiled without SSL support; they can be used later if MySQL slave with SSL is startedCPU profile. You can specify the duration in the seconds GET parameter. After you get the profile file, use the go tool pprof command to investigate the profile.The statement is unsafe because it uses the general log, slow query log, or performance_schema table(s). This is unsafe because system tables may differ on slaves.The prepared statement contains a stored routine call that refers to that same statement. It's not allowed to execute a prepared statement in such a recursive mannerCannot execute statement: impossible to write to binary log since BINLOG_FORMAT = ROW and at least one table uses a storage engine limited to statement-based logging.Cannot execute statement: impossible to write to binary log since BINLOG_FORMAT = STATEMENT and at least one table uses a storage engine limited to row-based logging.%sCannot execute statement: impossible to write to binary log since statement is unsafe, storage engine is limited to statement-based logging, and BINLOG_FORMAT = MIXED. %sCannot execute statement: impossible to write to binary log since statement is in row format and at least one table uses a storage engine limited to statement-based logging.Out of memory; check if mysqld or some other process uses all available memory; if not, you may have to use 'ulimit' to allow mysqld to use more memory or you can add more swap spaceUPDATE IGNORE is unsafe because the order in which rows are updated determines which (if any) rows are ignored. This order cannot be predicted and may differ on master and the slave.It is recommended to use --skip-slave-start when doing step-by-step replication with START SLAVE UNTIL; otherwise, you will get problems if you get an unexpected slave's mysqld restartCannot execute the current event group in the parallel mode. Encountered event %s, relay-log name %s, position %s which prevents execution of this event group in parallel mode. Reason: %s.A trace of execution of the current program. You can specify the duration in the seconds GET parameter. After you get the trace file, use the go tool trace command to investigate the trace.A routine failed and has neither NO SQL nor READS SQL DATA in its declaration and binary logging is enabled; if non-transactional tables were updated, the binary log will miss their changesthis user requires old password authentication. If you still want to use it, please add 'allowOldPasswords=1' to your DSN. See also https://github.com/go-sql-driver/mysql/wiki/old_passwordsRow size too large. The maximum row size for the used table type, not counting BLOBs, is %ld. This includes storage overhead, check the manual. You have to change some columns to TEXT or BLOBsWhen @@GLOBAL.ENFORCE_GTID_CONSISTENCY = 1, the statements CREATE TEMPORARY TABLE and DROP TEMPORARY TABLE can be executed in a non-transactional context only, and require that AUTOCOMMIT = 1.No definer attribute for trigger '%-.192s'.'%-.192s'. The trigger will be activated under the authorization of the invoker, which may have insufficient privileges. Please recreate the trigger.Slave is not configured or failed to initialize properly. You must at least set --server-id to enable either a master or a slave. Additional error messages can be found in the MySQL error log.This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA in its declaration and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899REPLACE... SELECT is unsafe because the order in which rows are retrieved by the SELECT determines which (if any) rows are replaced. This order cannot be predicted and may differ on master and the slave.Storing MySQL user name or password information in the master.info repository is not secure and is therefore not recommended. Please see the MySQL Manual for more about this issue and possible alternatives.INSERT IGNORE... SELECT is unsafe because the order in which rows are retrieved by the SELECT determines which (if any) rows are ignored. This order cannot be predicted and may differ on master and the slave.CREATE... IGNORE SELECT is unsafe because the order in which rows are retrieved by the SELECT determines which (if any) rows are ignored. This order cannot be predicted and may differ on master and the slave.CREATE... REPLACE SELECT is unsafe because the order in which rows are retrieved by the SELECT determines which (if any) rows are replaced. This order cannot be predicted and may differ on master and the slave./debug/requests is already registered. You may have two independent copies of golang.org/x/net/trace in your binary, trying to maintain separate state. This may involve a vendored copy of golang.org/x/net/trace.sql_slave_skip_counter can not be set when the server is running with @@GLOBAL.GTID_MODE = ON. Instead, for each transaction that you want to skip, generate an empty transaction with the same GTID as the transaction-----BEGIN ECDSA PUBLIC KEY-----
+MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEXFurstR0RAzjRhf4WAfkYEJ4yPoqB4mn
+lPlxpxhwwegDo2E15yJYul2gZmjtE9BS7oNO19c/zwZYKnwBmIIUubQEQQ4abieb
+mZlr+EwplcZqpucUhOJD5LNJP0ptlP1T
+-----END ECDSA PUBLIC KEY-----INSERT... SELECT... ON DUPLICATE KEY UPDATE is unsafe because the order in which rows are retrieved by the SELECT determines which (if any) rows are updated. This order cannot be predicted and may differ on master and the slave.When @@GLOBAL.ENFORCE_GTID_CONSISTENCY = 1, updates to non-transactional tables can only be done in either autocommitted statements or single-statement transactions, and never in the same statement as updates to transactional tables.The value of @@GLOBAL.GTID_MODE can only change one step at a time: OFF <-> UPGRADE_STEP_1 <-> UPGRADE_STEP_2 <-> ON. Also note that this value must be stepped up or down simultaneously on all servers; see the Manual for instructions.‹      ÿ”AOÃ0…ïûUÏSÒÄ‰“ğoÜ8AL‚Vsµâ¿£N…Nt+ÚÕöó{ïû<4MKã¨²HûÒ´Z&šŞ²>‰VJg=/½c¨†]ÎhÆzUä§¿êyX­'L%X[*Bv¦ƒ0_oLÕ;Ï_U7æw¾ìXÕ—òÁÃùqùeÏ”Ø[êŠ3”}òrYû/GËÜ$vÁìºZüRX<ñOˆM›»8öÃ¬?úa˜d:Ó¨dK%¦Æh\è9øàÁƒ£+;%—×öğõ  ÿÿÈƒÙ}U  NAME:
+   {{.Name}} - {{.Usage}}
+
+USAGE:
+   ngrok {{.Name}}{{if .Flags}} [command options]{{end}} [arguments...]{{if .Description}}
+
+DESCRIPTION:
+   {{.Description}}{{end}}{{if .Flags}}
+
+OPTIONS:
+{{range .Flags}}   {{.}}
+{{end}}{{ end }}NAME:
+   {{.Name}} - {{.Usage}}
+
+USAGE:
+   command {{.Name}}{{if .Flags}} [command options]{{end}} [arguments...]{{if .Description}}
+
+DESCRIPTION:
+   {{.Description}}{{end}}{{if .Flags}}
+
+OPTIONS:
+   {{range .Flags}}{{.}}
+   {{end}}{{ end }}
+CREATE TABLE... SELECT...  on a table with an auto-increment column is unsafe because the order in which rows are retrieved by the SELECT determines which (if any) rows are inserted. This order cannot be predicted and may differ on master and the slave.NAME:
+   {{.Name}} - {{.Usage}}
+
+USAGE:
+   {{.Name}} command{{if .Flags}} [command options]{{end}} [arguments...]
+
+COMMANDS:
+   {{range .Commands}}{{join .Names ", "}}{{ "\t" }}{{.Usage}}
+   {{end}}{{if .Flags}}
+OPTIONS:
+   {{range .Flags}}{{.}}
+   {{end}}{{end}}
+Statements writing to a table with an auto-increment column after selecting from another table are unsafe because the order in which rows are retrieved determines what (if any) rows will be written. This order cannot be predicted and may differ on master and the slave.http2: TLSConfig.CipherSuites index %d contains an HTTP/2-approved cipher suite (%#04x), but it comes after unapproved cipher suites. With this configuration, clients that don't support previous, approved cipher suites may be given an unapproved one and reject the connection.NAME:
+   {{.Name}} - {{.Usage}}
+
+VERSION:
+   {{.Version}}{{if or .Author .Email}}
+
+AUTHOR:{{if .Author}}
+  {{.Author}}{{if .Email}} - <{{.Email}}>{{end}}{{else}}
+  {{.Email}}{{end}}{{end}}
+
+COMMANDS:
+{{range .Commands}}   {{.Name}}{{with .ShortName}}, {{.}}{{end}}{{ "\t" }}{{.Usage}}
+{{end}}stateTextstateTagstateAttrNamestateAfterNamestateBeforeValuestateHTMLCmtstateRCDATAstateAttrstateURLstateSrcsetstateJSstateJSDqStrstateJSSqStrstateJSRegexpstateJSBlockCmtstateJSLineCmtstateCSSstateCSSDqStrstateCSSSqStrstateCSSDqURLstateCSSSqURLstateCSSURLstateCSSBlockCmtstateCSSLineCmtstateErrorNAME:
+   {{.Name}} - {{.Usage}}
+
+USAGE:
+   {{.Name}} {{if .Flags}}[global options] {{end}}command{{if .Flags}} [command options]{{end}} [arguments...]
+
+VERSION:
+   {{.Version}}
+
+AUTHOR(S): 
+   {{range .Authors}}{{ . }}
+   {{end}}
+COMMANDS:
+   {{range .Commands}}{{join .Names ", "}}{{ "\t" }}{{.Usage}}
+   {{end}}{{if .Flags}}
+GLOBAL OPTIONS:
+   {{range .Flags}}{{.}}
+   {{end}}{{end}}
+Starts tunnels by name from the configuration file. You may specify any
+   number of tunnel names. You may start all tunnels in the configuration
+   file with the --all switch.
+
+EXAMPLES:
+   ngrok start dev        # start tunnel named 'dev' in the configuration file
+   ngrok start web blog   # start tunnels named 'web' and 'blog'
+   ngrok start --all      # start all tunnels defined in the config file‹      ÿì˜±kÛ@‡Ÿ]a›R*Q¥”BM)Æ˜ş¦Ú¡”7u2JéPŠ‡NL)m¡K)¥C3›2e
+C&“!S¼B†!„À…ÃgG¢'GV”üÑË§O²îÄİ” A`uèz  ¨×G÷€ÿ@ sFçã×¸ãÄsş§íÔ‘Ú}$ÖNj¿àÔ¿üµâSò¡Sÿ˜”Gâ
+ï;õ×ÿ ‰Ëö8sFı‰ÀÇeè<Û$ü1¿pø ‰×‘øD`7£Ïí6$¾ƒÄÏíøì"ñw$şÄ_ìøõ\Fk€Á a~„· Â*@èØ¦ıÆ¼Jğ¹*‰!q_ÈmámŸ‹aŸ%è'wGàwá/ü…¿ğşè—³ÿSÎşÀ¯eìÿ'ğKû—>³ù—ïKsõ^~»¦™MÀ¿Oé7ë¯ø!¿1ï5kÒJéFú­İÏs_Ğ?i>çè_5}$'ÿ^t_è’ı[HüTr[ÿ=$şƒÄ+H|Ò«ø›´^Œ¹3[Hü‰ÿ"ñ¼cæ=nØ}qÿ?DâÓ¿íÆ[é;9fï±’æZk­ü£êt¢Æñ•¿í+?ô€Éc›—
+à§‚’Ö¿ªF­O  ÿÿ‹/Ø‚6  When @@SESSION.GTID_NEXT is set to a GTID, you must explicitly set it again after a COMMIT or ROLLBACK. If you see this error message in the slave SQL thread, it means that a table in the current transaction is transactional on the master and non-transactional on the slave. In a client connection, it means that you executed SET @@SESSION.GTID_NEXT before a transaction and forgot to set @@SESSION.GTID_NEXT to a different identifier or to 'AUTOMATIC' after COMMIT or ROLLBACK. Current @@SESSION.GTID_NEXT is '%s'.\127\128\129\130\131\132\133\134\135\136\137\138\139\140\141\142\143\144\145\146\147\148\149\150\151\152\153\154\155\156\157\158\159\160\161\162\163\164\165\166\167\168\169\170\171\172\173\174\175\176\177\178\179\180\181\182\183\184\185\186\187\188\189\190\191\192\193\194\195\196\197\198\199\200\201\202\203\204\205\206\207\208\209\210\211\212\213\214\215\216\217\218\219\220\221\222\223\224\225\226\227\228\229\230\231\232\233\234\235\236\237\238\239\240\241\242\243\244\245\246\247\248\249\250\251\252\253\254\255<html>
+<head>
+<title>/debug/pprof/</title>
+<style>
+.profile-name{
+	display:inline-block;
+	width:6rem;
+}
+</style>
+</head>
+<body>
+/debug/pprof/<br>
+<br>
+Types of profiles available:
+<table>
+<thead><td>Count</td><td>Profile</td></thead>
+{{range .}}
+	<tr>
+	<td>{{.Count}}</td><td><a href={{.Href}}>{{.Name}}</a></td>
+	</tr>
+{{end}}
+</table>
+<a href="goroutine?debug=2">full goroutine stack dump</a>
+<br/>
+<p>
+Profile Descriptions:
+<ul>
+{{range .}}
+<li><div class=profile-name>{{.Name}}:</div> {{.Desc}}</li>
+{{end}}
+</ul>
+</p>
+</body>
+</html>
+The service command manages installation and execution of ngrok as an
+   operating system service on Windows, OS X and Linux systems.
+   The service command takes a single argument which must be 'start', 'stop',
+   'restart', 'install', or 'uninstall'.
+
+   When you choose 'install', you must specify the config flag which will
+   define where the installed ngrok service looks for its configuration file.
+
+   When the ngrok service runs, it has the same behavior as if it were invoked
+   from the command line with the command: "ngrok start --all".
+
+EXAMPLE:
+   ngrok service install -config=C:\ngrok.yml
+   ngrok service start
+   ngrok service stopStarts a tunnel which forwards all TCP traffic on a public port to a local
+   address. This is extremely useful for exposing services that run non-HTTP
+   traffic (ssh, sip, rdp, game servers, etc).
+
+   A TCP tunnel binds a public address on the remote ngrok server. Any
+   services which require a stable public address should use the
+   --remote-addr option. ngrok.com requires that you reserve a TCP tunnel
+   address for your account before you can use it.
+
+EXAMPLES:
+   # forward a port to your local ssh server
+   ngrok tcp 22
+
+   # expose an RDP server on a specific public address that you reserved
+   ngrok tcp --remote-addr=1.tcp.ngrok.io:27210 3389The authtoken command modifies your configuration file to include
+   the specified authtoken. By default, this configuration file is located
+   at $HOME/.ngrok2/ngrok.yml
+
+   The ngrok.com service requires that you sign up for an account to use
+   many advanced service features. In order to associate your client with
+   an account, it must pass a secret token to the ngrok.com service when it
+   starts up. Instead of passing this authtoken on every invocation, you may
+   use this command to save it into your configuration file so that your
+   client always authenticates you properly.
+
+EXAMPLE:
+    ngrok authtoken BDZIXnhJt2HNWLXyQ5PM_qCaBq0W2sNFcCa0rfTZdUpdates ngrok to the latest version. This command checks the ngrok web
+   service for a newer versions of the ngrok client. If a newer version is
+   available, it will download it an replace the ngrok binary with the new
+   version after cryptographically verifying the update is safe to apply.
+
+   In order to update successfully, the ngrok binary must be in a directory
+   that is writable by your current user. If you placed ngrok in a system
+   path, you may need to run this with root or Administrator privileges.
+
+EXAMPLES:
+   ngrok update                    - update ngrok to the latest stable version
+   ngrok update -channel=beta      - update ngrok to the latest beta version‹      ÿœÔ½r³8à^W±½ggÁ8q\l! aK,~;~a1,_põ;'»™/](u^šç=sş¼[„ı¡cŸ“èãW@	1ø¢ëpl”AA¸¿D{}Y±¥(T,ıÔ['’k†‡òH‰USoº— ô<K'Ì)ÂT¬#º÷ÖæEéX´O]ÂqLQğ˜UÔÛpÎBÖ¥ëÍ nŞ“y3Ù,‘`!‚7›´)Ú†gQùNL.c¦üÔ”v9í0ù,åàh~	c6$1[ˆAE`‡—Üjjb¢9‹Ôªx»
+oÎ¥Õ´YÄªÒjÆü‚(cÿ–kNWÚWq8!›qx6¥21gÊƒ™.x¡u•™RYX5Ê“ÿŞîàã§àã§àã§àã»*~ßè*¤Xèg$ÃÀG`,—-kÏZmÉß¦^j±UôìÏúMÏ»óøÊV1~>úÇÂ=÷Ø†EŸë×gäæ„FÀ`t[ŸÛÙE[¿»­AhÕB`J	Aºñ0±½6…æ[şoª:¦‡M€áé–y{'ëT"E)îÂ%‘'¤:Zøí‡ÿóûJdíˆ,‘"£“¾@çšpØ„œúTâG½ËÎH¢©KÛİœ·MEıBšÙ`ù¥±Óëæ-¿HqŠêC_)R}O4ú²û"´µĞ<ÁÛP)×»d‹iRL?Âp¢/_ÃŞzª
+
+:#¯Œœ!‹îµ:]™óù„Œ4vEi—¬M%‹vï›jiUcÑ6Êù\¨B\aï$·Ãq£¹®”LŒĞW8‚„#ğ××¾º^¬Tî]›2m#qwU§İóÆMŞ&›Vá0G^øÇî,ÅÜ½÷.ğÿÙp"¶ºjångGë±yqWÛ\¼Uû £ø×±y¿"¥ßü>îfÆ÷Ûôo   ÿÿ¼ÖiÆ¸  [Unit]
+Description={{.Description}}
+ConditionFileIsExecutable={{.Path|cmdEscape}}
+
+[Service]
+StartLimitInterval=5
+StartLimitBurst=10
+ExecStart={{.Path|cmdEscape}}{{range .Arguments}} {{.|cmd}}{{end}}
+{{if .ChRoot}}RootDirectory={{.ChRoot|cmd}}{{end}}
+{{if .WorkingDirectory}}WorkingDirectory={{.WorkingDirectory|cmdEscape}}{{end}}
+{{if .UserName}}User={{.UserName}}{{end}}
+{{if .ReloadSignal}}ExecReload=/bin/kill -{{.ReloadSignal}} "$MAINPID"{{end}}
+{{if .PIDFile}}PIDFile={{.PIDFile|cmd}}{{end}}
+{{if and .LogOutput .HasOutputFileSupport -}}
+StandardOutput=file:/var/log/{{.Name}}.out
+StandardError=file:/var/log/{{.Name}}.err
+{{- end}}
+Restart=always
+RestartSec=120
+EnvironmentFile=-/etc/sysconfig/{{.Name}}
+
+[Install]
+WantedBy=multi-user.target
+
+<table>
+<tr>
+    <td style="padding:0.25em">Count: {{.Count}}</td>
+    <td style="padding:0.25em">Mean: {{printf "%.0f" .Mean}}</td>
+    <td style="padding:0.25em">StdDev: {{printf "%.0f" .StandardDeviation}}</td>
+    <td style="padding:0.25em">Median: {{.Median}}</td>
+</tr>
+</table>
+<hr>
+<table>
+{{range $b := .Buckets}}
+{{if $b}}
+  <tr>
+    <td style="padding:0 0 0 0.25em">[</td>
+    <td style="text-align:right;padding:0 0.25em">{{.Lower}},</td>
+    <td style="text-align:right;padding:0 0.25em">{{.Upper}})</td>
+    <td style="text-align:right;padding:0 0.25em">{{.N}}</td>
+    <td style="text-align:right;padding:0 0.25em">{{printf "%#.3f" .Pct}}%</td>
+    <td style="text-align:right;padding:0 0.25em">{{printf "%#.3f" .CumulativePct}}%</td>
+    <td><div style="background-color: blue; height: 1em; width: {{.GraphWidth}};"></div></td>
+  </tr>
+{{end}}
+{{end}}
+</table>
+# {{.Description}}
+
+{{if .DisplayName}}description    "{{.DisplayName}}"{{end}}
+
+{{if .HasKillStanza}}kill signal INT{{end}}
+{{if .ChRoot}}chroot {{.ChRoot}}{{end}}
+{{if .WorkingDirectory}}chdir {{.WorkingDirectory}}{{end}}
+start on filesystem or runlevel [2345]
+stop on runlevel [!2345]
+
+{{if and .UserName .HasSetUIDStanza}}setuid {{.UserName}}{{end}}
+
+respawn
+respawn limit 10 5
+umask 022
+
+console none
+
+pre-start script
+    test -x {{.Path}} || { stop; exit 0; }
+end script
+
+# Start
+script
+	{{if .LogOutput}}
+	stdout_log="/var/log/{{.Name}}.out"
+	stderr_log="/var/log/{{.Name}}.err"
+	{{end}}
+	
+	if [ -f "/etc/sysconfig/{{.Name}}" ]; then
+		set -a
+		source /etc/sysconfig/{{.Name}}
+		set +a
+	fi
+
+	exec {{if and .UserName (not .HasSetUIDStanza)}}sudo -E -u {{.UserName}} {{end}}{{.Path}}{{range .Arguments}} {{.|cmd}}{{end}}{{if .LogOutput}} >> $stdout_log 2>> $stderr_log{{end}}
+end script
+‹      ÿ|”ÉªH†÷<EïI‡AQYÜEP(… ƒ°d”QÔ¾sïít/:é³ü¿“œÅwòÿùs Ò1ùCA®‡5¬ ıJcõ¶)
+hìPA‰M€uØõŸÓW“%ğºr›ôNwªƒ t|`©tQ6`Â’‘ÚÀ³\‹"'RÇÁ*Õ(\Æ¸“×´k+Ë-©VşbgÈcÚ‘oÚ“!ë‘‰C­NuŸUF,ÏZ¬ñVƒ¢b!¬2BTD‰–²œ,g¦Êïc:ƒ¨øò,ˆt øHôìˆÚœ„ñ7ë¤1òPdÁè7+é5	¥&¥-1ÌöÑuKkaq,ŸSõ¬u™ò8HÀV€s?¹Rà  v£ºå–&†×qgÖLck`#‡¤¦Éî„Š,ª›ÄQ›å.»N~n7onÜ$³ÚŸ-7dDŸ=Õ¹@Û"ÃÆln|ß>k¯ø@øˆéø¹fIQØÛújp«oáûõĞN:reà£hßF'Áz=¹Y€?p;}§¢Ç<ş.ùÎŞPâeåÃˆ‰ÿ<jßZ9ÊØU²óâ¸Ël#²cQÌ‹ÇTó:Ã/Ê5øê]7tµ÷kœC0ˆ|å…ëÀ^ÖÌ(aì9ËŞ¾!z%W>&`/g(r)K­XšÒ\îÒCYºÉ¡ïbjŠ€Æ'*œF¨Î­|Å."9|.Œwô×/Å*p @½<~~˜áì‘V:şî-d™³³3sˆ¹œ{aû¾òŞw T&pùÂ’jøßeDjàò>Anû­ù×»ÿ·wªm˜Öğr´¹i½L=:J®t;KËA^ÕGj¸§ÛŞİafFìÇ}âÉ°p=Õşæ.ÿ•Áì£¶§ƒƒG¤[»zÁé@Ò>ûObÍÆ5î)ßvÅÜ¼ú~‘X‡ÖCüûùqzS–ê•ğB®sãËÂÅß:^ôÏÈÆ„.!ÑÚ‰ršÍì"3iZ+İ*}Ä)òûèÜˆµ~ó— ‹³`m‡²³çµ´ë	›Ã5æóË¹9 ló˜Ú”§6†ysî$ÌP+î}?˜ªtG){ºÆTÌ±AJœ~‘ì!|ãyym·ûƒfçgø`îëôrµ V¿?SÎÏÅõ\¬ú,yïäÕ¥Ôº^4? óãó«ƒQÿÛK  ÿÿ:¨b´  DESCRIPTION:
+    ngrok exposes local networked services behinds NATs and firewalls to the
+    public internet over a secure tunnel. Share local websites, build/test
+    webhook consumers and self-host personal services.
+    Detailed help for each command is available with 'ngrok help <command>'.
+    Open http://localhost:4040 for ngrok's web interface to inspect traffic.
+
+EXAMPLES:
+    ngrok http 80                    # secure public URL for port 80 web server
+    ngrok http -subdomain=baz 8080   # port 8080 available at baz.ngrok.io
+    ngrok http foo.dev:80            # tunnel to host:port instead of localhost
+    ngrok http https://localhost     # expose a local https server
+    ngrok tcp 22                     # tunnel arbitrary TCP traffic to port 22
+    ngrok tls -hostname=foo.com 443  # TLS traffic for foo.com to port 443
+    ngrok start foo bar baz          # start tunnels from the configuration file‹      ÿŒÔÉ®³:ğ=OÑû¨•	XcÀ ;83O	!ğô­s>©uõİA×Ë*éoËúUı÷ûÈHÃÖ r)V1ıT9‚±r¤‚gÀÀŒeÀ°.^ÈDíÌHˆ	Øiğ6h7œÉ²ã¢â\!3ËçdRPû”¸dFN¨øƒÑÜ+ağé£FZ’¦Î‰‹g~z4×St4Şñ"”Éa÷á´„ßI2 BûÕH£ÙXïä&/ÉAÚaÍÊ‰ÌßŠöD	gRâQÀbÕİ]¡xÏÅ[‰òÿâì•È$ ÒÀŞCrN ï“ZûëFaeå‰V7ÉÑ˜â }8TçW³£ğ/ (&2û	â&Mº$‡ç¤ÖwrtXx@3Ç*~ÿ(àx ğXVf03†. Ã2p Ÿ¸Îúõ°Op©ß´†ôaÜÉßùY‰ˆ¦…5?H§Cã+Iÿ4ƒ/ÎÑU%*(¤Ïõ°óÛº¢vòŠ¯Y­m“qY[´¹,²Ó#éV‹bz+÷o<³yI§<Kx-%í®vüIÑ…¿ZUá¾m'İßÒ¥«.œœ]Jæ‡¾´l ¸?ÍĞi;%ñw±ªË&oñÎİåaæìü4Ó–&u8çÑïI`Ò3WN˜èãâZÚÈ¶&·¾QÇ—Ú¥tÌ¿–N5—³éö/ıTZ•$+P7C_£Óúd$ï]n«™{¨ÅCß_’½»o¤wmò·Ht»?£²LùG”¶rhÇ[Ÿ­íù	v‰ú”HÎFd ´’%ŞÌ<ëßİİU–C¤êï9ƒ×–ß\Œ)\÷ârÓD˜Æ§Ú¬ÁÊú l•&»gQge¿±‹"iˆô Uşm0M¹=¨A¯:‰Œû'eÿ÷÷Ê4XkØ–'^Ñ Èw˜î$S  Gß~ä~ÕoÀcVäm¿5GŠÖœ+uUã©GúvˆŠŠ’\û¦çáçz~˜´°ó{ä¯½Ñ‡wÕ‚`¤×²§÷ AFZnŒ´sj}è”Å’¬u/±‰Ï7Nb­5âS¸"fÅ›õ*båà‘Pn·S”k×Î²ËuCç‹öÎ²UúĞ*»x¾éZ‡:3çØ&4Ë]Õx<	L¥O]††W÷~&TÓÑhğ+;ˆK;<:˜Å¬¿0ùşK ‚1r“ñÌû¢ÚlañóÂV¬­8«8j½öÓònÀ/½K¿¶Ìü˜î´r;©`{Ë%[€íŸÄLTlëˆÓ¸6:=/Û|)ô%Z4>îù‰m¸Ÿ5Š,åÏ«õ  ÿÿ0zæƒw  Starts a tunnel listening for TLS traffic on port 443
+   with a specific hostname. The TLS SNI (Server Name Indication)
+   extension field in the TLS connection is inspected to determine
+   which tunnel it matches.
+
+   The ngrok server does not terminate TLS connections forwarded with this
+   command. Any underlying protocol may be used. You may optionally specify a
+   TLS key/cert pair which will be used to terminate the traffic client-side
+   before it is forwarded. If not specified, the traffic will be forwarded
+   still encrypted.
+
+   Using this command is only recommended with the -hostname option. Other uses
+   will work, but will always result in certificate mismatch warnings.
+
+EXAMPLES:
+   # forward TLS traffic for example.com to port 443 (requires CNAME)
+   ngrok tls -hostname=example.com 443
+
+   # forward TLS traffic on subdomain (mismatch certificate warning)
+   ngrok tls 1234
+
+   # terminate TLS traffic for t.co before forwarding
+   ngrok tls -hostname=t.co -crt=/path/to/t.co.crt -key=/path/to/t.co.key 443Starts a tunnel listening for HTTP/HTTPS traffic with a specific hostname.
+   The HTTP Host header on incoming public requests is inspected to
+   determine which tunnel it matches.
+
+   HTTPS endpoints terminate TLS traffic at the ngrok server using the
+   ngrok.io certificates. The decrypted, HTTP traffic is then forwarded
+   through the secure tunnel and then to your local server. If you don't want
+   your TLS traffic to terminate at the ngrok server, use a TLS or TCP tunnel.
+
+EXAMPLES:
+   ngrok http 8080                      # forward ngrok.io subdomain to port 80
+   ngrok http example.com:9000          # forward traffic to example.com:9000
+   ngrok http -subdomain=bar 80         # request subdomain name: 'bar.ngrok.io'
+   ngrok http -hostname=ex.com 1234     # request tunnel 'ex.com' (DNS CNAME)
+   ngrok http -auth='falken:joshua' 80  # enforce basic auth on tunnel endpoint
+   ngrok http -host-header=ex.com 80    # rewrite the Host header to 'ex.com'
+   ngrok http file:///var/log           # serve local files in /var/log
+   ngrok http https://localhost:8443    # forward to a local https server‹      ÿ„VÑÛº}ïW(ƒ"cšò&Eok™¾HróP -$@¡ É‘Ä]ŠT(ÚãÕ¿’ì]o÷¢}1È™á93‡£¡7MlíöI’$›¥—Ó6šhqëêà6Ù¼yrÏI®Æäi÷˜¬EÂ¿Æ“Å>†gkÜCO
+ˆø#fªï!	hôSpƒ!iVÎç+Ø0@’½àB§_ãÎ8Qícb”wpá2­¬1û±œm3|ÖGÊ*yÍÜ(7Å¶eâd‹å]DĞx0
+—Ó†%Æ™h¤]öJZw°M6«8ov^ŸnH´9$F]ÛM¦Íáÿ(ª‚éâKIûÉ–ôAı—dÛM6ûş§ro–ËÄ[’årû
+UË(—ª’ıÉ)•´=^4M§û»—9‡¦ÛìíæMñé·ß>o³£qÚù„üøHª½SÑxG=dH*10-´Wû]dVTÜz%Ç8Ş½òVhbìú5üz]¬§ÅØO¡øxC,°^jÈGhÅ=?UT?ËßuÉ{!yÿøX””wû¾!2ÔSJ=&H)ÆÓüßâùÔÀ¾Å[Œ×=·èêØäÇÆX$ß—Kz~®ØÑóxºp¿O?ú(i-0Çn˜JŠï%$·Bñ±P¹äF¸˜KŞİ$µZ/“ßdÄ!—üË3áş†Qò®Ø—â¹÷«rÈ¯ÁIO^D!æSš—Z> ‹7}D‡á××&XÏ¦f¡ëŠË¥j¦ ŞÁ"°NºZ}+ÉG}“A£Œßäã>¸6ÀÍÆ¿.€–&ŞÙ4Y$©—ZÀH EÊj¹æ5ÆÏ'i?¾ÉúŸ²E’°)-V%vÏ€h¬a@ÒKOSÊ=0)0Ë Ë€In¤ÀRH/[(ù½7 Ğa$6ÆOX+taÊÜTäM{SÓ\IÒcüfZôûH¬fw«ÕxË_Èİ,Ïı4ĞéO±X#@”/• {ĞÌ	]4%m@ÙA¸â¾$“é'¥lwñš*È²ZÀõ«†ã¦•Æó¹ãÓæÚô•'Î;„¼åÆõâG¬|@âXË+ú8%F¹Ñâg¾ãüG4+Èw“cË¹gaT!ûÇ×¿}.’rñçŒGì#qò`j}àûÃ‡]¤7Bíø4ØçÌzBÃKkıñ[®ïd@§NbØ#ä‡±úÍc8İ]†÷¿¦ÁSÔ%÷:B%£jÈñ†TX
+]`™ûÔsKÁ¢^Àåp®ù,Haq]/ Í!ß¥ğ8x£ÉŠæ0¼ÈgÄŠâuVyäÇ`"’PšG®¬ïñ)Ë·ÒÌ©¾€tÑÊvV*$d5ûƒq5¯‚o?52|òÉ_ßÑE
+éø3æ!ÈÓ©õŞÑ!·šĞ!w‘Ğ’g¾ù×	Ìç<Û¹òmvß+kĞÅlYñûØ8™×0»Ì±uÊ»ÊÔû€À DthTVN&£ÑES hşD=S]}$½ûeµZ¾{ÿËònµ|ÿ§¿¼Oi½-ËíÛìå›·Éæw“Íÿjş  ÿÿ_
+I2İ  ‹      ÿ¬XmoÛ8şŞ_¡CpÀ¦ˆ²’e;‰„+®í¶Í¢çl6I7İ~h‘²¸¡I–¤bgÿ÷)É¢^l§—Ã"‹JÍû<3§R=$ã8aT!ªâ8½En\d/2ú÷ÏÍ–H")1£q÷ßg÷ÁR¹æÇ2Š"ˆ%'à)Ä”`ŠÜ9aÉCÃM€˜.ô'–wàÒşÄ–3%h)´V. xAÃQ…DôW.NŸÜJËúµ¡q±BKY¿JU®Ä£p4æë(a„‰P,æà'ïDÿwz~¼9œ·|5gğ©à jı\Åxxæñõ&ap
+#4KLÂ÷ŒJF€<™!JØÉ[
+AÎŒQv2c$ìdÉ(“$hsº€s‹ĞÕá\ ğàêçÈ¼4Ïö[öˆDJØ*Ì0„ˆn^mı¹Aßs$•ŒãØ—÷¿ıR?W¦Zç-5*‹ãø×_gW²Xa¨²0ğ4…V<	J‚q_^LÎ“b’‡…`9…né¹#Ïó*'¥iÚˆÇTr”¨[#	Ô8ÿøg¡úíxêÿ¹”(Ìh˜0’/éAQÎ–À(t'0/I4ÁÓ,Š%Lİ9SŠ-Cïå%Š$’‰3¬óéÿ"3ÌtPCÊÔO;]<à{¡~XêÈ—ŸWßŠ&Ñı_[t•¢FEqæÿ>Ù&vå¨vôÈñ•ku)Œ¼–x]‚ S¤éıo³»E‘T(tnv“9ó\)Fëº[‰>uÊÄ²àFtz}€¸T<˜®}à`Êsu²ŸF÷ hÕtYÊıò}¤%¦u	ú“–où2QÙú_;^T…'ô¢9	ãuŸ¯É†İ¼FÇ„0G¤¨«Ï4à²*¨ÔNsÎ‘H€DV¯ÔšôÊñ¡Ïm]"•1xTv‰ ,ãÈ®Òya7‚—
++­S,¤r“x Ø?¾éHÕ²ÁıÇª%·â%Ë¥iÜ;sNµÃ\]”¼¢ï«à%gBª%æÉÑ¢
+´ çÒî\Ymë;bÆ:›Ï?Ó¤J [yUóîh§š?/ª
+’ T…®o'3‘ºs‚ô·ÔÕ×ÜvY)ÒÊê£$Iê%ŒÀ%
+ëÔ?”Ğ¢„Ñœ­]™ÈV¡gìÔÂŒ¥¿êğÄŒÖF=ÏìÕT÷hË¯‚öã›×ES˜ÆöÈm¼İkÚçÈmí[¶Í—JtD%úÇ|Qçk7šşWÏ†gÈjÕAo%dÛQ×Ô¸ÃL]´%ÒåLbf"@áGô<aÊ’\»˜B]j¹ª¡iU’š;…Ù¶fÀY8Ğ– „ÛVä÷Ÿ®m€à´ÜCZÙàHhÍ&*ZÈ¢Ù‚o\µFÇÔß±XšõX;€>;_uøìSa¥›éiŒ·xüÜêteíá«“]`¦ó7kĞù
+«lft‰ãøì·w«ï5pààŒÚ`ƒ­´Ÿ>¾o»ÎŞküIû¥Lëïå¸XeX!× Ÿ2½¬”¶Xi sªi’ß&×ÅĞÂ×m¬Ùåwp±-$0—Œä
+ufÌù^~;§C‹Ü8ûæî|(:[•½bš\lš-Zí~GCËM7Mº!
+‡Ôx†½ãam©!l5G›i4İÃea©%Sè-„eO¯n
+ã¯­!˜K,£œÙ½¿V•ğŞÂú£¯çw‡—ÅhğQ	¼İË‚¯ã‡w5„éÆ{†ĞeÙ[Ì!›/ÄÀ‘‰@ˆ:€Bç§%X»ŒÔ¥x\Ô¬oX“wƒoõ–‰`„ìWµ³Là»¾\ßáBkV¹lrÀcÎTD·‚Ò•z–üoüÛ÷)&DSò~Ÿ;Úã³$#ÿ’`ÿ­ç_®LgQì×?¬5…&|µçvg¬Ÿ7ƒ€¿‰b§gÕYæ>õòlŸ•í¶GÉaG—Hsõ´·{ÏÕ'½hg}‡_ş´×kí­U?Ú0ÿt<:Ÿœùã ¾YM&“¨XIÓÔ~‹—`Q]0÷î)Òµ—L%RÕ:¢ÿìÚ;›oöWã;–+mG¯ÚxŞn—×¾Ú±R§˜(Ct{wû¾aĞx»j1çœñut\5îi.£ÉääÔ÷½Ô&ñ÷í_mEk”G$"Uª‡nÀ×Î¤Üiwq¿éƒÊq±ñÜœâÎPF¬[hî!DUd{ë­©çÈ„ºÕ†ËÌo·Æ"áéH6ê!!ÊÛàXı%‹®µwz‡,g@%™N‰ëOïúwÀ®s-ó–È\`º¸\·—Ñcúøµ>aê™õñ†=³¹@QY–£gäD]eÓm?Ò(Äñz3¿~%–éªQ	ocÚœb½`|u5/¬3÷à­ê şƒÑóeÄ8H°z²'ıá¦Çelõ¥úaşıâº¨}+$Öa7›ßœ«b°Ñ4g£ö„¦è"MíË¢á§İ	|zsõK±¡nqVû^³¶ì8ğ¦‹Û«û>f>Üb''6úğG6ª˜7};`ç~˜¼<°Ûå†i†V]G˜¾{Zà!´yõêç×Gd¹HĞpéâËÍş8?Œaúpœ$ÓÑY @0=OO)O—€¿şù¿  ÿÿÍF¯A  
+<html>
+	<head>
+		<title>events</title>
+	</head>
+	<style type="text/css">
+		body {
+			font-family: sans-serif;
+		}
+		table#req-status td.family {
+			padding-right: 2em;
+		}
+		table#req-status td.active {
+			padding-right: 1em;
+		}
+		table#req-status td.empty {
+			color: #aaa;
+		}
+		table#reqs {
+			margin-top: 1em;
+		}
+		table#reqs tr.first {
+			{{if $.Expanded}}font-weight: bold;{{end}}
+		}
+		table#reqs td {
+			font-family: monospace;
+		}
+		table#reqs td.when {
+			text-align: right;
+			white-space: nowrap;
+		}
+		table#reqs td.elapsed {
+			padding: 0 0.5em;
+			text-align: right;
+			white-space: pre;
+			width: 10em;
+		}
+		address {
+			font-size: smaller;
+			margin-top: 5em;
+		}
+	</style>
+	<body>
+
+<h1>/debug/events</h1>
+
+<table id="req-status">
+	{{range $i, $fam := .Families}}
+	<tr>
+		<td class="family">{{$fam}}</td>
+
+	        {{range $j, $bucket := $.Buckets}}
+	        {{$n := index $.Counts $i $j}}
+		<td class="{{if not $bucket.MaxErrAge}}active{{end}}{{if not $n}}empty{{end}}">
+	                {{if $n}}<a href="?fam={{$fam}}&b={{$j}}{{if $.Expanded}}&exp=1{{end}}">{{end}}
+		        [{{$n}} {{$bucket.String}}]
+			{{if $n}}</a>{{end}}
+		</td>
+                {{end}}
+
+	</tr>{{end}}
+</table>
+
+{{if $.EventLogs}}
+<hr />
+<h3>Family: {{$.Family}}</h3>
+
+{{if $.Expanded}}<a href="?fam={{$.Family}}&b={{$.Bucket}}">{{end}}
+[Summary]{{if $.Expanded}}</a>{{end}}
+
+{{if not $.Expanded}}<a href="?fam={{$.Family}}&b={{$.Bucket}}&exp=1">{{end}}
+[Expanded]{{if not $.Expanded}}</a>{{end}}
+
+<table id="reqs">
+	<tr><th>When</th><th>Elapsed</th></tr>
+	{{range $el := $.EventLogs}}
+	<tr class="first">
+		<td class="when">{{$el.When}}</td>
+		<td class="elapsed">{{$el.ElapsedTime}}</td>
+		<td>{{$el.Title}}
+	</tr>
+	{{if $.Expanded}}
+	<tr>
+		<td class="when"></td>
+		<td class="elapsed"></td>
+		<td><pre>{{$el.Stack|trimSpace}}</pre></td>
+	</tr>
+	{{range $el.Events}}
+	<tr>
+		<td class="when">{{.WhenString}}</td>
+		<td class="elapsed">{{elapsed .Elapsed}}</td>
+		<td>.{{if .IsErr}}E{{else}}.{{end}}. {{.What}}</td>
+	</tr>
+	{{end}}
+	{{end}}
+	{{end}}
+</table>
+{{end}}
+	</body>
+</html>
+#!/bin/sh
+# For RedHat and cousins:
+# chkconfig: - 99 01
+# description: {{.Description}}
+# processname: {{.Path}}
+
+### BEGIN INIT INFO
+# Provides:          {{.Path}}
+# Required-Start:
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: {{.DisplayName}}
+# Description:       {{.Description}}
+### END INIT INFO
+
+cmd="{{.Path}}{{range .Arguments}} {{.|cmd}}{{end}}"
+
+name=$(basename $(readlink -f $0))
+pid_file="/var/run/$name.pid"
+stdout_log="/var/log/$name.log"
+stderr_log="/var/log/$name.err"
+
+[ -e /etc/sysconfig/$name ] && . /etc/sysconfig/$name
+
+get_pid() {
+    cat "$pid_file"
+}
+
+is_running() {
+    [ -f "$pid_file" ] && ps $(get_pid) > /dev/null 2>&1
+}
+
+case "$1" in
+    start)
+        if is_running; then
+            echo "Already started"
+        else
+            echo "Starting $name"
+            {{if .WorkingDirectory}}cd '{{.WorkingDirectory}}'{{end}}
+            $cmd >> "$stdout_log" 2>> "$stderr_log" &
+            echo $! > "$pid_file"
+            if ! is_running; then
+                echo "Unable to start, see $stdout_log and $stderr_log"
+                exit 1
+            fi
+        fi
+    ;;
+    stop)
+        if is_running; then
+            echo -n "Stopping $name.."
+            kill $(get_pid)
+            for i in $(seq 1 10)
+            do
+                if ! is_running; then
+                    break
+                fi
+                echo -n "."
+                sleep 1
+            done
+            echo
+            if is_running; then
+                echo "Not stopped; may still be shutting down or shutdown may have failed"
+                exit 1
+            else
+                echo "Stopped"
+                if [ -f "$pid_file" ]; then
+                    rm "$pid_file"
+                fi
+            fi
+        else
+            echo "Not running"
+        fi
+    ;;
+    restart)
+        $0 stop
+        if is_running; then
+            echo "Unable to stop, will not attempt to start"
+            exit 1
+        fi
+        $0 start
+    ;;
+    status)
+        if is_running; then
+            echo "Running"
+        else
+            echo "Stopped"
+            exit 1
+        fi
+    ;;
+    *)
+    echo "Usage: $0 {start|stop|restart|status}"
+    exit 1
+    ;;
+esac
+exit 0
+
+{{define "502"}}
+<h2>Failed to complete tunnel connection</h2>
+<hr />
+<p>
+    The connection to <strong><a href="{{ .URL }}">{{ .URL }}</a></strong>
+    was successfully tunneled to your ngrok client,
+    but the client failed to establish a connection to
+    the local address <strong><a href="http://{{ .Addr }}">{{ .Addr }}</a></strong>.
+</p>
+<p>
+    Make sure that a web service is running on
+    <strong><a href="http://{{ .Addr }}">{{ .Addr }}</a></strong> and that it is a valid address.
+</p>
+<p>
+    The error encountered was: <strong style="color: #9E2929">{{ .Error }}</strong>
+</p>
+{{end -}}
+
+{{define "402"}}
+<h2>Tunnel Expired</h2>
+<hr />
+<p>
+    This tunnel expired {{ .PrettyDuration }} ago.
+</p>
+<p>
+    <a href="https://dashboard.ngrok.com/user/signup">Sign up for a free account</a> so
+    that your tunnels don't time out or you can restart ngrok to get a new tunnel.
+</p>
+<p>
+    Anybody can use ngrok without an account, but there are limits on how long tunnels can
+    stay open and how much bandwidth they can process.
+    <a href="https://dashboard.ngrok.com/user/signup">Sign up for a free account</a> so your
+    tunnel don't time out and also get more bandwidth, http basic auth, tcp tunnels, custom subdomains and more.
+</p>
+<p>
+    The error encountered was: <strong style="color: #9E2929">ERR_NGROK_{{ .Error }}</strong>
+</p>
+{{end -}}
+
+{{define "429"}}
+<h2>Too Many Connections</h2>
+<hr />
+<p>
+    {{ .Message }}
+</p>
+<p>
+    The error encountered was: <strong style="color: #9E2929">ERR_NGROK_{{ .Error }}</strong>
+</p>
+{{end -}}
+
+<!doctype html5>
+<html>
+    <head>
+        <style type="text/css">
+        /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+        strong { font-weight: bold; }
+        hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
+        html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ } body { margin: 0; }
+        a { background-color: transparent; }
+        a:active, a:hover { outline: 0; }
+        </style>
+
+        <style type="text/css">
+            body { background-color: #f5f5f5; }
+            .container { width: 500px; margin: auto; color: #444; padding: 5px; }
+            a, strong { color: purple; text-decoration: none; }
+            a:hover { text-decoration: underline; }
+            h2 { text-align: center; color: #000; }
+            p { line-height: 20px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            {{ if eq .Status 402 }}
+            {{ template "402" . }}
+            {{ else if eq .Status 429 }}
+            {{ template "429" . }}
+            {{ else if eq .Status 502 }}
+            {{ template "502" . }}
+            {{ else }}
+            Error
+            {{ end }}
+        </div>
+    </body>
+</html>
+‹      ÿ´YnÛ8~‹¶W9ño’Ê@q#9ms½¤Ù$İ´{X´DÛ¬eQ©Ø^!ï~ 5²)[‰“vEc‹šÎ|óÃ:oÜÓT07œ®İ<K*Îÿ:JH0sEÆ“”Ï‚ˆÑX<–„Å4‡$I…\ETˆ@ˆ†½‡µ -×Á`ìÅb‘Ğ@Ÿ×4¢äé‹öø<á1¥8üDW¿‘è…Ü)ób5tÅ³8¼IYrxE“ˆ¬ÜLJÿ½Â‹‡Óıf”T$<ô/—ÿ“ò~0xŞ³H*1?É~'Ùë0¤O‰¤a!åó=M#²ú‹¤ı Í|Ëät˜ò$ä‹—Fî‚j%şa7b2×Eë»1'IÂâ‰h8  {å¬\ûÀ·òûÄ˜¸öpçV ±g.ÀÌµ3 sí¹0wm
+@KO Ÿìoğ }Y<0€¹ö5Àµ½,†Åwd.€Pû*î™}ä¹%¾Õ
+ô\€ŞzéàÖf óìÏ Ÿığåì`vº6æàî´P³õ õÁz»%µ.ÀÂµ©~tíĞqmîp×~ã¼)u{{Z¾ÕÚÌ<€™W|Ÿx éÒvç sjÏ=€¹gg@æ•¡Ê@`øbs€{å‡^GØM\'§ “ÓÂÈŞ@ï¬@àÎ¸óŠïè•ĞñJã³!@6´[.@ËµÅ@Àp	õBÜµ DÕ@0}p48–Àô† ½aé¨Î 3,AÄw'.À‰["†i
+{ =4íĞ/… mÜIõk„X³)Œ×ß5¤( ×Qß¢‚{¦İ÷ıdX®ÁF{[ä@½×b4ãÊ˜ĞjhˆÑ;(mÇ't¬Ş¤íH`:	‰‘F ğc¬ZCt>!_Õw›¬A{Ëä©ˆİª…A(øp«h¯Ü31µC0Ôôş(WÓ`P ­˜HŒü:%ª‘­—0®u0`öiñó3€ùY±Eíb§ ‹‚şƒ6¡½p¾êJTß&ÇS¯ôj¨å":fbU?ªñŒEÃDÇBU$½:¨Â„WCBó`@¬Ë«.iß×f4j_á¶øÍCŒfÒÿo¹™ˆ€ŞÔss””Z i&¬+5¦¢JZôàgÑåû[™-ˆÛJÙ–5×Œû²bèÌıPf2R`¢"¥E…Ğ"ÜŠjRUhâ6ìÆ˜E´á4¡Ûÿƒ~/ìÛa/:Ç]BºG'clíq¢ğx,i,Õ`qPŞ¾k¾ïw€6ı|JÙd*v«õÏ‡5‘ BM'¾ïwoïÎoóˆ	ÙÔ/˜Çt2¡:W‡Å‹isñ`¶á8	Y<Q[ÌoÈGs‹5ç8¢Ë¤KÙ$›ÄN@cIÓÁ÷LH6^5QËrYÓ4™¤sQ.y,›‚ıIN/YñÔI'#òKËVÿN^?¼"IR1°a7F<\å		•†MÉç¸•,R;Ii®ÅÉœE+Çã±àö9#nC’ˆZç<æö9IÀí9¹HH@)Iæ†MõàŒRJfMõ<Ğ‹úÙ\å÷4G|áLYÒXi·ÆDÑ½Ë¨Â÷ı¶¸ı<Ì5ÖhNWi½¦Nˆœú¾vv~!òåÔé¶…LŸª±†¾ï|Û?	ò	f“TõóÍ½W­V|57âYuğSõ³÷ßråD§]õ©úÓYJÉxì<Êæñ^QÖš -Œ‚D¬Î§İ|NÒ	‹›#.%Ÿ;­Ÿ—hÉ4²TğÔI8S1õ—Èt¦Ê­NÌå/Bÿºû0+”Ì•ï»?-~Ï7áŞî$Ë
+%+'aß÷Óãö¯ıux#XÕXÙ!·TÜ#¼*!:­­ÖÓ›ŠÄßÏo&ù8âD:©ŠÄ‡ÇÉ¬‘sËìvM5v©Ç<ï¸ÙÔ#5ÆeÌÑ²M,¦æûiUgHJI%»‹¤ŞMäçIš³¸LÅv¿‚o-ß4EËœv+YZ­ºÈiF<iª‘o'KKğˆ…–YÈ:¯÷ÈˆFy™…º¥U¦$
+V'KšDP£n*Mjêfoßvë·s*§<¼$rú‘’°ğ$¿r³ ü¬°Â:gÌR!›Á”Eág‡ìşİ–T%kÒ½}¥ñ¤â/QT*EÓ\ğcë@ÖTÉ™ ıÎÁõ6Ox*I,Ÿ%æÑ’eÂ¬`{YMë·ÄôT4Y-«÷L“P`DÖò°ˆoi§êÿ­¦dDÇÒi¶Í}¦ÚS7dQµ—¼øš™"¨~A¹QÀ£ˆ$‚:å—òEÑfGâ`Ä—M1%!_8-m§¦ÅHµk3"+®ñYÒp°ƒÌ“šªZmàjÉĞ||÷¯|“˜ÚöŸ»A»*VĞ—ÈİzLlQ8Vr-(úeX”ñº›úWÏUÉlsöd(ä:2›İz&ËLÚ¢ëM¸`º©IiD$»§Ï“áŒy‰üÏ&‹C•j{¹ğØ42Éì ·u`jX9^daMY"a¸.ÅİìöÃ¥Ù$´S:‚m°DBâ’-E¶º‹Í´Ğııío•Ã£®ñdD0të©ƒmOºµ«•<Ù±­ËoÕïMî?Uª]QGwú¬kÚİnĞTO7ú‚Éé¹ÖÆ÷ıãÏîâ®lzºy°:Õ†ƒ/”Ÿfï½*xæ”ÓîW{À1Wú„·¢—/¦LÒ¦î~œ˜«Ñ¥°Å…0K	(Ó“ëà2¯ +EµçÜæ·X¾N&2<Ê$İ:gNä7ãJ3TÈ5ØW7Éi¾5c™#§ÇM!ÒÇ‹R{7ÏuƒÎvê€£qX§Æ3ìíÕğlK5a¥@šL£'¸Œ~jÎ%…0,òøèâ*×x­A¤QÄÁÄ &fšf1<£çï|=¹ù-ß?:j/(Pà%™¨ŠÖıÚ›¹e#³íñúf´F€JÌADÑÃ¿ç4dÄAJil‘8´~™“e›I•Œ¯ó½ší¶‰<İ‰¯õAÊ£èiU·FKİş.?.oX®4CÈú{³êFz}Ú- T'Êñ¯×Ç,Šõ‡Ö¯Gù#òYëûÿI0š€5ò?¯ÌÖÀÚ¯™´_¬qõ“å r|®'Çòù¡¶íßxq«j•QÖ\íÄÙSVV7­&û.jâÚÑ¾Z%’L~PSŠ‚ë.üòÍ³UƒhN¯êÑ¼kô:'ıãv¯[ŞaõûıÁîEËx<6WÙœLğVóÉyeÓñšC	‹•8–¨ÿæ İ:î¿~xÂ¸²Ïã™Tvìä[’UæåÛ¶|d´ëŸµ}ß¿¾¹öÊãÂénğÆ"cµ¬ãd9Ø×bmàÙÜtú}û Õ{½‹R•¤ıú©9¬ªh‰@q¤‚ƒİiv“¥Õ/fÛÇ¸ßí6—½¾-ÉôåÜ1FÆ¥›£oF’ÒXLü×x)‡v´³7íµæÒ§x³ìHœƒØ(HÓ´¸-ìÉï"ß†Qá³sÅÂÄ9‘ÁTÅå‡™»{3¸oÅÀ9%"KY<¹!‰*2ûñı×òZSİƒİ¾Ã<»“”Šäì<#.ÊL;ZW%ÕX­³ÿiıŠf[^ím³˜)ÿu{£Ü¸ú®½·Ú«­ÿÚbÀ0¹2ÏsãM¥›òÅ|1º{{™—ŒíŠSŒëŞéèêDæµåfs‰TS¤è};WT+jV„v|u1ÌëVöqâü·a½ôO®/nw;ØúË\Mle‘Ù‰´;f‡Ssöì
+ˆ˜E½Ÿ¯'/®ŞÍ´cñ”¦LnC¡+ğ[Z©¯(¥?ÊßÎ®8—§Ñxø   ÿÿFpß«'  
+{{template "Prolog" .}}
+{{template "StatusTable" .}}
+{{template "Epilog" .}}
+
+{{define "Prolog"}}
+<html>
+	<head>
+	<title>/debug/requests</title>
+	<style type="text/css">
+		body {
+			font-family: sans-serif;
+		}
+		table#tr-status td.family {
+			padding-right: 2em;
+		}
+		table#tr-status td.active {
+			padding-right: 1em;
+		}
+		table#tr-status td.latency-first {
+			padding-left: 1em;
+		}
+		table#tr-status td.empty {
+			color: #aaa;
+		}
+		table#reqs {
+			margin-top: 1em;
+		}
+		table#reqs tr.first {
+			{{if $.Expanded}}font-weight: bold;{{end}}
+		}
+		table#reqs td {
+			font-family: monospace;
+		}
+		table#reqs td.when {
+			text-align: right;
+			white-space: nowrap;
+		}
+		table#reqs td.elapsed {
+			padding: 0 0.5em;
+			text-align: right;
+			white-space: pre;
+			width: 10em;
+		}
+		address {
+			font-size: smaller;
+			margin-top: 5em;
+		}
+	</style>
+	</head>
+	<body>
+
+<h1>/debug/requests</h1>
+{{end}} {{/* end of Prolog */}}
+
+{{define "StatusTable"}}
+<table id="tr-status">
+	{{range $fam := .Families}}
+	<tr>
+		<td class="family">{{$fam}}</td>
+
+		{{$n := index $.ActiveTraceCount $fam}}
+		<td class="active {{if not $n}}empty{{end}}">
+			{{if $n}}<a href="?fam={{$fam}}&b=-1{{if $.Expanded}}&exp=1{{end}}">{{end}}
+			[{{$n}} active]
+			{{if $n}}</a>{{end}}
+		</td>
+
+		{{$f := index $.CompletedTraces $fam}}
+		{{range $i, $b := $f.Buckets}}
+		{{$empty := $b.Empty}}
+		<td {{if $empty}}class="empty"{{end}}>
+		{{if not $empty}}<a href="?fam={{$fam}}&b={{$i}}{{if $.Expanded}}&exp=1{{end}}">{{end}}
+		[{{.Cond}}]
+		{{if not $empty}}</a>{{end}}
+		</td>
+		{{end}}
+
+		{{$nb := len $f.Buckets}}
+		<td class="latency-first">
+		<a href="?fam={{$fam}}&b={{$nb}}">[minute]</a>
+		</td>
+		<td>
+		<a href="?fam={{$fam}}&b={{add $nb 1}}">[hour]</a>
+		</td>
+		<td>
+		<a href="?fam={{$fam}}&b={{add $nb 2}}">[total]</a>
+		</td>
+
+	</tr>
+	{{end}}
+</table>
+{{end}} {{/* end of StatusTable */}}
+
+{{define "Epilog"}}
+{{if $.Traces}}
+<hr />
+<h3>Family: {{$.Family}}</h3>
+
+{{if or $.Expanded $.Traced}}
+  <a href="?fam={{$.Family}}&b={{$.Bucket}}">[Normal/Summary]</a>
+{{else}}
+  [Normal/Summary]
+{{end}}
+
+{{if or (not $.Expanded) $.Traced}}
+  <a href="?fam={{$.Family}}&b={{$.Bucket}}&exp=1">[Normal/Expanded]</a>
+{{else}}
+  [Normal/Expanded]
+{{end}}
+
+{{if not $.Active}}
+	{{if or $.Expanded (not $.Traced)}}
+	<a href="?fam={{$.Family}}&b={{$.Bucket}}&rtraced=1">[Traced/Summary]</a>
+	{{else}}
+	[Traced/Summary]
+	{{end}}
+	{{if or (not $.Expanded) (not $.Traced)}}
+	<a href="?fam={{$.Family}}&b={{$.Bucket}}&exp=1&rtraced=1">[Traced/Expanded]</a>
+        {{else}}
+	[Traced/Expanded]
+	{{end}}
+{{end}}
+
+{{if $.Total}}
+<p><em>Showing <b>{{len $.Traces}}</b> of <b>{{$.Total}}</b> traces.</em></p>
+{{end}}
+
+<table id="reqs">
+	<caption>
+		{{if $.Active}}Active{{else}}Completed{{end}} Requests
+	</caption>
+	<tr><th>When</th><th>Elapsed&nbsp;(s)</th></tr>
+	{{range $tr := $.Traces}}
+	<tr class="first">
+		<td class="when">{{$tr.When}}</td>
+		<td class="elapsed">{{$tr.ElapsedTime}}</td>
+		<td>{{$tr.Title}}</td>
+		{{/* TODO: include traceID/spanID */}}
+	</tr>
+	{{if $.Expanded}}
+	{{range $tr.Events}}
+	<tr>
+		<td class="when">{{.WhenString}}</td>
+		<td class="elapsed">{{elapsed .Elapsed}}</td>
+		<td>{{if or $.ShowSensitive (not .Sensitive)}}... {{.What}}{{else}}<em>[redacted]</em>{{end}}</td>
+	</tr>
+	{{end}}
+	{{end}}
+	{{end}}
+</table>
+{{end}} {{/* if $.Traces */}}
+
+{{if $.Histogram}}
+<h4>Latency (&micro;s) of {{$.Family}} over {{$.HistogramWindow}}</h4>
+{{$.Histogram}}
+{{end}} {{/* if $.Histogram */}}
+
+	</body>
+</html>
+{{end}} {{/* end of Epilog */}}
+	°ì­Ø­Ù37?/*&*;9%«í«â«ã©à©á©æ£Ë£È£É#>'	1 <0 ")
+7 +9$€p$:
+Ár.Ár,Ár:>, Ás<Ás*ÂL$ÂL;	)
+ƒ«ãƒ«ò 4à«ê«ó 4ï–áÍ„åÃ‹ìË”ìÏšìÂ‹ìÛ”ìßšìÒ!#Ê Ê£œÊ¢ŸÊ¥Ê¤‘Ê§Ê¦“Ê©’Ê¨•ÊóµÊğ´Êñ·Êö¶Ê÷‰ÊôˆÊõ‹ÊúŠÊûÊøŒÊùÊşÊÿÊü€ÊıƒÊâ‚Êã…Êà„Êá‡Êæ†Êç™Êä˜Êå›ÊêšÊëÊèœØ“‰ß”‹0, )4< 
+'2869/9 :::%;/;%46	7*000.111022-33>'	  #(66'&5
+ 	 < +)?45454)/)5+++ +<*&*"&8!!"+.4=
+ <>5<5!5#5&4447133.<.):)<))+-+5$$''&"6""
+	? (0
+==
+=1
+=,
+=
+??
+<
+9!
+9)
+97
+99
+6
+
+6
+6
+7'
+78
+73
+'
+'&
+
+
+3
+/
+
+
+
+"
+
+
+ 
+
+>
++
+/
+6
+
+ 
+ 
+ <3;*9"9)97+((&5$$%#<#0##!:!! 5-(. $"2=&1:#<21/+ 59=? 1 3 6 4 <
+% . 2 >  13 %$8;422/, ?        /><>>>:>+?>"4.<%09'“ıõ #!&"/,$'%;=?	9.7.:9'1&90
+96#2 020(2,3 :8%
+5*;.-,87/
+ ,--/(
+57.97
+*%60;' 2.2=$='6,;.,†ùêÿë	2	5	4	;	>	8	*	/	,	%	&	#	 !%$+.*&8>460‹ıĞìÆ‡àŠ-2ã€ïä-2êˆæëæè„æé—æî-2ù-2öã­€ã’ˆãã€ã—ˆã•ˆşËşÊ„şÍ‘ïÉ-2Á-2À-2Ëˆ@	@àõæùàú“ÿô„îÓ(3 1;*# 0!!0	?5	7
++#
+#
+2
+	#;='
+</:+*&		'+	4%!3+
+))	,<2>
+1		3. 	/,#>8
+"	8>	 /'"+
+"
+/1	74	","?$5<3=*8
+	 7+7(;?
+
+$$;,$
+>>
+
+)			 '<
+. '
+"
+)*)<,	.	#'
+
+8	%2+&0
+)4
+*	$	0
+*(
+29,4'	
+	:	..	+0
+ 
+"0	;,/"1
+.
+
+7
+2
+.	1	:/0+-
+,	=	;/
+:	 	.	4	1#4"'8>57&9+
+.
+,>
+4#%"
++
+	+	+
+=
+	
+	&0(75'6.=;;,>  < 	%<
+%!
+	
+	0'	= >4>&?	?(
+-	:3	8:		72%
+"<	/<>+
+'?
+	<=
+	"	)=
+/4
+7
+:	?3	:/	
+	7"0(	 %<
++	
+70 >570
+=%,	9#	> <+,:%"
+$=+
+/
+ 
+'	#
+		22<	1
+
+-
+?
+	
+	1&
+/$<3$?5
+##02(++02
++
+-?
+#:
+#
+%$
+>+
+01
+1
+	9
+
+
+
+	*)	-	.1	.2	<	> 	3		2		%,&!"9(2 #().1 $ '807#7-)26		(!5
+/
+,3
+,1
+/5
+"1
+"
+?%
+<,
+?#
+>
+&
+
+:
++
+"
+)
+
+
+-
+(	)	/		. 	,	/*	-9	"8	%		:	;	?	3%	6	6	7	,	,				8*/24:"+ 0&
+;>$>292:1,1<17#7*	' -4*7'!%71. 0=
+	:*1-"32:0$6445 7++-‰Êê‰Êè8888%8!8-8/8+87859	999ÏuÏuÏuÏu	99Ï`;Ï`>Ï`9Ï`8Ï`7Ï`*Ï`-Ï`,&=.=%>>?????>>>	>,>??????????	???<?= ===========1=3=0=>=2=6<<:!:#8	:&8:$:,88:*:7:5:;::<:4:':-:%:?:=:):/Ïs'=+*999;9?)(%($!8745'2=;:$)$
+,. .#(/	%904# ,2	:30>-><+83%"&
+%9
+&2
+&0
+!
+!7
+5
+=4
+?
+>
+  
+:
+9
+
+
+%
+-	-	,4	.,	)		6!	1	3+	8 	8=((	
++			3)!		%#>"%*;70;/-715+>79+, "00w¯’tAáÁæÖæpath	go.ngrok.com/cmd/ngrok
+mod	go.ngrok.com	(devel)	
+dep	github.com/DataDog/datadog-go	v0.0.0-20180822151419-281ae9f2d895	h1:dmc/C8bpE5VkQn65PNbbyACDC8xw8Hpp/NEurdPmQDQ=
+dep	github.com/blang/semver	v3.5.1+incompatible	h1:cQNTCjp13qL8KC3Nbxr/y2Bqb63oX6wdnnjpJbkM4JQ=
+dep	github.com/codegangsta/inject	v0.0.0-20150114235600-33e0aa1cb7c0	h1:sDMmm+q/3+BukdIpxwO365v/Rbspp2Nt5XntgQRXq8Q=
+dep	github.com/elazarl/go-bindata-assetfs	v1.0.0	h1:G/bYguwHIzWq9ZoyUQqrjTmJbbYn3j3CKKpKinvZLFk=
+dep	github.com/equinox-io/equinox	v1.2.0	h1:bBS7Ou+Y7Jwgmy8TWSYxEh85WctuFn7FPlgbUzX4DBA=
+dep	github.com/getsentry/sentry-go	v0.3.0	h1:6E+Oxq9CbT1kQrBPJ/RmWPqFBVS4CqU25RaMqeKnbs8=
+dep	github.com/go-martini/martini	v0.0.0-20170121215854-22fa46961aab	h1:xveKWz2iaueeTaUgdetzel+U7exyigDYBryyVfV/rZk=
+dep	github.com/go-sql-driver/mysql	v1.4.1	h1:g24URVg0OFbNUTx9qqY1IRZ9D9z3iPyi5zKhQZpNwpA=
+dep	github.com/go-stack/stack	v1.8.0	h1:5SgMzNM5HxrEjV0ww2lTmX6E2Izsfxas4+YHWRs3Lsk=
+dep	github.com/gogo/protobuf	v1.3.0	h1:G8O7TerXerS4F6sx9OV7/nRfJdnXgHZu/S/7F2SN+UE=
+dep	github.com/goji/param	v0.0.0-20140823223054-fb7a99d8b999	h1:aAUKHhO7ogxKSHfk68TjIr9cs44+oDif4rM6mBzBRfc=
+dep	github.com/golang/protobuf	v1.3.2	h1:6nsPYzhq5kReh6QImI3k5qWzO4PEbvbIW2cwSfR/6xs=
+dep	github.com/gorilla/websocket	v1.4.1	h1:q7AeDBpnBk8AogcD4DSag/Ukw/KV+YhzLj2bP5HvKCM=
+dep	github.com/grpc-ecosystem/go-grpc-middleware	v1.0.1-0.20190118093823-f849b5445de4	h1:z53tR0945TRRQO/fLEVPI6SMv7ZflF0TEaTAoU7tOzg=
+dep	github.com/improbable-eng/grpc-web	v0.0.0-20190131211030-9f9c5916f067	h1:W0IcskeVnMicizqJZyP7lSz9OZ2+9IxmeFsZclo2BrE=
+dep	github.com/inconshreveable/axiom	v0.0.0-20150814195342-d47f34fee0ce
+=>	./replace/github.com/inconshreveable/axiom		
+dep	github.com/inconshreveable/log15	v0.0.0-20180818164646-67afb5ed74ec	h1:CGkYB1Q7DSsH/ku+to+foV4agt2F2miquaLUgF6L178=
+dep	github.com/inconshreveable/mousetrap	v1.0.0	h1:Z8tu5sraLXCXIcARxBp/8cbvlwVa7Z1NHg9XEKhtSvM=
+dep	github.com/inconshreveable/muxado	v0.0.0-20160802230925-fc182d90f26e
+=>	./replace/github.com/inconshreveable/muxado		
+dep	github.com/inconshreveable/olive	v0.0.0-20190306191047-c0e8c527e2ad	h1:8paOINvgigoURsVN3xBrJT7CwMa7X0Uw6IZHZ2tnOXg=
+dep	github.com/joshuarubin/lifecycle	v1.1.0	h1:t90AFW6eODfA8rEbQm0/Wz7Gxno+Epeq8vLhqJ9vw+g=
+dep	github.com/kardianos/osext	v0.0.0-20170510131534-ae77be60afb1	h1:PJPDf8OUfOK1bb/NeTKd4f1QXZItOX389VN3B6qC8ro=
+dep	github.com/kardianos/service	v1.0.0	h1:HgQS3mFfOlyntWX8Oke98JcJLqt1DBcHR4kxShpYef0=
+dep	github.com/kevinburke/cli	v1.18.1
+=>	./replace/github.com/kevinburke/cli		
+dep	github.com/kr/binarydist	v0.1.0	h1:6kAoLA9FMMnNGSehX0s1PdjbEaACznAv/W219j2uvyo=
+dep	github.com/lib/pq	v1.2.0	h1:LXpIM/LZ5xGFhOpXAQUIMM1HdyqzVYM13zNdjCEEcA0=
+dep	github.com/mattn/go-colorable	v0.1.4	h1:snbPLB8fVfU9iwbbo30TPtbLRzwWu6aJS6Xh4eaaviA=
+dep	github.com/mattn/go-isatty	v0.0.9	h1:d5US/mDsogSGW37IV293h//ZFaeajb69h+EHFsv2xGg=
+dep	github.com/mattn/go-runewidth	v0.0.4	h1:2BvfKmzob6Bmd4YsL0zygOqfdFnK7GR4QL06Do4/p7Y=
+dep	github.com/miekg/dns	v1.1.22	h1:Jm64b3bO9kP43ddLjL2EY3Io6bmy1qGb9Xxz6TqS6rc=
+dep	github.com/mwitkow/grpc-proxy	v0.0.0-20181017164139-0f1106ef9c76	h1:0xuRacu/Zr+jX+KyLLPPktbwXqyOvnOPUQmMLzX1jxU=
+dep	github.com/nsf/termbox-go	v0.0.0-20181027232701-60ab7e3d12ed	h1:bAVGG6B+R5qpSylrrA+BAMrzYkdAoiTaKPVxRB+4cyM=
+dep	github.com/opentracing/opentracing-go	v1.1.0	h1:pWlfV3Bxv7k65HYwkikxat0+s3pV4bsqf19k25Ur8rU=
+dep	github.com/pingcap/errors	v0.11.1	h1:BXFZ6MdDd2U1uJUa2sRAWTmm+nieEzuyYM0R4aUTcC8=
+dep	github.com/pires/go-proxyproto	v0.0.0-20190111085350-4d51b51e3bfc	h1:lNOt1SMsgHXTdpuGw+RpnJtzUcCb/oRKZP65pBy9pr8=
+dep	github.com/pkg/errors	v0.8.1	h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
+dep	github.com/rcrowley/go-metrics	v0.0.0-20181016184325-3113b8401b8a	h1:9ZKAASQSHhDYGoxY8uLVpewe1GDZ2vu2Tr/vTdVAkFQ=
+dep	github.com/rs/cors	v1.6.0	h1:G9tHG9lebljV9mfp9SNPDL36nCDxmo3zTlAf1YgvzmI=
+dep	github.com/ryszard/goskiplist	v0.0.0-20150312221310-2dfbae5fcf46	h1:GHRpF1pTW19a8tTFrMLUcfWwyC0pnifVo2ClaLq+hP8=
+dep	github.com/satori/go.uuid	v1.2.0	h1:0uYX9dsZ2yD7q2RtLRtPSdGDWzjeM3TbMJP9utgA0ww=
+dep	github.com/segmentio/ksuid	v1.0.2	h1:9yBfKyw4ECGTdALaF09Snw3sLJmYIX6AbPJrAy6MrDc=
+dep	github.com/siddontang/go	v0.0.0-20180604090527-bdc77568d726	h1:xT+JlYxNGqyT+XcU8iUrN18JYed2TvG9yN5ULG2jATM=
+dep	github.com/siddontang/go-log	v0.0.0-20180807004314-8d05993dda07	h1:oI+RNwuC9jF2g2lP0u0cVEEZrc/AYBCuFdvwrLWM/6Q=
+dep	github.com/siddontang/go-mysql	v0.0.0-20190123011128-88e9cd7f6643
+=>	./replace/github.com/siddontang/go-mysql		
+dep	github.com/sirupsen/logrus	v1.4.2	h1:SPIRibHv4MatM3XXNO2BJeFLZwZ2LvZgfQ5+UNI2im4=
+dep	github.com/stripe/veneur	v11.0.0+incompatible	h1:8lNS67CtzYpSDEOBU/tbk56O72/jxb+kvcoUbjcPPEA=
+dep	github.com/tv42/base58	v0.0.0-20150113235651-b6649477bfe6	h1:BMqnmptqYTU/n/7azmNTqQJefP+BQWDBqnS+lDbQR0U=
+dep	golang.org/x/crypto	v0.0.0-20190923035154-9ee001bba392	h1:ACG4HJsFiNMf47Y4PeRoebLNy/2lXT9EtprMuTFWt1M=
+dep	golang.org/x/exp/errors	v0.0.0-20190510132918-efd6b22b2522	h1:fVULZ5qO9ODVnPeN1Y1G7VPwa61Vv3HcJZHuqvxPlDI=
+dep	golang.org/x/net	v0.0.0-20190923162816-aa69164e4478	h1:l5EDrHhldLYb3ZRHDUhXF7Om7MvYXnkV9/iQNo1lX6g=
+dep	golang.org/x/sync	v0.0.0-20190423024810-112230192c58	h1:8gQV6CLnAEikrhgkHFbMAEhagSSnXWGV915qUMm9mrU=
+dep	golang.org/x/sys	v0.0.0-20190924154521-2837fb4f24fe	h1:6fAMxZRR6sl1Uq8U61gxU+kPTs2tR8uOySCbBP7BN/M=
+dep	golang.org/x/text	v0.3.2	h1:tW2bmiBqwgJj/UpqtC8EpXEZVYOwU0yG4iWbprSVAcs=
+dep	google.golang.org/genproto	v0.0.0-20190611190212-a7e196e89fd3	h1:0LGHEA/u5XLibPOx6D7D8FBT/ax6wT57vNKY0QckCwo=
+dep	google.golang.org/grpc	v1.24.0	h1:vb/1TCsVn3DcJlQ0Gs1yB1pKI6Do2/QNwxdKqmc/b0s=
+dep	gopkg.in/inconshreveable/go-update.v0	v0.0.0-20150814200126-d8b0b1d421aa	h1:drvf2JoUL1fz3ttkGNkw+rf3kZa2//7XkYGpSO4NHNA=
+dep	gopkg.in/stack.v1	v1.0.0-20141109183700-3311a467df6a	h1:ipO/oScrBiooOEemDJdeh4rcNEf9Cf9CtidBttewAvY=
+dep	gopkg.in/yaml.v1	v1.0.0-20140924161607-9f9df34309c0	h1:POO/ycCATvegFmVuPpQzZFJ+pGZeX22Ufu6fibxDVjU=
+dep	gopkg.in/yaml.v2	v2.2.4	h1:/eiJrUcujPVeJ3xlSWaiNi3uSVmDGBK1pDHUHAnao1I=
+dep	k8s.io/utils	v0.0.0-20190506122338-8fab8cb257d5	h1:VBM/0P5TWxwk+Nw6Z+lAw3DKgO76g90ETOiA6rfLV1Y=
+ù2C1† r ‚BAØò   Ìˆa Ì„23 Ì Ì§1o1â„41â„23â„4iÌ‡lÂ·Ê¼nsdÅ¾â±¥â±¦hjrwy Ì† Ì‡ ÌŠ Ì¨ Ìƒ Ì‹lxÌˆÌ Î¹; ÌˆÌÕ¥Ö‚Ø§Ù´ÙˆÙ´Û‡Ù´ÙŠÙ´à¤•à¤¼à¤–à¤¼à¤—à¤¼à¤œà¤¼à¤¡à¤¼à¤¢à¤¼à¤«à¤¼à¤¯à¤¼à¦¡à¦¼à¦¢à¦¼à¦¯à¦¼à¨²à¨¼à¨¸à¨¼à¨–à¨¼à¨—à¨¼à¨œà¨¼à¨«à¨¼à¬¡à¬¼à¬¢à¬¼à¹à¸²à»àº²àº«àº™àº«àº¡à½‚à¾·à½Œà¾·à½‘à¾·à½–à¾·à½›à¾·à½€à¾µà½±à½²à½±à½´à¾²à¾€	à¾²à½±à¾€à¾³à¾€	à¾³à½±à¾€à½±à¾€à¾’à¾·à¾œà¾·à¾¡à¾·à¾¦à¾·à¾«à¾·à¾à¾µĞ²Ğ´Ğ¾ÑÑ‚ÑŠÑ£Ã¦bdeÇgikmnÈ£ptuÉÉ‘É™É›ÉœÅ‹É”É¯vÎ²Î³Î´Ï†Ï‡ÏĞ½É’cÉ•Ã°fÉŸÉ¡É¥É¨É©ÉªÊÉ­ÊŸÉ±É°É²É³É´ÉµÉ¸Ê‚ÊƒÆ«Ê‰ÊŠÊ‹ÊŒzÊÊ‘Ê’Î¸ssÎ¬Î­Î®Î¯ÏŒÏÏá¼€Î¹á¼Î¹á¼‚Î¹á¼ƒÎ¹á¼„Î¹á¼…Î¹á¼†Î¹á¼‡Î¹á¼ Î¹á¼¡Î¹á¼¢Î¹á¼£Î¹á¼¤Î¹á¼¥Î¹á¼¦Î¹á¼§Î¹á½ Î¹á½¡Î¹á½¢Î¹á½£Î¹á½¤Î¹á½¥Î¹á½¦Î¹á½§Î¹á½°Î¹Î±Î¹Î¬Î¹á¾¶Î¹Î¹ ÌˆÍ‚á½´Î¹Î·Î¹Î®Î¹á¿†Î¹ Ì“Ì€ Ì“Ì Ì“Í‚Î Ì”Ì€ Ì”Ì Ì”Í‚Î° ÌˆÌ€`á½¼Î¹Ï‰Î¹ÏÎ¹á¿¶Î¹â€²â€²	â€²â€²â€²â€µâ€µ	â€µâ€µâ€µ!!???!!?â€²â€²â€²â€²0456789+=()rsÄ§noqsmtmÏ‰Ã¥××‘×’×“Ï€1â„71â„91â„101â„32â„31â„52â„53â„54â„51â„65â„61â„83â„85â„87â„81â„iiivviviiiixxi0â„3âˆ«âˆ«	âˆ«âˆ«âˆ«âˆ®âˆ®	âˆ®âˆ®âˆ®1011121314151617181920(10)(11)(12)(13)(14)(15)(16)(17)(18)(19)(20)âˆ«âˆ«âˆ«âˆ«==â«Ì¸É«É½È¿É€. ã‚™ ã‚šã‚ˆã‚Šã‚³ãƒˆ(á„€)(á„‚)(á„ƒ)(á„…)(á„†)(á„‡)(á„‰)(á„‹)(á„Œ)(á„)(á„)(á„)(á„‘)(á„’)(ê°€)(ë‚˜)(ë‹¤)(ë¼)(ë§ˆ)(ë°”)(ì‚¬)(ì•„)(ì)(ì°¨)(ì¹´)(íƒ€)(íŒŒ)(í•˜)(ì£¼)(ì˜¤ì „)(ì˜¤í›„)(ä¸€)(äºŒ)(ä¸‰)(å››)(äº”)(å…­)(ä¸ƒ)(å…«)(ä¹)(å)(æœˆ)(ç«)(æ°´)(æœ¨)(é‡‘)(åœŸ)(æ—¥)(æ ª)(æœ‰)(ç¤¾)(å)(ç‰¹)(è²¡)(ç¥)(åŠ´)(ä»£)(å‘¼)(å­¦)(ç›£)(ä¼)(è³‡)(å”)(ç¥­)(ä¼‘)(è‡ª)(è‡³)212223242526272829303132333435ì°¸ê³ ì£¼ì˜3637383940414243444546474849501æœˆ2æœˆ3æœˆ4æœˆ5æœˆ6æœˆ7æœˆ8æœˆ9æœˆ10æœˆ11æœˆ12æœˆhgevã‚¢ãƒ‘ãƒ¼ãƒˆã‚¢ãƒ«ãƒ•ã‚¡ã‚¢ãƒ³ãƒšã‚¢	ã‚¢ãƒ¼ãƒ«ã‚¤ãƒ‹ãƒ³ã‚°	ã‚¤ãƒ³ãƒ	ã‚¦ã‚©ãƒ³ã‚¨ã‚¹ã‚¯ãƒ¼ãƒ‰ã‚¨ãƒ¼ã‚«ãƒ¼	ã‚ªãƒ³ã‚¹	ã‚ªãƒ¼ãƒ 	ã‚«ã‚¤ãƒªã‚«ãƒ©ãƒƒãƒˆã‚«ãƒ­ãƒªãƒ¼	ã‚¬ãƒ­ãƒ³	ã‚¬ãƒ³ãƒã‚®ã‚¬	ã‚®ãƒ‹ãƒ¼ã‚­ãƒ¥ãƒªãƒ¼ã‚®ãƒ«ãƒ€ãƒ¼ã‚­ãƒ­ã‚­ãƒ­ã‚°ãƒ©ãƒ ã‚­ãƒ­ãƒ¡ãƒ¼ãƒˆãƒ«ã‚­ãƒ­ãƒ¯ãƒƒãƒˆ	ã‚°ãƒ©ãƒ ã‚°ãƒ©ãƒ ãƒˆãƒ³ã‚¯ãƒ«ã‚¼ã‚¤ãƒ­ã‚¯ãƒ­ãƒ¼ãƒ	ã‚±ãƒ¼ã‚¹	ã‚³ãƒ«ãƒŠ	ã‚³ãƒ¼ãƒã‚µã‚¤ã‚¯ãƒ«ã‚µãƒ³ãƒãƒ¼ãƒ ã‚·ãƒªãƒ³ã‚°	ã‚»ãƒ³ãƒ	ã‚»ãƒ³ãƒˆ	ãƒ€ãƒ¼ã‚¹ãƒ‡ã‚·ãƒ‰ãƒ«ãƒˆãƒ³ãƒŠãƒ	ãƒãƒƒãƒˆ	ãƒã‚¤ãƒ„ãƒ‘ãƒ¼ã‚»ãƒ³ãƒˆ	ãƒ‘ãƒ¼ãƒ„ãƒãƒ¼ãƒ¬ãƒ«ãƒ”ã‚¢ã‚¹ãƒˆãƒ«	ãƒ”ã‚¯ãƒ«ãƒ”ã‚³ãƒ“ãƒ«ãƒ•ã‚¡ãƒ©ãƒƒãƒ‰ãƒ•ã‚£ãƒ¼ãƒˆãƒ–ãƒƒã‚·ã‚§ãƒ«	ãƒ•ãƒ©ãƒ³ãƒ˜ã‚¯ã‚¿ãƒ¼ãƒ«ãƒšã‚½	ãƒšãƒ‹ãƒ’	ãƒ˜ãƒ«ãƒ„	ãƒšãƒ³ã‚¹	ãƒšãƒ¼ã‚¸	ãƒ™ãƒ¼ã‚¿ãƒã‚¤ãƒ³ãƒˆ	ãƒœãƒ«ãƒˆãƒ›ãƒ³	ãƒãƒ³ãƒ‰	ãƒ›ãƒ¼ãƒ«	ãƒ›ãƒ¼ãƒ³ãƒã‚¤ã‚¯ãƒ­	ãƒã‚¤ãƒ«	ãƒãƒƒãƒ	ãƒãƒ«ã‚¯ãƒãƒ³ã‚·ãƒ§ãƒ³ãƒŸã‚¯ãƒ­ãƒ³ãƒŸãƒªãƒŸãƒªãƒãƒ¼ãƒ«ãƒ¡ã‚¬ãƒ¡ã‚¬ãƒˆãƒ³ãƒ¡ãƒ¼ãƒˆãƒ«	ãƒ¤ãƒ¼ãƒ‰	ãƒ¤ãƒ¼ãƒ«	ãƒ¦ã‚¢ãƒ³ãƒªãƒƒãƒˆãƒ«ãƒªãƒ©	ãƒ«ãƒ”ãƒ¼ãƒ«ãƒ¼ãƒ–ãƒ«ãƒ¬ãƒ ãƒ¬ãƒ³ãƒˆã‚²ãƒ³	ãƒ¯ãƒƒãƒˆ0ç‚¹1ç‚¹2ç‚¹3ç‚¹4ç‚¹5ç‚¹6ç‚¹7ç‚¹8ç‚¹9ç‚¹10ç‚¹11ç‚¹12ç‚¹13ç‚¹14ç‚¹15ç‚¹16ç‚¹17ç‚¹18ç‚¹19ç‚¹20ç‚¹21ç‚¹22ç‚¹23ç‚¹24ç‚¹daauovpcdmiuå¹³æˆæ˜­å’Œå¤§æ­£æ˜æ²»æ ªå¼ä¼šç¤¾panamakakbmbgbkcalpfnfmgkghzmldlklfmnmmmcmkmm2m3mâˆ•smâˆ•s2radâˆ•sradâˆ•s2psnsmspvnvmvkvpwnwmwkwbqcccdcâˆ•kgdbgyhahpinkkktlmlnlxphprsrsvwbvâˆ•maâˆ•m1æ—¥2æ—¥3æ—¥4æ—¥5æ—¥6æ—¥7æ—¥8æ—¥9æ—¥10æ—¥11æ—¥12æ—¥13æ—¥14æ—¥15æ—¥16æ—¥17æ—¥18æ—¥19æ—¥20æ—¥21æ—¥22æ—¥23æ—¥24æ—¥25æ—¥26æ—¥27æ—¥28æ—¥29æ—¥30æ—¥31æ—¥ÑŒÉ¦É¬ÊÊ‡Å“ğ¤‹®ğ¢¡Šğ¢¡„ğ£•ğ¥‰‰ğ¥³ğ§»“fffiflstÕ´Õ¶Õ´Õ¥Õ´Õ«Õ¾Õ¶Õ´Õ­×™Ö´×²Ö·×¢×”×›×œ××¨×ª×©××©×‚×©Ö¼××©Ö¼×‚×Ö·×Ö¸×Ö¼×‘Ö¼×’Ö¼×“Ö¼×”Ö¼×•Ö¼×–Ö¼×˜Ö¼×™Ö¼×šÖ¼×›Ö¼×œÖ¼×Ö¼× Ö¼×¡Ö¼×£Ö¼×¤Ö¼×¦Ö¼×§Ö¼×¨Ö¼×©Ö¼×ªÖ¼×•Ö¹×‘Ö¿×›Ö¿×¤Ö¿××œÙ±Ù»Ù¾Ú€ÙºÙ¿Ù¹Ú¤Ú¦Ú„ÚƒÚ†Ú‡ÚÚŒÚÚˆÚ˜Ú‘Ú©Ú¯Ú³Ú±ÚºÚ»Û€ÛÚ¾Û’Û“Ú­Û‡Û†ÛˆÛ‹Û…Û‰ÛÙ‰Ø¦Ø§Ø¦Û•Ø¦ÙˆØ¦Û‡Ø¦Û†Ø¦ÛˆØ¦ÛØ¦Ù‰ÛŒØ¦Ø¬Ø¦Ø­Ø¦Ù…Ø¦ÙŠØ¨Ø¬Ø¨Ø­Ø¨Ø®Ø¨Ù…Ø¨Ù‰Ø¨ÙŠØªØ¬ØªØ­ØªØ®ØªÙ…ØªÙ‰ØªÙŠØ«Ø¬Ø«Ù…Ø«Ù‰Ø«ÙŠØ¬Ø­Ø¬Ù…Ø­Ø¬Ø­Ù…Ø®Ø¬Ø®Ø­Ø®Ù…Ø³Ø¬Ø³Ø­Ø³Ø®Ø³Ù…ØµØ­ØµÙ…Ø¶Ø¬Ø¶Ø­Ø¶Ø®Ø¶Ù…Ø·Ø­Ø·Ù…Ø¸Ù…Ø¹Ø¬Ø¹Ù…ØºØ¬ØºÙ…ÙØ¬ÙØ­ÙØ®ÙÙ…ÙÙ‰ÙÙŠÙ‚Ø­Ù‚Ù…Ù‚Ù‰Ù‚ÙŠÙƒØ§ÙƒØ¬ÙƒØ­ÙƒØ®ÙƒÙ„ÙƒÙ…ÙƒÙ‰ÙƒÙŠÙ„Ø¬Ù„Ø­Ù„Ø®Ù„Ù…Ù„Ù‰Ù„ÙŠÙ…Ø¬Ù…Ø­Ù…Ø®Ù…Ù…Ù…Ù‰Ù…ÙŠÙ†Ø¬Ù†Ø­Ù†Ø®Ù†Ù…Ù†Ù‰Ù†ÙŠÙ‡Ø¬Ù‡Ù…Ù‡Ù‰Ù‡ÙŠÙŠØ¬ÙŠØ­ÙŠØ®ÙŠÙ…ÙŠÙ‰ÙŠÙŠØ°Ù°Ø±Ù°Ù‰Ù° ÙŒÙ‘ ÙÙ‘ ÙÙ‘ ÙÙ‘ ÙÙ‘ Ù‘Ù°Ø¦Ø±Ø¦Ø²Ø¦Ù†Ø¨Ø±Ø¨Ø²Ø¨Ù†ØªØ±ØªØ²ØªÙ†Ø«Ø±Ø«Ø²Ø«Ù†Ù…Ø§Ù†Ø±Ù†Ø²Ù†Ù†ÙŠØ±ÙŠØ²ÙŠÙ†Ø¦Ø®Ø¦Ù‡Ø¨Ù‡ØªÙ‡ØµØ®Ù„Ù‡Ù†Ù‡Ù‡Ù°ÙŠÙ‡Ø«Ù‡Ø³Ù‡Ø´Ù…Ø´Ù‡Ù€ÙÙ‘Ù€ÙÙ‘Ù€ÙÙ‘Ø·Ù‰Ø·ÙŠØ¹Ù‰Ø¹ÙŠØºÙ‰ØºÙŠØ³Ù‰Ø³ÙŠØ´Ù‰Ø´ÙŠØ­Ù‰Ø­ÙŠØ¬Ù‰Ø¬ÙŠØ®Ù‰Ø®ÙŠØµÙ‰ØµÙŠØ¶Ù‰Ø¶ÙŠØ´Ø¬Ø´Ø­Ø´Ø®Ø´Ø±Ø³Ø±ØµØ±Ø¶Ø±Ø§Ù‹ØªØ¬Ù…ØªØ­Ø¬ØªØ­Ù…ØªØ®Ù…ØªÙ…Ø¬ØªÙ…Ø­ØªÙ…Ø®Ø¬Ù…Ø­Ø­Ù…ÙŠØ­Ù…Ù‰Ø³Ø­Ø¬Ø³Ø¬Ø­Ø³Ø¬Ù‰Ø³Ù…Ø­Ø³Ù…Ø¬Ø³Ù…Ù…ØµØ­Ø­ØµÙ…Ù…Ø´Ø­Ù…Ø´Ø¬ÙŠØ´Ù…Ø®Ø´Ù…Ù…Ø¶Ø­Ù‰Ø¶Ø®Ù…Ø·Ù…Ø­Ø·Ù…Ù…Ø·Ù…ÙŠØ¹Ø¬Ù…Ø¹Ù…Ù…Ø¹Ù…Ù‰ØºÙ…Ù…ØºÙ…ÙŠØºÙ…Ù‰ÙØ®Ù…Ù‚Ù…Ø­Ù‚Ù…Ù…Ù„Ø­Ù…Ù„Ø­ÙŠÙ„Ø­Ù‰Ù„Ø¬Ø¬Ù„Ø®Ù…Ù„Ù…Ø­Ù…Ø­Ø¬Ù…Ø­Ù…Ù…Ø­ÙŠÙ…Ø¬Ø­Ù…Ø¬Ù…Ù…Ø®Ø¬Ù…Ø®Ù…Ù…Ø¬Ø®Ù‡Ù…Ø¬Ù‡Ù…Ù…Ù†Ø­Ù…Ù†Ø­Ù‰Ù†Ø¬Ù…Ù†Ø¬Ù‰Ù†Ù…ÙŠÙ†Ù…Ù‰ÙŠÙ…Ù…Ø¨Ø®ÙŠØªØ¬ÙŠØªØ¬Ù‰ØªØ®ÙŠØªØ®Ù‰ØªÙ…ÙŠØªÙ…Ù‰Ø¬Ù…ÙŠØ¬Ø­Ù‰Ø¬Ù…Ù‰Ø³Ø®Ù‰ØµØ­ÙŠØ´Ø­ÙŠØ¶Ø­ÙŠÙ„Ø¬ÙŠÙ„Ù…ÙŠÙŠØ­ÙŠÙŠØ¬ÙŠÙŠÙ…ÙŠÙ…Ù…ÙŠÙ‚Ù…ÙŠÙ†Ø­ÙŠØ¹Ù…ÙŠÙƒÙ…ÙŠÙ†Ø¬Ø­Ù…Ø®ÙŠÙ„Ø¬Ù…ÙƒÙ…Ù…Ø¬Ø­ÙŠØ­Ø¬ÙŠÙ…Ø¬ÙŠÙÙ…ÙŠØ¨Ø­ÙŠØ³Ø®ÙŠÙ†Ø¬ÙŠØµÙ„Û’Ù‚Ù„Û’Ø§Ù„Ù„Ù‡Ø§ÙƒØ¨Ø±Ù…Ø­Ù…Ø¯ØµÙ„Ø¹Ù…Ø±Ø³ÙˆÙ„Ø¹Ù„ÙŠÙ‡ÙˆØ³Ù„Ù…ØµÙ„Ù‰!ØµÙ„Ù‰ Ø§Ù„Ù„Ù‡ Ø¹Ù„ÙŠÙ‡ ÙˆØ³Ù„Ù…Ø¬Ù„ Ø¬Ù„Ø§Ù„Ù‡Ø±ÛŒØ§Ù„,:!?_{}[]#&*-<>\$%@Ù€Ù‹Ù€ÙÙ€ÙÙ€ÙÙ€Ù‘Ù€Ù’Ø¡Ø¢Ø£Ø¤Ø¥Ø¦Ø§Ø¨Ø©ØªØ«Ø¬Ø­Ø®Ø¯Ø°Ø±Ø²Ø³Ø´ØµØ¶Ø·Ø¸Ø¹ØºÙÙ‚ÙƒÙ„Ù…Ù†Ù‡ÙˆÙŠÙ„Ø¢Ù„Ø£Ù„Ø¥Ù„Ø§"'/^|~Â¢Â£Â¬Â¦Â¥ğ…—ğ…¥ğ…˜ğ…¥ğ…˜ğ…¥ğ…®ğ…˜ğ…¥ğ…¯ğ…˜ğ…¥ğ…°ğ…˜ğ…¥ğ…±ğ…˜ğ…¥ğ…²ğ†¹ğ…¥ğ†ºğ…¥ğ†¹ğ…¥ğ…®ğ†ºğ…¥ğ…®ğ†¹ğ…¥ğ…¯ğ†ºğ…¥ğ…¯Ä±È·Î±ÎµÎ¶Î·ÎºÎ»Î¼Î½Î¾Î¿ÏƒÏ„Ï…Ïˆâˆ‡âˆ‚ÏÙ®Ú¡Ù¯0,1,2,3,4,5,6,7,8,9,(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(m)(n)(o)(p)(q)(r)(s)(t)(u)(v)(w)(x)(y)(z)ã€”sã€•wzhvsdppvwcmcmddjã»ã‹ã‚³ã‚³ã‚µæ‰‹å­—åŒãƒ‡äºŒå¤šè§£å¤©äº¤æ˜ ç„¡æ–™å‰å¾Œå†æ–°åˆçµ‚ç”Ÿè²©å£°å¹æ¼”æŠ•æ•ä¸€ä¸‰éŠå·¦ä¸­å³æŒ‡èµ°æ‰“ç¦ç©ºåˆæº€æœ‰æœˆç”³å‰²å–¶é…	ã€”æœ¬ã€•	ã€”ä¸‰ã€•	ã€”äºŒã€•	ã€”å®‰ã€•	ã€”ç‚¹ã€•	ã€”æ‰“ã€•	ã€”ç›—ã€•	ã€”å‹ã€•	ã€”æ•—ã€•å¾—å¯ä¸½ä¸¸ä¹ä½ ä¾®ä¾»å€‚åºå‚™åƒ§åƒã’å…å…”å…¤å…·ã’¹å…§å†—å†¤ä»Œå†¬å†µå‡µåˆƒã“Ÿåˆ»å‰†å‰·ã”•å‹‡å‹‰å‹¤å‹ºåŒ…åŒ†åŒ—å‰å‘åšå³å½å¿ç°åŠåŸå«å±å†å’å¸å‘ˆå‘¨å’¢å“¶å”å•“å•£å–„å–™å–«å–³å—‚åœ–å˜†åœ—å™‘å™´åˆ‡å£®åŸåŸ´å å‹å ²å ±å¢¬å£²å£·å¤†å¤¢å¥¢å§¬å¨›å¨§å§˜å©¦ã›®å¬ˆå¬¾å¯ƒå¯˜å¯§å¯³å¯¿å°†å°¢ãå± å±®å³€å²åµƒåµ®åµ«åµ¼å·¡å·¢ã ¯å·½å¸¨å¸½å¹©ã¡¢ã¡¼åº°åº³åº¶å»Šå»¾èˆå¼¢ã£‡å½¢å½«ã££å¾šå¿å¿—å¿¹æ‚ã¤ºã¤œæ‚”æƒ‡æ…ˆæ…Œæ…æ…ºæ†æ†²æ†¤æ†¯æ‡æ‡²æ‡¶æˆæˆ›æ‰æŠ±æ‹”ææŒ½æ‹¼æ¨æƒæ¤æ¢æ…æ©ã¨®æ‘©æ‘¾æ’æ‘·ã©¬æ•æ•¬æ—£æ›¸æ™‰ã¬™æš‘ã¬ˆã«¤å†’å†•æœ€æšœè‚­ä™æœ—æœ›æœ¡ææ“ã­‰æŸºæ…æ¡’æ¢…æ¢æ Ÿæ¤”ã®æ¥‚æ¦£æ§ªæª¨æ«›ã°˜æ¬¡æ­”ã±æ­²æ®Ÿæ®ºæ®»æ±æ²¿æ³æ±§æ´–æ´¾æµ·æµæµ©æµ¸æ¶…æ´´æ¸¯æ¹®ã´³æ»‹æ»‡æ·¹æ½®æ¿†ç€¹ç€ç€›ã¶–çŠç½ç·ç‚­ç……ç†œçˆ¨çˆµç‰çŠ€çŠ•çºç‹ãº¬ç¥ãº¸ç‘‡ç‘œç‘±ç’…ç“Šã¼›ç”¤ç”¾ç•°ç˜ã¿¼ä€ˆç›´çœçœŸçŠä€¹ç‹ä†ä‚–ç¡ç¢Œç£Œäƒ£ç¥–ç¦ç§«ä„¯ç©€ç©Šç©äˆ‚ç¯†ç¯‰äˆ§ç³’äŠ ç³¨ç³£ç´€çµ£äŒç·‡ç¸‚ç¹…äŒ´ä™ç½ºç¾•ç¿ºè€…è è°ä•è‚²è„ƒä‹è„¾åªµèˆ„è¾ä‘«èŠ‘èŠ‹èŠåŠ³èŠ±èŠ³èŠ½è‹¦è‹¥èŒè£è­èŒ£è½è§è‘—è“èŠèŒèœä”«è“±è“³è”–è•¤ä•ä•¡ä•«è™è™œè™§è™©èš©èšˆèœè›¢è¹èœ¨è«è†èŸ¡è ä—¹è¡ è¡£è£—è£ä˜µè£ºã’»äš¾ä›‡èª è«­è®Šè±•è²«è³è´›èµ·è·‹è¶¼è·°è»”è¼¸é‚”éƒ±é„‘é„›éˆ¸é‹—é‹˜é‰¼é¹é•é–‹ä¦•é–·ä§¦é›ƒå¶²éœ£ä©®ä©¶éŸ äª²é ‹é ©é£¢ä¬³é¤©é¦§é§‚é§¾ä¯é¬’é±€é³½ä³ä³­éµ§ä³¸éº»äµ–é»¹é»¾é¼…é¼é¼–é¼»‹      ÿì½[sÛH’/şO‘¡ˆŒô˜²İ=³gº76‚–h›³2©CRíõcH’µª¸U€hÎ§?‘Y@Êí¶gÏÙh?tK$P—¬¼ü2+3õâ›şËÆ«÷óEöGU[£AZ(ŠKXa\	ËÁ'eÙŞÜîxıòÕŸsW,èw´h°eßzY·“ÛéÍx5Ï¾õÈ+õöÂ jl„y¡Jx#ÌZ‘Ãa§a'DuGkDET©`e‰ß~¯wÓ›Él9·ó¼ÓpoôÖˆº–jwBm[±Åo=ew¦—ÅëkXíf·ÍN;âc6î˜MwÌ,¥mŒ\·ÔŠ	×Z©ÀêÖÈŸ¬¥æmj›ÃA6;Ğ†ÿ¯Û&«u)7²4@Â ìÑÔ²!æÛı$K,¡Ù‰šÂFW•>-
+­JI/Yz)«±ù)Ë àÿ‡ş¢,èMXM¡K„ºµl„T<¤Xë'úÊ“ Sº‘æĞì¤…JÚ†HgSå`)¥´E%dft~R¥D+Ø]¶v‹Èâ"à÷,"ó+uÑÖ¨ÎæZĞÍÔ¢A#Ee;ó¹4;ÌÒ¥ûıÌPòk4ª5ÒbŞi½­¦ªÒİwLoÙØ¬ĞÊ£…ZaÄ%4P•ÚX$>Ø]ëÁQ£±P¢‘OXÂÆè:ãı[½iÄgÀî± ¦½‘ÄJ†ØE9Æ±–×­ŞO—°œ¿]}/&0]ÂıbşËôvro>Áêınæ÷ŸÓwïWğ~~w;Y,a<»…›ùlµ˜¾yXÍËìb¼„éò‚¿Ï>Áä?î“åæ˜~¸¿›Nnáãx±ÏVÓÉ2‡éìæîáv:{—Ã›‡Ìæ«ìnúaºšÜÂjó¤§¯Áü-|˜,nŞg«ñ›éİtõ‰ç{;]Íh®·óE6†ûñb5½y¸/àşaq?_N€¶u;]ŞÜ§&·#˜Î`6‡É/“Ù
+–ïÇwwı]fó³É‚–nŞLàn:~sçômòvº˜Ü¬h7İO7ÓÛÉl5¾Ë³åıäf:¾Ëaò“÷wãÅ§Ü¹œüï‡Él5ßÁíøÃøİd	—¿B‘ûÅüæa1ù@K¿…åÃ›åjºzXMàİ|~Ët^N¿Lo&ËŸán¾db=,'yv;^yâûÅüítµü™~~ó°œ2Í¦³Õd±x¸'ƒqïç'¿Lp3~XNn™¸óm5[½ŸÌŸhP¢Ó>‡ï'«÷“Ñ“)5&,W‹éÍ*}l¾€Õ|±Êº=Âlòînún2»™Ğ·såãt9¹‚ñbº¤¦<-|‚ùo™èa9ÉøÇ„as>H˜¾…ñí/SZ¶ø~¾\N=›0ÉnŞ{r_K´Õ/l#ŠÇkşïèéÕ÷³A¯_¾únvFZx/Ú,»“*R­*½ïE±Cğßäğ|x=z	—ôÀ…ÿêâêg8ê–5ÒÛ'Ö*Y!àç÷)èB×ûJ
+U`T…aô|òè5›Áæ‚]òˆ&ËvM³ÿéúúp8Œ¯p¤ÍöºrOØkOÑ¯G/³ìAUhÉœşW+ƒZb¿¯d!ÖB%¤ÅÖ Ó™R±¢“j›w1*ëqÂŠ¤í=ÀV ‚R{3^N—9|œ®Ş3¦‰åùvJâÃ"GLûïÓÙmŞàç½¡µk’È†å–ˆ½É7Ş(De]yô[ı„F‘Ñê4¶3i•¬¥³Wöt;ß›Á÷Û‘T×GQW£§×ßc½zÁŒşn„ÒJ¢bcše«ÍcûÂşwïîï~ÈAª¢jÉ|¯±Ò‡Q–-GrQyî&±h4¿önö wh-x‡
+¨à¾]W²ˆ§öäåè‡ìò‚&ùáâ*çW;l²ÓU‰Æ:ö—îäÚ¶ÙÊ'dQëNM8à	´AÏ›’Ğvs7º^K…%|ÔæÑa¼JªG–x Uu$+JÔî×Œ÷‘Ìƒ1ÄRBáƒT²ÜhcĞî	6©-,Ô&ß¸1…n
+ ¥‚KPüĞD©l#ªŠßÉ¤"<çŞOŞ³XğG?b>€°DV4ÇNÉ0"Ëø9ğ*S%âôı±É£t¥[ ôÖ ©,%hÑ+*ÏG—ö
+;YìXİo$#²lâ£p‡%0¨$Æò–csë?Èªb(U‹4ßºT°i«
+‡9‚éÆí\‚cï»œ¾ÈHû5Ów=ö>êÖDî°fëÖ$Jé&ÓëJn^-5Xç.5[‰ƒ´»øe%VØà`ÖŒ)C›±jo#XõWXj´<ò%ŸPJ7Wa§B38àğËçã½(÷SŒ<
+Û8zG;CÃ,ÿ“år²€w“Ùd1¾ƒû‡7wÓğªğÜKô/˜×rxıWø[«^¿|ù/Y‰^»¹âá­A„eP`ou«J¿löşÕÉİ°uü·&OhZ±¶ëÜ?æ˜ı‘¹¹³cDâµhdM_J´Y<í@Âàø¸c/vBmI|eCÃÓršØÍÀTq¾FOJUh³×F4h3zå9Á‹
+5»?hQŒm÷ûŠYÊávK7š¨zæ’œÂDï¼Á¸{ô7R¹Uğ·cëœ¯”*‡/#Á©ôFŸ_¯£EvyôF/xo÷w¿6Ş3ñB/VlñYnÓqs=!á¤Y‡!•º­ä™ö®ª`´“êG‚S£#ÈßÜğï%Ç’º÷.ˆmÈ¬¢™ªÅ#2AiSBTš(0êëÌŸ^O9õLÈë<H‹°Ö¡³ä…QæN,Øv]TÂ2?	p?Æe÷æaÈ‡Xc	‚´fz­u†ñÌ2¯»íÃEHnÿn÷>fÁïü­n7K–’<Ò^Çsd‰€,ÚJ˜¡äùç²DÁÑÇıS;µ(Y]ˆÊj p€ï¤zÄ2óëbädáâK¨à‚ê;jÊ²Y=‹$‚î½”“Ò¯ÚˆE’ĞSF/ìµéåS”“±²df—
+¤ÕUËzÜÒ3
+$†ÌY“ˆAuwtèïeˆ~zıŸX4.”æcJití.	(5P¤È8TØÈJ6Gbª­µ…H<Ic„ğXÀ]ıå°½¥Õô¦!ëˆOo-¶ÁÚ3•ÄóDgÊ¼Á$…Káújûşî ‡¶ÕäPºû1Á$¬¨² ]×H«]“•$©²_šøõnxNzåGN»vŠ¾¡†ªWFB•t*²¤X›ƒÈ6¢p“jßM«Š EééÓ5:‹%½÷ÚS·kÊÖ¢u‘Ê0èeª I±‚0[¶×°–xû°Cfã;Ò‚TOúKç¨èÒ'GĞí³ö”É¼rq‘aq¨Ä^œCØâAÀVë6‚n6Ú4äÍ  *Ûô¢êc­øDëØ›ˆù˜H¬héı!%ó>}ÆŞ#c'Õ{4>§×;ÑàV¢>Ø
+ûÖìµE0X©,Ë«TÛM[åäğĞ{ë«ÄôLå¤"èåi÷ÜĞ#¥\¬`ˆ*>æÂF0wŠ‚ıªiDKÌ¸>úìÄ8X®÷(huoe…6*«TÛpìÜÙÛ”ÊÄ	‹±m@°sãr¸‡IÓ“®o™bmÛbçñ<ùèéb§9Pßã¢äÆ{‹q]eæ ;ÌUm†C {aD›;1³i‹¦5˜Uâ¨ÛÆaLQh­¦§H×¢ª …Ñ–X²’
+#›ùË¬÷ƒÕË™õ6x@¶ÛÈªm³»Êƒ´ÖÍ.(Ş2DAzG¾şŞèZ*b|w]á˜	E±ëIcz†á"‡†I CS2uÇ’şº'<B›â"Uî ÿ¯ò„ÈŞ×À«ì+/~òÎ• ±‚7Á#ÿ8êÛ{Şô­Õó|ã¸%kÄ#i<½ER9©²OXƒCjüŸ¢éik¿ülˆ)ÙÈ÷¼¯¦àW•`H•XÌ|$DCòIö·Äu»e·‰Å``#¤32Œ½Jí\o²ßÏ+§hÈ©ü§rË mş~â
+ŞÁS¼æRÚ}%†÷~Ê–N‚­Íg,ÚFá çé€W$B­İ Í-†s2¹¬*6½ÎÀ£*Jiˆå<njÉóuqG½}Ûü`çåÜjH,Ë€3èßË+gø/†í:Û‰&#ø¢_F¹ÀQ|²(a ÛÊ†mÙF7J*¶|^.2‘§
+otŞ_i$oè$<çù(€“Äó	£œ¢v:„pOœ¼:ğ8œt‡Qj¡PwÇªüËğ‰mŠ )Ãç`íÕ<du$³;AÂUyÖ«±Ø	%mÍ£Ï0^0ÇvwÜÔ½*-óş’ IÑ€i4²ÃœE¸ *ƒ¢$×-)ïÑ©ıÉr²mĞÄ³g7ÁúåúŠ—ù÷hBÄöôüÂ ƒ¨}î¬aIÛLÜbvVûQ6Gj¼‚{*`šaÚË£Uuù ÛªìB¬İ°»brÜÄc²ZOØ=·%2Jæ£†‰><›Iâç†ˆË[=ÏÉ¦B*L‚ç<Ókx^ ÂÌ}¥™‚Àùğƒ9¯¾èÍ¯¼s~2\NY ‰œáq>áåK'ùÏ†ÂŠ`H‚İú¢R#B<«¨JŒ±éŞj^å]ä7œépy4BºB~‹‚`‡%Õç•Ã±ìŸp]î@ÚW¢À¨'¼Ë#ÑëWa0Ä™Ò GDÊÒ×şÿ¬À­TÛª0 (ŸdÄ?úï²s“°Jî¡µÿb ²…I]á#a‰<ƒø²à)ÈÍ×Aì>$9™â*±¢Æ„|4N?¨˜C«â@n uìÓ)9”Ü™~Úhïî±gOÔĞŞÙ}8Ë]Y¥7‹Œæ^}ì+áÄÿ°CÃ.èF:ÛÏÔ£'’]'²G/^ü_F°À'i“€ÊW_Dõ¹«Çıôİææi|øLá!¨$›}õ„ÉÚ9ß²Æ,‰BØÃ:C¶F°²–•0|9¹—F6Aƒûèßp¥Ç¬”›ò%6Bòe(K¾õ§ï^WXs
+@¡UÆÇŸ&éƒ†•–o…ITKi	^¶ÒîèHÂª­×hXÅ¥¢.,‰Á9LÆ¤¯(¿P ál7Db¿š†„ÌÕÈ1‘è‹ŒÈq/‚{´Î eGr¯.õ®wı“%×?>[‚×C\îÎ?µ@Æ4KÈº'}|ş9¾
+„ƒ>á²”p]Š)HşiŸú¿á¦'†İvZTÇç¯Î\ğê«wèƒš§›ü2wìş|„B²Äì°s¶aÓ6­‰‰_/ã„r«Š™ã˜û¥9şdİf
+èîƒéP‹÷çù#î„"#OB°~œ`+ÿî´YZÚY£…yğ¦÷ñ²î¶æ{fÄ(»¹&¶^ëÏ/¶ú;æÃÜøœãn2O›e÷].‰´|{¹>ÂÖÕ`™Ã†˜Fo Ø	³Åœ•”:’£f‰#9[Ë]¡‘Ì‚ÍŠÉ5lï­Õ…ä‡~ÆìFVh}2Y`LÎ†ÑP¢¨Bšír˜B5ƒ«ğu—ãÄ¯»¤ê¬Ñïr^gî£÷9ÔÈÛòÂ’'·à9XfºIø"9 uÖÃê¼c¬½ëIÄ:î°s—)İN¤Í6­QN>»,Ûº(š·çr±Ê²ÕiNu@1bdù¯X¸ÈTÅŒ&©2ú(lÇĞô¶ª‘¢:¹EKçÄßÉù¼_Ÿøv’òö©ŸâÖ%ùf>[7Éìi¬Ğ¥±rZæóyó,Iæ…óÉ¼³[˜ÍgÓÙÛÅtö3bŸÉèõ…>Ko˜Â|šÎËùÁyLÉ‰©ÙùŒ×ñÆ7«é|FÛèÒ_WóÅª—ÓšÇœÖ·‹ù‡<óé¬ó6;›¸QˆÔĞ;‘ù"$½Æáv2¾›ÎŞ-a:ëß÷Íø«EÓ¨ë­~QèJ±®0ï>3­Âƒ,›]ò™´¢ißzI¦«}óøÔrTËæ…qN”yıòÕß•"æÚÕ)ù®	¾¯áß	ÁBY<ş.5ŸÕ<ü&5ŸıŠš‡gÔ|ö¨yğj>ûoTóY¢æá·¨ùìªù,Qóğß¡æ³ÓZß¤æ³3j¾FÍg_§æáœšÏ~³šO*²ß£æ3VóğªùìDÍÃ?OÍ?
+SJ¡´½Ö?7yòEó$‹ï_N÷g¸Jb«êıNpQÃIšw¼Bş“°/¤ıSu	)»Ó”ûì iÈã¦$`>	}~¾Éwš@Õ«*î7|N-¶h3a$ç‡…œšÖÖS¡£¡ŠöºÙ«bÔë®¶"n+Læóò¬S”…®k4œK,’\Ô`¢"ØßñL@e“‘E 7ìYHšhgëBj¯F.£ÀÈ­T§6‚©ä%¯jiúĞ–?wV¥9@Å…v]¾ÈÁèÆGxpQutKc·½	9Ğ¥œ£Z¶E“s&Lñ¨ô¡ÂrËn¤7=ş‰{âBıkíÚïzë¶nckˆû»àÜëŒ‰¦X†Œ­èóæÖS«Póˆ%g·ÅÎIB ­O#zÔ%2'/àŸímA¨ÈáŠZ“#OÜâ—ÈìØ%Ğñb¯2ñ{êŒÿlÛ2ê[KÅkßx:¦9‰)úl|só^^Âƒ’tD¢‚KÿÑUJÜêZH·X†Û‚€aÚX¾ùGE?EŞpz™h~
+J\ß-Ÿ¤P+ËøÒ…1Jùúïhôõ«ÑËïJçB—¸jkq]T2ï} Ñ$‡­~QÓH%¯ıÿ¿{,âø¬°¨ş¯qO€û·S¸TŠo§ Gú›Å) ÑÙ·‰StIÙïˆSœ°Ù?;NA 6ûŸ§ 6ûqŠÀf¿#Nq¦27ûÇã= ›ı8Å?ÀÖ·×¥²ßz’ÉçU/7&±â¤l>H|„w×¨¸Ş%…D‘Ş	m6’¡İ;ÿü}[•f"	â.¿üëİ'şè>ñG÷‰?ºOüÑ}âîÌëJ¨íµÅú	Í·wÄÊûŞÓğÍğ–ò±áLğ¯[ÙìÚ5ò]İ´¾Q‰ÿöÇ…å–ÿ?.,ÿo¼°Üš}qMÿy±Õ9ÈzoôZ¬+|!5|Àõ·ş™v ñ_¿Ï—Oôäğ7¡Z¤¯_¾üñÙ—~¥—ãíÕdñ!B§Ğ±†hEv“ûÅüöO6ç§n§K‡>¦óYˆ
+Kåé_ìäå¼F¡úy^)Şhã”a€Õ¬JıP½îŒ…{ÅÛËP'ú
+šÑívÑé~EE·.mNÖé.}PhHÿ jdsŒ)F<_ÖUßël¬B(·—ŞÉÀ­¨`ÂCŸ,¢UI&˜põ$ad¹ªÊãş*æl1d×UîıNş¥âEs‘}ê’P]ÌÒä„hü„#®»áğ¹»{èRVËxàáŒ.ü(¾ĞùR^¹WõMî‹cøêE¹ŸÙ¨ÂEõßû—×W%¶1Œ…İÂr™hkW¡eRæ ‰›´K)¯ÜñØÜsÚ¡Ü4
+úòÏ/ÿ¿+NLçi ¶!ëÃ¦œ4lQ^1nñzoôdİ‘Òí\jÃ?™‹«ôÔ¹«@)ŸdÙÒXRşğàg4…»dJKJÃÒÙš,š7)Í¯‡œ¶çÒ%2z7Lq. è—ªù±:T³n›aõeDW‰£²Ü0î˜¾‘ÛÖ$Ø«[º+~=]:=şÌ m«&Ş»ùº—BiŒP¶ËÜ'V¦OªX÷'’.uŞß c°ÍB×{I•Cæ°ådÇ0™j/Î÷7EN<–R@sÜ§Ûví"Guğq!¹“ûN¤JÚ2¹A|İ°ÛwyOBV|wyÒŒëÙˆ‹Ğ­VD½0Àr]AN¸%µÒ4d[Ê iµ~ˆK¡ ?‹z_õïgeì½€ª”Ÿ]ç«
+·häß®¸Ñ‹!¸jëüîıHaá1ş’ë3»8…ÓU±¤“d!vÎ"XÊFsñ1'Ÿ‡‹V¥›pëŠ•Xk~ëb5©4ùÁâ½_îª;]±Pâ‡½3?ÕÇAOmùCòyê7‡
+ÈÎ„qïA>q/Œ»å6ºæmÔh°:rn-]Ÿ%j¼
+‡‹´ÈHä‰ŒD=YQõ¦;õ›qâ–1gN|(Qd“ù"YÕq4XïL˜‡}Í~ i(Çç·´yvñy¯JM¹²ÿ*¨mÛ®»FLw0wñÊmRQÄ­ç`E8eã;D<o-R BZ™§'~_ãNT›®NòÌ,_gíá"îéÂåì}TËzXaÑ­d‘»VSÜB!†ù|´*”–‘¤DÇPD'W{aaúÛü‹¦(ê®t­’5A-dE/WÒ66ïÅ–råŒ6UáÒÚÉ„l#ı]%”C+k¥DÏ5Òã‚„ÚD·RÚ¢µ¾ÕPéÜ“§ #]jgšº6-ı½~,´²{Y´ºµ]:BPJ¡²‘ Z¹U¡Aïù'’²º˜é†‹±;Y]œŠğ _Çm	üUÈ“ĞÅ+ú“ÂNøVâ±ˆa}ìÍÓ	¡ÅÿjQ5U¯Í…™'âs<Ş¬¢i»8VìcºìDéYÅ,ÕÊ\ªŸ¨Úb\ğI· áí±iEØï MU$a¥Õ>y+Ÿø×!fôQTÍñÅÆ æ Á'Í­EN¬yì“§»KŒœààøøDÓuêÜe7TÇPvŸwŸøö*'!ª´ë\'Q3X>™ñŒ9gİs`âİ.Ÿıÿt.ñÙn‘Î!º‚½ÛkrzµxÄÜVÊb?Zsñ¬ªÜÿWÖ{m_…›§9 ìQ!«™°3.ä3Ü9&5Ì¤»üÒøş*43H6·öe)u»
+R_Ş,Y:7Fªm,i’Áö¥‚i¯@TÚ5
+ˆMÔÒnÒ_
+5”®ƒ„ö ¯¿8?ÅS·¼­ã$´Oº¾mdC<¥‘[O·ôµË8tVù2éŞ¤Ñhk_¸,8®ÿk	?¹ß9§­ÛÊ†¶ZáÖ‡ú±Ã×¾/F¢¿¤àØ&¸…[ïjwã$×}Ç°­p®$wâX{dJòIRNEy“P•³$¢tzWDŒï–¢‰Ì©ë»Nû|¼Gƒ«Ú®Ïtw=;ĞB½Xyª¾€òøH6b)ÛúôÜ¡A0U>«É†=³:ÖªŸ¿)m?.Å•Ûik×5¸+C6XÈ½äÔµúFïşlt÷ïOìg6£aÎu2§ÜtPšü(¾;á 1Ç“f›LÏİ‰KÓ˜ÜaÔ·äqú3ÉÌîæ?ïŠ
+¢ª‡›K&¦·*şÊÁYÇÜswNj±DÂMy&˜E›NÜB·™˜ú;XÏP¥ö‘›Óa×ÑÆ5+ÚûÊÜp»åª»{;95Õ}¢•W¡è“Ïß;~tÔ³ùjz3¹€?7®­—°i3´dTºpFRN(Ëç•\OEÉ>fZ{¬±ıR2ŒWj¬ÜFxù×Ğ5æ<…ÏÒ•™M4P¡°äN¥Qúaó× Áş–)Â;Z'åS®²_\ÃÏ©2ï1Y*×ı ÈM§gÈdv-dÎŒ¯M~Je°^åò¾Á*m’Â â	;,n]şÂµ.g£´©¹K¹ØïQ—`RoOÉœœ7„äø¤cŠ¨ç•J9^¶bsì3@”%ılÈßI92%,İSèk$!wÔ·²ì±	İËUÙÖ¶ö8&(çÿÅæ¸æÚhtÏ
+G«`˜vÈ0Ïİ[œ%QçUt¥Û _ÉQp#ßo%Y²6àZ&ôPîß…öÎ\¹a’»"½9³š¼›P_qŞI£sQ”x<.BsCôpr[Õ³Âu»¿–áù¨–‰ÊÀèÈŸÙÙ	7êì«v(ĞÀÿi:4ü¼¯d!Éıå“’ß8QdÌJÂXÏ†®:¤ÿÉß÷9ñ¦Øåë\³´ˆ'aßEÅ$#Œüû3İĞKñö&¦è‘SÖpû×ÆÛ/Í¶{4KtA$É‘Äv-Ì' m’4Ì­AÇø¡µ{d¾;S™º‘ ·Â”±7`ÿìø|ÿ2‚U  ÖW}ÜÅ.q¾Cîş‹ğe2èàK¸Æ5ÚÑXr¹pü¯.‘kdb`z„yuònjìˆåz«›t>ÒÖ6ºæ6>.›´D[¹NºK±şëêˆ0í§Øï[ì­Áà(õ/#¸¹“ôÔÇXÔõ5&ˆÀÙ¿ÌË¾í–Ê… E±º¨éÓ²±ıÃ½:û'd‚òûşLpN]m[&ÍÏ$"å.¨îHå³mNT¬ŞÀjºº›ä0›Ï^¤™*ùiæ»6ıêM?Æiæ‹³¶î¶°ÂŠ|5»×ÊÊP[W¢ó
+ûì"ö{£÷F<G×Éİµegşë4n/É^mÍ¾JP×Ò²f9`,›¬Ôı=+GcÓ‹ÖSgÖñŞÿÁ]—Û¥7p'Åš›÷+
+»fˆJCÅÁÎf‡Ú“PK¸Éj´iÒÂm%·¨
+¼ÊãmwŞåÆÈÏ¯òû¥
+J¬äÚµç£Åm¶6Ş[„)Ec¯¾ğW”v®İ±Çşëpd¾^ÒGøh]ÉäICsŸĞ%ø?’’Ü>Ë’€­»J  ãbºRTaĞ ¡‹ ¡P˜IV<ÚjÛVÍĞÑej¶QÇ´î©üa&z5\~ñN<¬Š;8jÇ°[­Ëƒ¬ÒØá#ØFï÷bË™€®«"l„¬Zã¬‘¨Bb—Ä¡Îg‚$Å ‘nb´W9ó!ôa Îƒé¢tµ<%öÚZé‰’üğNş:‚1÷é!*ÍK3'I#Š;‚î}q^~ñºíS¿}R£]¤³wÙÎ1W°ÁĞ‹´×IÈ¶{Õ¿ÌwX+ÙDyŒ··UX;ğ¼éÀì5©WPÁlÀ6®t˜ı«ØU5:ïõ<!çJF‚ùÙqànœÑ¢ªä6$bn-âZIºI‘vj”×›‡?dàï4z)JØ éL)7N?“À;ygÚl"mJÜ *İ;]•gBçÂÔ¬‰¸TìÄ¹5¦»-ó‘ca-®…uAÔü4nÌ+	ltânĞM#˜?$Ü˜ÀÆ¸–Qö  ÿÿØÅuÖQx  ‹      ÿì½[%9’&ö>¿Â”ÌƒFÑÌxU_Ğôb @!-°£ô$º²ûàS5Şås¦¿^°ÏH?~"#<òRU“º+‡;NF»Ûoÿó_ÿy¡ëû¿üôı?üî?ÄwôÓöíß}»üøÃûß½ûáÇwÿù÷÷ÛÿáÿÇ?üÓÿı_ÿıtı3ı×ÿóùßş× wá›oş/ı‡o¾ùÃ?ışÛÿGâşæ›ÿò¿¿£w—mû—ÿù›oşíßşíáßôáÇ¿üù›üË·ÿrùş?}óßşû?~cÿğOøæ§ëŸ™¾Û¾{G¿ÿ»ßZ×ıçå‡Ÿ~÷Âûc´öï~ÿw¿ıç÷Û·ß}»}ûûß~³_şİo¿{ÿ§Ÿ~ÿw¿ıÓ?lôıw¿{÷çåÿµ/şøÃOÿÏåÛåOË÷?üù§¿¼ÿó¿.ßşå]~üË÷OáÛï®á¯¿{Ç#F`ï†?}ûÇ÷ô¯?|¿ışåı_Âû¾ıéïØ~÷®—ø¾{?ş
+’â;úÆ†õıO?}ÿÃŸ>|ÿ…GöÒÕ¿şğıüîıïŞııúëw¿y÷Òzñîÿø¾ûİ»G‘rŒW‰ñ"¹/›7]81qâÅş¶›WÉı"1^ƒ5;¶
+Ö,ÌvÖË5Xw{C»½„û¦Ö£5¸XÓëşå[ÓùmëÒ>½8‹ÿÉg)ÅxÕ/ö›b¼¨4Á„4oÙŸhd½Üïßÿ§¿~_çßÿ§¿Vıæ6”,'ÍùysÖ˜NÚË§u¯ŸØ}zŞ>éYóü¼¹J9i^7®'Íë§5oÌµèIóşAï%4ÿöyózwùÓ'u?h~
+Çoÿø›»=ºØ/ÇxaÖ5Rª”ñgn·gšW­Ä¥³äº2WÛM$¿«$¡Hš“í¶¾–H£R)$öKàÆk¤œ)H~ÈÔûŠ>d*m5“–‡¼ë_ò$Q¤å![7[(¸RÙB±·C©[ÈÑŸÖ‹VÛèŸô¸†B!²Æ~-·äM:…šH<¨lş­Î[
+9=ä-w
+Ò·TìA}È«tŠ6!ÖÍF\7Ÿ@}È›Ï©<ä×´5¢T…K£ µ­6N
+´ 5áj³MS%ç¶-„1wbeƒGÊ$1?d[ú*Ma‹*DëÒá
+}ª×_ÎúãsÂ	áğäÅúcÍ'J=­‘B‹”0Öº±b±r½ÔW–HÑæCÍ»ÙÜvÁ¯¶àV[·H¡Ûb¥5¤Dİ@§é!gà‰D[ûÜU8âqŒC‡n<d’d
+Z×`ÈÈüØ‰ cG2‘‡üú\+v¼ƒ„c\’Ãy1xÛhp!ãvN?=F²c¡Ä¸¨=Q¿ÇÖG±%*.JÔùJÇŸşœr¶|5şi_ ò¢ª¶K— ¢$¢OÜ*¥¨‹Øä…ÓR8Qá´Ø$œ[³­}lÓ;uYYÉÿ¯È*©>ä%pVâ¬~{ì›ºßM¯ö}Üq&’Íöbÿ,!(rWûÇOYìäã•Ç¹›óëPxïgÈZ¢–VnÖµB¡æ‡¼±Ñµ‡¼–LÂÄ±Sé›a–­MÁ
+pÎ×…×P±aŠ6
+uÕè@(B¡éæ$,0ó‹Jy­‘Ä–BèCŞ’]õü¯”#…JœÕJb@­ÙHF7¨®±ÏZ»èùJë>Â:GHcˆù6D¹QÎ€¦“l(•näßĞ˜“&Ù4‰]ã7Ø…=šdÅÎ
+ÛŒwÔ^+…F6°æ#nFt»m¸¾Œ5Àêf?u	Å×ÀÜ÷îìÂhcmƒcTO\Ël`- ¢º‰&
+½nbø	R¼Ù?„¿·p¼¾5!ûÃß££3påÃÑY›Ñ»’H±èVÕƒa@4BUÒfsÜ›HÛŸü¬©‘QúØ®Ekf(¢mcyòw#V´¤­2/;l€€@®¶õ|¥AÍº‘7IÀ*qB,N³,û.¶SUjÖ&¶pMöãÑz ô=ºÆ'ñÅ3p•I˜ªP³C¸öÅ>mäQpå¼t•%h”§L!¥n·IÍû³ì/§úôÈ¥QåEˆÏ¾_ï?ŠVªÆGuœ.²„ªDÊÂİp×ä!£ÔD"}á®öàDm×W¶‡†şÌv÷¹Ä§Õv
+¯œGäj„rZm×C êKÅXA#<£IÔ	Ë&,Ô~Bk[Ã r‹É_xónƒõúì‡}:pšÇ×ÉÀûqà<ˆÿ5àrœ};Ã9¿}ßòGúú£üú£úú£şò#Ã(S¤+CÊóGååG_=ùÃ×Ç6³¼6…×—ã¾S0²o’±[f0mö§I¹«0Øz`AÂNÜğ)øËAØŸùí-ÜZC^ú{¿[Ø?fÌPùu†Açã(ñë€˜ÁŸa ô¥#9Á >bœTŞ¨¼1yƒÒ¯3Œ70(RûÀ‘â/´,ôù•Væí|áÒĞÏ3’öK­ÍgŒãc–†~•‘|Ûæ„ÚÉ×GíF/‡N}Üâ6½ñ€ûxùûŞlÏ¦ñ7EíêÏ@íêÏBí>k$Ÿ17—æ| GíŞÉÉ–ÚõRNK2é?I\7jCLBYB‰•ìŸ%H,$ñu-èûÈi—Ï)·Eš4YÂ¼˜İ
+$º&ËñAÀïûîáŞ¡ıs6šüÿ+W>P®Lñ	–Á)µÈÔ÷Az‘£ã†¼)ÚœA»¡>Ú<Á#méİ ]Ï İÚĞn_íô´ëë¤w8×Èô”fJÙ­”çâ9×]SĞ”8fRåMªí[”RVXvB6JPìŸœ·PlCˆ×J,F3¢laÉ¸°_{¢Q ‰ˆdï‰Ä=qÎWëŸKõ/n6Š ÊèİÀ}U©è‚‰7ÙR@ıeàP­ªåøµ5A{/¡/oòô˜MÚ~ã€å³6½qÀòKìıùzf?~¹´ŒÍ£s£¸}ÁN ¾æ¹³òxúôXñ Ímàš‹+4ò¾e>;ÈÔçH1d3©R¡PÓÂĞµE(”•…ÔI…®‹aÎp>­)SÈh8æ…U©ñb°À3)ÔívKëƒ3¯)RÈT…¼J¥h—Ùræ¥¬©+u%¼©Û&i¼æB)GûÏ‡Áš¥¼J²'Ú©ëÂTÎBÚÖL)’}ÊVµá«ºHK`²íPóÅ»A)/Ş/ŒW¹AáëßÃXB&]aŞËe(ÄKÀdøh°Y­˜,Ø×­‡Àk€V×ö¿ÉîÚğ ÅÕ Rd¼ì6È`=g>–&ØrÙä°xnCm°¡V#*-Û:Ó©5*j°ŞEñŠnE}}"…Öí»…ù<Œö¯ŸŸh%_±+9R…ªÚ6]Uc4k†ö3Òv7>äÍşÁŸ#ÌÉön»·¡]°~ÒHÍ+¡F·Á>€ûÓ6‘ÓqÌn~ÔÚvÎ ù¶BvìÚaÁí	†X;ÄÚ0ÆÚf³ì¬_æ-øp4f
+Cô›íøÄTø¦´ë~>VÛºùGÓ|6-ãCuX_­¿úèdµ¦JˆE–’•”–’…’Ò NåÎMFï<gÊÛGä€’¯ÌLóÍÀI5;ÅÃ‰Wj~yÙÚË«fPiNPw¾ërj>e2³i›E¨E’Ş7áJÂu“Ş©Eüû… ×­9³±…ıbfã0^³³à?=r+ã“+“Û‚tv³6ïøµ·òFáîc«p÷~8víx•Ç*ÚR¸'ÔÎÅ½¯´Û«/Z’2ƒ§/8 %/Æe»Æ\bC«q*em‹m $YŒX:"eíO©5(ÓEÒb´kÈõtLù`š€M¨›Òç÷#NS§)lÖöCM}â1ck5V{ëTÉ¾ßRÊK9ì·Ò¥:˜=7Àqç;»9Î˜C4ÀEÀ•=æ>#Ø+è|e8\„Ã{áÖ[Ø¿n_·¡„9<CÄvCD;ˆoâû…ıÚÁ'çÅxB~…Æa¾ÿô¨Ù-œÉ™<İX‚äáQq×úms-#aË„Ò%ÃÎ+Î[gĞ»™%_SÍps±3¡Áài‚]Æ¼BhA£_9çVÊîCcûË®eî°^Ñ$”XÎÙ¿Š%–ÛëaoË»/®I×\™¾€új¯×™Èwº4>—ë B%¨]€Úå§£øt¦ğ4e§›èTšÂ_Ø¥¿°‹aÊa€Sœ‚áj"p$IÅ9dwRHe:ßÚwUXç
+
+4ÌdÅ”"İ‹}s6tó> O˜İ@6!v˜5X¹7È†î‡Ny6N•8U405HªÔl›Tpú7˜M8úFß3Î'‡‡:Õ•aÀ7ØUû]½Ÿg÷e.ĞGÈÏt'@¯Á§4¡}·#‹/Ì³ñ:¬ü“9î“9îÃUÑ9İ©ò¹)v£|zıQyıQ{ùQöo]òdóÎçÃ·òşVÊ‹ÏÚ‹ÏN@¦GÏÂk9“c8N½n2±9ñÆ‰)wˆ8ML|1#w¸¯rbW¨ñPù@:‰ğ:Û[cyî$ôöQÅó”6ò›fzKr~6i:bÚğ'9¸“0f-¶bÃÉö¬ÜDH#"FĞ¸ÛFÛ˜±C6JI60' ŒÉ›T/,wŠÎ{ÎI98XaãªÁ%ÅÍ]gü^ÔÙ¬Ì×¯o!Ç1•ıˆõÖØW®8[íhµsücõµxsƒ÷lÃ‘2åŠŸëxüÙXp{¬Â§|‘8‰Tƒ FÆ65vO*%G©Ş|>hÀàóqcóŞ¬åPl¹“í5ì *ÄiãDåÂ%®¸O¡l87®Á›W`0\Û(”K°ÆôÌŞİ‚uã†È_¨ï“å-¿9„š\v±S\sàZe×ˆëîfTšD}¥Ù[*Så[ğÌáv¨|•¹ÅÌí]Ù?gc®Ÿ1fÖ¹.¥SÖ•OdÍ„eG³ízÁ·„R)§µ²-Ù
+Ij†dÆt%Ég† m‡!òõ8Ì©øôaÎQÚ …Zn§¬q ú óÌû [ëÔ3/v*¯~Êf£(JA“«ı›MÄGûb¼s[ŒÄ”²j+'!®vŒmÿ‹·¥Ø–P¨áàp‡ã(?7¨l,~¸qk49¶û+ºŸ”åà±‡ÛºGEé|Ô^~$¯óòº[ŞT<ğ±C9¾~o4"¿7?²ë´ádõâÇ‹ÏfÜ¿9õĞÃn¶Ê» úm¯Ï¸ïŸÔ;E	ô—AÁü*˜^_õtóï;ÙàÙÉsX—ÛüR¼vöïÙ(Gnïì&‡Şigßéó™ïÜŒ¯}è7o5V]V}Q‘œjZlÄkGT>õ³h“{yU°êTÙu¸.4®ÒÉÿ_¡ß Ê«µ³æ£ÉæK«5Øÿ«gt7í¬õı<îµŸ3~‰ÓÇ?FocWm	w7ˆúcä>n>fd=Ôxãc°+ÊqIngóÔ{Æ.J^¸ÚJåK×¤Å[0×@îš÷.5ïÈÑÏ‘#§ÆèRÂoHI§ŠYâÎÈN66#:å{à`Í§ë™ïøş:´<OÏ2şØmru™¡1áFÑ$+5é‹ñ¨,é’»,Åä¿´„HSYƒ5cİÜGà´3qhgà;€Ë§GiL’–aÛ/fáº1x~;Q†ÁÄ%†-®ÃJgoy ‹ßŞJ“öïÚÍº¡ÕIÛû˜Ê‘°qå ­„[úƒ¼sw íì"ÖMzÙn2k2B"›4ì!”Ú²Rá-”¿šçÃSÉÅ#ø†ŒNù·"YĞD[\\JâüÖMª
+±ê&›=Ñ£æbg(W¤j|l\…ÆO¨²!â°Êö‹ù$Œ–Á_|zL=îBJdLwÍ[5Ìe7ò¦Lñøñ{a´ş‚“êú©Ôd ³R¼hÉ×Rvnn-ŞÀÎv!ÑtÑÎà*²BĞ0áÅ`Ô íÊ
+¼Ê%qE§šˆa9Mº‚;£e’í[­0ºê´eê½]`ÕF4„¡ÂjëWóŠU³ÿÔ$9¢[—À¶Xöå§ÇÄ…²ğbl[Êuq-V\ )×KĞé<íşµnˆ<„9•‰È‘dR‡UšI75ËØiâç‰'©Cğ¾V^T3“¡!+Qyà½Ë¹[°şkA?Ó6Ğ(Hs4®k£ äJÊ¾¼ sàsnÃÑ!{p’é)ÁöFP'|rŒáŞñˆ©¡sIƒráµu#9Ù¶£}$TVc¢Èã„9».¨e('ûDÒ§Ğ¾Öb]i$È¾ÙºjèÊ0­ÙŸÑ!»­g‘9©“k®k­v8#r5YW^nF ¸*µÔ€fÄ(“¸R®†”vË–îU~qÍõ’$/FKê
+lä~7PD¦i´CÆWç2Œà ì‹$7Éb˜bm“­[Ãr¹¾¥¯Êq«ÊX”šaå5/,™¸Tü.ÕnºŸIÍó»®˜™!Êœã¥OÂÅ
+6$4_ã€x8c><îÌ6Í³F8¦åq€æIŠ†³xˆĞµå8Hµz„¹ÇoĞíä=´ÍOò6»€‹tLıéåÌ›ÉkªRæñòÆ²Ô|±óÚ T\=¾„yu­yœæFP=(‰?2÷pIñ¨”· R^ƒ
+À|—	•S†.¨áXwÇªéV•¡*>zUí>UÃ³ãÄ£ê#\ªxÄbŸ }î÷?dŸ}öï—3 ÄÏ@üh ô“”Ïı~ùŸñs– ëWƒ"§Kô`"‰ghZ?wÏİµ_ô/¿Ú >MÒ1ƒÏÜŸ-Õ‡®öç÷ìîí/-ß|ÛJ—7‡¿pÏ·5ïĞ²1¨#ÊùÚ—á9i»BvD9@ù²”¢î#8A”ü• ÊG,Ñ/0 ºÁÛˆúƒàM$ù9ğYhR>M¾x/’üÜŸÿTùE§ÿ6‚ü’Ó×øöòÿ’tôW"ä¯owŸø÷Á›HğE óœĞˆzsWåİú$‘]š+»4WnÒœÄá³=Ì/ëÔÁuÎˆGLüÕsîêÆ[1à/°vùŞR_ø0~Y?áËgœuşÔ)çOøğ7Ë¯|˜^ıòGŠ'µ+øş]€?~`[úõ€?kù¿tõ[ä¼’hÚ75QÎq9j€v«¼@Ot†>ıètõ]¥L"”uËJ"H·§6È½î&B!+4AÓb»k·`Ğ"0 !oa´Û$²tø‰éèŞÇr3?§tåÈˆôkH!£ë…™eån`w}°nì	ÙÀÇ–Ù<÷Ù48xCcöX Ì÷‰°zV:v©LŠ.’*q“EzƒWò.q.‹tõ¸`èí[só½ÉY×PµšìÛFô_.Ë[Ï¤İÕ£}ÓN¡Cıè¿ãvğF ËgúÁrËR×¨¦<Ò1•ƒ£VÉ°ìˆLå5G"Á_ªèÆe¸kõ]Å.n3BÚ©*+.y2€‰ÂöæJ½Ödó0NêöLhë¶°^ˆcß<lÍ7 2ç¼"tK=¸KŠ<=jªÕ×,Vª¾-šÀíË†[«=4T°5E®<Üö†a^oa6ÀÕÈª»:;Ã<ı›¡¨7÷lŸ}Ø#hg®kËi³E¸İ¦éehÍÏ ´»Lr¥Ë	¦aâV¶Ö`Åª±ç¾1Ûº5®á¢ÀaŒ²O<YëŠT‰†7È´ÌÍ®`É©<¦¸lˆR÷ ÷}\fˆ a—c0¯cP¤Pû°ãx’»X]%í!µs¯ECÇ-”DÂñéQ’Râ´ºaIB=¼zcÅvhFy©·5TëÌhS…i65˜ykEVKì¢Dœiø¹—N™×Ğ1?LÎ»oXV?TÎ‚JşÍ³ÜÒXÉôH°ğ¯ßYµ ‰­"jZ7¹\‚2¿e9Îo˜Éó™•ÜØÚéDÜùÔW}øÆõÁúÍÁX«8Œ‰má0Á§Ç¤…4ñÂ…áÂB	Ö)8ëRÌdÿ<=ö‰#ç…‘Ş”h$L-/¶ræWÊ§Áü"…8Ô¯¤Š(tGv\¤üKÂ0g;¬İ_çsA~qzzL¢”%­I.—?gø;qµ7Ôa»ò$öEK$•´ÍİNÏk.¶wlpİg¡Œ½ ‚­f_åî)Z›V%Dµœ-[ıÄe³É‚<KàÚ@M/ASÿE7Ké·½Â¥ÿœ{Å×¢²ˆ‘WiiÉ¥R.u	¬•Xë’ÚÀuÍp:ó¢)7ßØÕ}b{¹îí"ÇÉï-&ŒR÷5Î¬ö6“e”áó«~{Xa¯ïy	³ƒ=GÆİwğå³ñê®"øEQÒº ¶£UçÉİC-µfÏÚ[)o>P$}tÊ›Ÿ©®I¤v2£Ö~µùíàZ Üä!çÍõ)wÎy&ˆXÏa\mÊÉûzxŸ¿$kVûœ¬Y÷RaÛİ‹á¼WÓÎ–^ Ú'ÙËßã›öò7‡˜Ÿ%’~¢]l%!™øæÕõ<+çıíhı"õ›µŞØ~×¤c?ÛÆykRóøÔøÂ´¾‚™œ½İ%zø¹ì¬çã}#­ÚcØ)X”ËYhOç·L¹÷%w8Ê")’$;³1_ºÌß0œôÚö`Ş*&’İŞbLŠK®ğãÁôÆ[ƒ£ã%Œœù&·İéƒ˜j8ñ=—‰;#¶Ú…«ñ8øóXmÀ<\Ş5	·WÃŞ]8~$ÌOOcÍğˆ–/qÇSÜ˜‹»«³Ë×>ã™5ínr2ıZg#© x§Â³"”Ì 4Á{ PWóßàOä®èÓx{æè»Õ:s±mé«O5Ö†©…‚Ôº$fJl3EDZ‚+/õl„øTãÓò×:Q-Éİp“®‰FlAà
+›‰Œº)õ‰ySëËh¾	­›‘ç„&&TubüáG`ÿ”Ğ.C%‰>
+'
+É¤¨-@F”~±»¢Ùo3ª5¬[ğ*
+©lÈnQÚ`Ñ2)q¢¶A3İ–ÇüâŠ©ô!¹_fÏ"E­o!	å¶…—Vœ·„Œ^¨~ã2òp¹‡Lá‚éiı!ys6½)“bGo™ ZùZñ"é¤Bõõ,‘O3ğşŞŒòêA$){^‘(SÇº8<"ª`Äèùs÷³gÍÉyc£eÅğlÔ«‚r{,œ¥×ı$RÏºæºNö
+Í«Å¡0‰¸0Ã^W¨B­±Êl¡7B	$“ÉÓÓ£tLa•D¡*Õ¡_[Ñmm{™c/´rê”¬&{$òœ†XÓPÜ3Â¹‘¢V{9ÍCVW`'[V7”¢a±íûøtÚW‘¾åWÍĞS(•¼ ¾X3-a\-QOn{îá"Ü?ô[ãáÜ¿´9¿&ÜaĞ¬3.–V)´ºHL$1/<’Ã.AJ‘ÎÀ×ã× >Î„øÎK.r1rã¸Y¨È
+G:‡L7™!¯½" G¡r_ıÍWV{*ó…3PÊE¤ŠZ[)«G4”=Hz\I%]k„ñ¾ÎZjÉä ¿Jíª‘/oØªûMA„eDÜ'~‘·Ä«·CŞÂqëÌÂÓoyIĞçEzÁ{Óv~‘Ş–R§·F—ïâ±
+ÃŒRRˆùèê)ˆ´m‚#'w£ô•_É
+›µ×EEâ])"-q¥06ißPùõrŸ4oaX¤/ÒIO‡ewn6—‘ËBíP©·–û«£İõ–5iÜ9Ñ®óHÄµ@u-‘Gì£³Xë¸£qh§¥ÏÊ+ñƒ©xc€|{a´Ñ7
+¾¾çøù¹¤îòpíÉ¹ö|MwYœ~™”ÈO)j™—Ü`_^çqúaÜÍ¦u×£ä4¼iêP¡GüY;ëÀßdNQ/O%»æ²î
+:ÁæŸx™Ë}ƒ¿ãx#íÈ6NÚ±gvHÏò‘{a?²ÿ¹-z|âJ+²‘v
+É«ü˜¤Õ¦)0ş§´B 1n1AÏ´ÓH&Ğ‰6B3µu@l·5hGgG·ÀÒ^ùj€C, Ô{8_C!ÌäPíêVÈx/[¼çÛXƒz’›Ô6-ÔËbHZ]Pg$ah<ó9ì%÷zÇUÙºYÄ„Ò^Wœ5„`YìŠ"vÆúVÙì´Cà˜”“ıÌñDPìÌN5THìğmb¥¦öÚ“É‚¬›‚sç´UÔ«[S¥©{™=qÒI¥ÿÔ6¯~§uÏ““¿H¤ìá ¦ùæ’}ÕÛÿx¥l³¤(ƒ¢ZËÒ^û;Úb{€ÒºoEİ‚U\ÆäüD ô†öH*‡5ğâ©TËC^s¦RHK%Ñ´Vv½v œƒLÄ¨–]Œ7¼È©­ÆE‚ß2õ5T&Qò.ßêüÁ^»× É²GF@tcnë6rÃw•5(Rù7‘Œj$;vRóà^,ü°-ıÍW…)Å6²‹t5 !·û_l#½µ-\Û˜
+¼Ÿ¶"$¶–ydJÍC}5ÃçjU;aİáHÆ¹>äµ‚óƒlx¯‹u‚¿}BØuúgâ›ÕB4OÎ^mè_¶`8ãzk±_xÛPÀ$<ÖrÓ÷K[jk®F/;“&wÄI6ÒV©¤Nlëq5¨b‡=ˆ®³Ä(`,&®Ğ$Jê1Ø K†ÍjÓ„o‘×ÊUê(*
+JŒ¹rŒ›½ÊğÇJ:Š){2Ô%˜`õŠ• ­İ$â€
+½Ú@Öáš¶z8}s
+ºÙ¯nÅ¶÷@Ñ¼ºD±åÁ‘PùG¶O¼zŠt£˜Ş —ÅßÊğ|Ø[]óŠÀ~$œ8ÍîÛÇÑ$Y,ë)’NÍ0IW%pjH¢qKİ«¿"?Aƒ£E¥7—ü\‹Œ>Rîƒ†<óÛó ,÷_Rï&ôèıt†„¦xKHÆààwõJØîoio}„Ñm8~*ÜF£ù—¡ÍmnÁgnÓ"Üùé‘\×Š,õ”fÎ€\\i±•F¡BÓäiÙ|{æ8”Á™8âæ~Šàkì{ÈÎ³¹k£İËîúbû4	’ZĞ”íG‡{üÜ|¸ĞÓåDkòºá	~kî¢cGø(¹…YM3ŒêšÁ‹m®‘Z¦T¼Ò7Ô?*È‚ÃäéQk¥’úgTO8x£n3j{BÃ“‘É#WjÉsdŸÈ#|«ÂúóâètµqG+q’§¶…ë©+èRóGº†&n.cQ ×âh‚‡—ÀeOOâ	=àZ“ô†Âî&CÚQnºxÇì•ÕáUqğ{Ò
+ÈBÜÕÕÏ„|ªà€”ZEÂ#Ô@éh#…¥-Iyz¬vVF¶œ2ËN¨j£hìÌ¶_¦lÔ
+G+U»/Şzµ-&€§æÅN§TÖb²yòÂğÓ™Ò·$AãÙB–g»V¤c)"<)Dq-2èjwhZ”F¨ìmÎğj‹éÕGî$Y¹§±¦KO+*Òâ–›]ë¨™¿„’Ä»¬@bOµ¢86ŒY>Û¶Y‘^Èér)Oœ³×\O¶#¿¡Š^‚¦|/&àÖ»Õ³!è¸ĞO‘)î,ÓE®‰==”q)v0K!ãÚ-J*ùªÚWècPu¤lH#hØ —+ÒÿÙ;A%¯Œl]Ög?Ò¯Ÿó'ğ¾U(C(É&Lôk¢+fØ™\’g½†’öWÕ‰¤/$é‰j»Á5ª3Xƒ8x#PÊ+:2Gy	½JQÿxÔ×Q³Ü“ƒ©d=ƒjÿ¨ğÿW$Ô¼'®ÙóÄ™|øD´œ?È†˜?Lˆ,Mog«İ“!¾”Ëï€i÷hú¼–¾ø•õÕ§Íøµ¤Ç¯t˜_ï0¿Şa}½Ãúz‡Õ;¤—õ×{ì¯÷Ø_âëˆÇw¹İü‘û24AI|ôsÌw~Y…†vÍ5„‰Ÿ†²ÁzqáAd7q›¬HÜ¼åÈYj#m|3ƒûKzáÜO¿-gIZùP¢7}DRé/Nİ	4ù u@ş4_ôÉàIÄ§ÛÔ§2S˜£Î”µ%sZu‘†Éôıì÷æ/$.-$và’GÜ$gş*%X–ò)Õ«ä«äùá’¥¡Ê:í‘I\ŒG$gf\5Ğ]{d„p88«-‡?Æµtò&­ÏÚy¹ÑèËK¸3Òz‘“šîÌ_Ê6Ú^}tö©m1V'1/â6òºh–İQ)ÀÉH
+Ùƒk£|Ê'ìEk¤Úë’[¤k_Æ«KØ;Û»ãƒgİî¢÷†„˜Ò;IÓ±ašÂØê*my[°=sbqæòô˜àDaïÏÚxÖséİZw³gğ~=3ğ^‘uíkÈÆ½›Œ#+'â½C¿´^À7Y3±±²×†&ÀDÕKO{”âpoÛ½ØøàÏ6½Ù2ä6dè“ç©»ç@uíáíQwù$vzû ^úš§Aşì=zåÅüjöëN~Yóku¼„¢:5¬9Í<wÕå…“õ¨sÂ·"x<JÚö[jßÏ-&vÈûÏ§NZ|+äGîm_Ç ©¯·‘ñ¤â_>²é8q:²¾û
+ÔîÜÛÜ2a•ĞöÀ€a$³ÇaŞ?ù€ÄCÂHÌm}po0é¾6Š÷ê_ñ˜“¾K­zZîÍÓß>ıÜ{ô¬6‚bdáÔ¾fãŸE	j/ÛüÖM©3(Ög\m>M6‹§òT1NW›“ø’sßÊ×@M™
+²[¯ĞK¦ÔíøÔ¶H&“&ùvÙ³Í]KÈ<¬ğ‰F¤#ãŒİ½gí@½¶k»Ö¸ÇÑ,”7¥´%?Ú
+¼ºÑı­–R3\‘ã/”‘{0h3)=H-ëÌÍ9ÉÜµ\?W™v	M!kF7+aĞ[0Ór&ÕŠ˜šù}»å×½_¡ËæNwºh×Ÿƒ‚÷s5à}ŒîƒÑİº-lGHÕòg5Q²Vª…8ÅS¢¦²
+ÒLv²fŒ¡û)»&tàˆ¶F®SüÖ¬»ĞöĞd¢¤‹°ua×Èè…ë ‘Ş|³uŠMG‰4E×àJ]‡-KŒÕ/Tò°UÇ‘xu¨$yˆBËl²§x4•k©ü¸ƒV(yL;@0›ŠØñ¤ŠÇO©Wb«aQê´G bNÑ/ğ«>Vë¬	î³øğÎX‚½ô0¥”Î‹—–´ˆ˜ ¾$0^8GĞñì"!XÍBmx¯i"ë†›q¸yñ_¥´ Y6Nk¼7ú	Şq‹~…‹ùí0ÆâC³—1Ø´píoD¹²Üy.\äPŞqT Å÷‚&5»’¢æKáu*¡<Ägqk*©)åºˆ6Ò”VéHzĞ©¦Ià“/¹-§ô±î— ÒVmŒìGòP¼şX„8fvÔS$»\B·õîmV£ê®½‚¾åŒå|¢éÉxÕšÎHµëù¼Y.^ªIÑº—„; 3Êµ!‹â}µĞG²RË{—[ÅMÙU2ë ß`>Aşâa€<˜z¨év2N(†ÃäÃ =‚Øg¥°³÷îà?À? ¿Ÿ{! À¾¨»fq€£d»§Sg5OˆO€ïğ¾w¸˜z–‰ƒ÷â‚àK_zC’Œği£ÌÉI¶4(ÓNÔ…™2®n—LÅ¤ÚA†eøş1„H·ÅØ3d@)º„æ¾]²¶Œ´Æmh|İm˜9nÎ.fÚñçİ¦Š`RXXa†©ÛMœÃ†Ø&µ…î‚FøoÔxM©'ƒ½Mª;È[¿H×…•É:-8±°¿xCobÀÒ•Qóa'd°]Ô‡wˆL5]ÊÆù!‹$PÅX¯·Á,xîkh)Ù?¨\–á‚`ŸCqX=ªW`³“°ˆª0Ï“gÎdˆ½ ¢³H(t\…r²sc³ı£Æ¸'‚%aa8‰pÁJ©L>‚4¹·'ëÊjc„‡’WV’L¡,ŠCOaK­j„‚ÌaÙÜB§±ËîŞS,
+ä@¹ŸÜ*%C‘ê8XX¥¾¾ğ:Ğ`	€1“¾+ÄÌOe}/"BÆQD×»Ù•÷m‹Õ6XúÒÇJ­_s„C¥’h]`xiº8íliõ
+ÛN™$Ñó
+£ï( ıv¢6<œ«íîî¯0~ãÀ‘-©–›ÿ‹á¿°MOÖ{
+B½Rå¾ ú]!PsÜønKÚ<Á„İ¹dT4$¤Øhº5¦¯š'»TğÉ÷…ã +_‰9êy{f6>-’ó@tGfÏI‘Ö›©¹ıŞóÓCcä*~÷CGÑö¼î‡/ëğéqÈ%KSjek §Bğ€…¼*İG~ Ûb0	î¼ûJÁÔş¯õ!_í7åâÆAı £Ê@â‘–ÜÄQOS°ï!7!€Ç@‚]ÉjBkO‹{Û¸‚~Pz×–]¬=õ§ä[!LÊ-cCØi,;hØ½Šà»ZÂ:/€0–ì…­3ÖÂ¯Ópj‰tä8i;Šä´5ô%µ5^Æzw\ÜîÍl€Ğÿ‡<¥¢æ\ØÏM/!#y{=Ú"&FF~OµR.©lGæ¨´x*j… M&¤è¬¯Ä¾6À•‘†)GŠ ËÊ¶¶×aÙ±ÍĞÏÖWTO c_P¸ŞS±SÑšÇôi«7eúL¹×ûì>²gëáî$)zÜ$hètëC^¹@“û@–—lñã‚X¼¤ä†œ FpA‰"uÇànÛÓ’¢À·5øEçª=dOÿ´yó>oÁ¼Œ,Gñ"2ÓE8F¸‡Ç·â•Eo0i;D –ù¸¨¶avµy;î!xÀ#Ê—i×8„şm €NãÑ±‚˜ÎšÆ£$åÙ<ÓßÔ<]O—ÆEŠÇêÒ;Ş8f÷*—_0e(Ué¿Ç?kßg—£ë.¥;Ó»Yõou0r)mvø”H+ûÖtS¹WÜ\#òÏÅBMöœÆn¯0\åQçşÎ×¯mHvè¸UÈuM‚¬]Í«;±×Á¹„›^Æ…ƒº2ìx$Æ©²Œš`ğ…Ù¼”I÷S
+Ñ%‰L(¬ä–ªBî˜Õ==°Qàb
+'f÷^İ³ì,ÒÉÍcl	…™çU]C‚câ´˜Åq%–º'Üh=LmÂ©eÒú#i[ĞÁ´®Ğ,Ù‘–„’;a7€¶­ÅxuãWdµC¶ä©cip»Xpœˆ0êB]hk$5 xaC,&¢®It‡Ca[Ï5ùDó$o^ÅG¼oá1İ†FEI]?ìU]÷+xÍÎÃ/U†‹µÍ8Èáè^$ğy]İ¥](%øÒ²¬šÉÕ^Æû1SZ+AR†iÕ=3Óà[¶‹uC“7Pì+õ¬Ë/¼¹
+!®Ğ#,ğ–:JTÇCdÃƒ«NM>Í»ó‹&×å®@h0¡CuîLXæâxdíù	[7s£Îe…ÆÅàbH]:‰4rÖEÔƒu§×c8qƒGr	N¯Øáp<HËä[Ãnåœ×Q/|	gÆüC•Xd\Gø»Û"Ürï6`r©©Ğ³ZH+—D]H£	‡KT]Òær˜¨,‚º¤Å¹_$[„Şñd†8ÕæˆT¡º„Ü£ëc©ÀFûV.›_qY ´@Ô`©TÏ½€PXöòã_¾
+ß~wıİ;‰ûÌ{ù9é_i ôÖHú×G¿òRuØ¨z¹ì.vº?BÙÓ^>)¢GŞw|p:xû˜¨ŸG×+{Ê«ç “Y«ø´ÊjçNÏ –£'È—b‘âœÚrÏWŞ^Û7ÂÃË!?_c5û½ÖêÇ®Ñ¡üìóP:7§£ÇZ<
+„Õ2‚ö–[+$ïÉ­Å1š©ŠÈ}o{÷	–~YšwüVyàká‚ÒoC>ƒÀ!Şµ—_74XÆ'QïqòÕC\õ-ªzæUè¦™>3®Z:SÉğ³6Î*"dëhƒıØœ«Ï;rĞé87údù ’2–¯
+iw%Ï°¾úÉÜ¼7°ˆxŠ°Ñußn¶Ñ©:×‰7¼ÛæG~¢»1iC!¡aæ±»à‡ÇR&¶cÜX:ã_	}ÔP8¹ş•ù£nîkÖ¡ñ4píErğ;±Røæ1VöL#Ş¤À´ŞZ?FæãÚ†
+Ê¹¼‹
+g šp?ÁíİG Álâá?=»¼êŠ(±JĞ=÷ûZe-ˆ-Ÿ½“R¨ŒŠˆYf¸Ä™’Ö»\®TxÑH{²^Õ=jp~ƒÑ­B¹;&·¼&+@Õ]}şXøÖÏ–w	êi‡Ê­£$}(uÑZI«®8B“¿ŠFgàõªmäS×²:İâ£4¤©z@QOË²À«À‹“êrÂà1›y)?¦è–„rÜr¡œLğƒ‰˜/šijkÊBÛèxK”Óæ±„‚ı`_J&*®İ£ùÈĞ|1Ã0$0$GïFMÁM'ğ…‹ÊrL¤%s¥Ì¼–J¥R·=]7ãîšB‰jËPğ±Æº†2‚Ç²ªÇhÄ˜óêªÆ4"»AfôJ#ü×,rfÙ+E·Hµ%£bÊ¸ÅS¢ä»±rBuè–¥¯Ùï$Éxø¾Úµ-¼ñÇm„W¡œõeäï	79a®ÕÃ‘&ıaF¹­>G¤Dª ÷ÚLHë’QBUY¥·Ğ…úè>û«ÉëÈ¾G ]­ä_,L½Ó(ğÙùéQòmŒ‘ó%neO¿ö†
+‹«şW[7îç¯MLBàI¢.İ]K¢"„ø^7Hxµ£004ÓŒˆN1£&åê0!	L=ax‚ğÈî\Ó2ÛyÉ¢ÅÕ,ÇÙØ…G2ñ3ØUe•ÔÓ%wÄÄÂ3{f[Q…éXŠÍ<âRTWš®¥ÿŸ‘¨¿3»¯¡Qw—º„lš—‘rL&Ei¶ƒR%Imé™w !€9Ï†§;ñG"ıBûœûÓ£”NæŸĞõù<xµ]Iî¾9ƒÂÈ3ŸÙ(l6?Tª2=xwàº&×ÈTìÿ¸ Dı ¬¨šÛÚüƒaÇPpIÄ?ZÊF~bóJ·y,`>&ñêEê…I#¥²5F|¶x9è¢ú(Vİ$¥m«İĞp³“&•k˜eîOøóò¦·ŞÈ6PF]v÷9¬(ÜËÌŠštn4DÏ¹SSœ—î(/7·Øİ.÷ç4®ıµpëíd‡¬‹F%mq‘XIb3dphÖK%©YÔ…u¸ Š=ş…rµOÜ;m¦™–uíĞÆ”ég6f\O×`b;Ti^‚ØjH©SØnBêjFfÎôû{İké™’**4<*èÊ¬02j1ºªæY,Ù“ÂyájÅ³Ö©İªB6	 zÔÉ­ôfü[7F°{ŒVö€rcÓsÆ¦\kó˜’ÚW8QİÍª^ÆÂU²F¡#Zšj9n£
+µÑ’* ßğî÷²R( ª±.ˆ\O«ÚèG;Ä¾YTÛJìGÀ/OMü¦<]AÚ‚$ã Ê5Ôê.-ˆìÊÎqŠŞÉX.$1Xx4oö²
+p‹+…ZCNs”ì˜ÎiH“®£äi2ÅÙfäJş)W1ªog#téÔEOQ_MşÒºrõŠ1ö®ØÀÒ<!¥ xÿ”Ï´f{5îE]Añªî©£GÌİƒz½ì*qGÉÔãVùZ]{¥ÖHŠRk“_Ğèln„“X³6ê“‘)bœÕ5QöTÃÉÕõ¡&ÍİdøB‚fÙzŞGôk.axªi^á|K~®"”†ê££;üåàïEÙ“wn¤ÅíŒ:3µDÜ»*ør‚ƒ¥	1ø­³Bz!ŠxÚ:ÏuƒuÊ+PU»`ÁÒÀù"X³#™IğÊÁD×ygÌ ÎFNyÁ¤yhÀáZc¨9óú²L-ìj -oj”¡:ACË*È2"gˆ’o~G·öéçîîí}Wôqëé±Dñ”'/;Äï¯ìoœŒc¸Ì/î¼w¬YXäévˆt-fEİMì½ßexÔû®ØñwªkÆ.#¸ãĞ4<‹·k‘=Ìræ¥å7óÒò^
+üS¦ùqÃ™ƒ(»Úğc¡Ò ñç©Ÿ‰RÃ©	v^˜³ìJU¾Eª¥C4ägŒ:}Á¨Ój¡ótfısP*æ gÜª}è“›gf‹òGé9šİ0H°ñ.Gè[¦ï½í—ÿşcwÃaŒõõ™íÃ¿ÈÉğ?§HËpO€€Ïß;vw¶x¨2ÜšFõ”iùÑeoF5õ/)ì’§
+ş&l7©FÂ7+Ëœ°½Bú2Xt{b§>÷À¼Õ’ÙefƒğÍ4ê ä#ÛWÂéQ¿¨*!şh\¼	áş*„Uø€¤7(«#©¬o;2ò'CøoIGââAª¸PÕ·ÈÀ±èã'Åc9>‚ş2„ÛÂüõA89±z¦â,üAÊSu½$¤°m0¯®7:Ÿwñ¦å¦ÁqTü|dçÜım/‘)P;w¸4!Ö'pGxƒG-%·_ ÇiC^6aJ†0øÒW\¤ç•™XIq¯[ÚL®&îäJ’ÉXª>5¹Wë·6(:k'‘ŠÜeğ²"©KèÔ/ˆ?s<ÌnYñ¨ëî‰ï ‡á¦›ë$|î0U<o\‚G1á}î;hÃŒº›(çså–?DÖg
+°Z¼dw†¹¸¹&(y¡ÑQàR=MW’g{2Ü‘½Â¸÷À§ öëÕUy¯où	°9’ù‰ÔûáwícWu	31Ç5pjo¦Ãø s.ŸdT®­m$Óx¤4`šz¡»‡Aâ‘Ô‰Sw¶¤gÜY‚"§Åi®…½hå˜Tá)â»H)£ÌŞÆZ)ûOÈuË¨Q‘ˆÍ/æ“0Zñ²ÇÊÉL•¸mÜ¨^8¦æ1AFªçH´¿©ù2ÊÉ³‹Vÿ*4ÖÙSUgÁtOÖª{†ì‚VrV>%Ëõçi=¦$™ÙbàÆÆŸ?sxíç^^4B'Ÿ—Ü!µç„ÈÚRhÚB:ş¬ÑöŸk´½µ9Ûâºv]s±:Ï“b\J¯Ä‹Ré}D—ŠöØÍXŒüw©ÎŒjü9f„8–›e­7êu/ü3²aÙ	ŒÊƒ`Œz¹›§¶HBP_]S1ˆ|Æ´©»jĞÖJµ!öµö%¤jç¿,A>zM\.A»FAâ¥T¡®m		X®Aä,zºŞ">øP+2Îô#ù@¾@ôÑ!­«ëMv‡§[¦“ÄXß u§ÏÓœ}P­L°OÑĞTıyæ#Ü–0
+#!§;paA °ÔKĞÚ>v&¹1i,R‹.ì9õâ(¨&‹gPõE©–Ï~ú™¦_l×B/QÛ6×8Ô¥ÒÛ%èîŞö%éŠ ÕeÿÂ¼`AjJ<¸qxÑgxTúŞ†l}ğ´Æ<Ÿ-ÿ<`Ó8³Ëî›úñ0Òà¢·Š¸¯¸ìP½)¡åíĞıCõÉ/šhŠÏÈV¤(Ÿ8ã“Ğ%ıüiŞy£*óY	ÔœGZ¤kÈ‡dò1ÉŸ—¥<Ëã¨/ªIO&x§Ç»Ïit×‡W<\Û@|Ô×åÃ£ôZ¦¤æe˜ÓÔ»ëË}ÁÉ\?•œÍªu”Ëp‡k·NÜ…»>é™ûÚ:Jë5¤Tß*Üù¼òî…FSux`™û_Â„GrRø tÅ=/¹-ˆ´¾íõL¥.ÖËÊÕEswGØw‘üÃÓõ<f$¸­Øµ]©§.4{EĞ[‡\P—+zØ•ÍËÛ¥tÕ\T¦sPM£A(×ËŞûr±âH"…]µzÎ'O²$é!_[k·@ï4’-¢’|&¹æ20?—#ŸÚæÇ1"§Î>4m4íYË]^1p’I¢ êáš=a.†|\·f G3"	Ä­Ë3ßtpoéõK”mú‘*Ä‘dÖ–hº¬_àÖ3Áqª/yì$7Ö|OÕÙ…>Ì´¹ë[æ÷n¦¨6¾hwò±ôöM·EÉ•‹B­Ãª×7Ü:÷R¬î›Sñô02½#•FÛLqC´"#E<"—$¶u²I$Ñ##kÙ.‡ÑÓ™Ûv«ÛĞ ”‡¼(/°	Y‘…Ñl%Ş‚‡èÿÒ…®Tî<Üñ}z:r[½t)œBJ#AI©$¥¹b‡>Ê`e¤F-¸NÜÔkˆ Cô¢Ìª/HR…8¢/=a†ûaÈ©ßXÓczOHoLÆ.ß#ïBÉ¤Q=ı[‚WÔ*#qd®(‘D7.ãp˜åh7½jF·Û •¥.-†À×D£Î|6î!¥}–e@¸ŸqûòfÑf?Î=ŸÛNú'3©²Ğ=ùö„pœ2Òáœl‹ šEÂƒz·+§²2J)Nò´ùÙj¢_*÷½¶Ñ§0ºŞg¶ıLP¯¹†B®ÔöeE)J#®Œ¿E=…Ù:"#<,Ïsš¹ÿê2zİwÂq»HŠ4k…úmÏªÕ¬¯Âù	ßÒñDq·©ƒ³…³#ÿ^‡ü=Hî·ğÁ!ÜWê|V”ùìÖÎL
+†„ƒgcÎw§ £«^!·Ïó¿@nÓÍ”2Øò×íŞŠÅ:ªŞàUúù½Õøf.ß½Àk˜DßO–D^bóò‰İ…ß(
+WŒJ8m^-oµÁüÍg¥.ü8ÀsÚ¾;ĞSÜ®ùrp¹Åê÷Îwv'¢ğ“¼÷$ÁĞéæ1YÎ oË){UØ¯rüœ›çá³õÒ~:®_rík‡Ü]¥ı çîÀômO@Ñ¿fPä<”F´F8Üå<d}ú†“yîUP¿Êyñ\êînV&xÖAfKCêwãdêH¥Ä±mˆæ§¤ÏAåvõš)§¶¢d”e¶—
+tXcKiDªè) dÎ$zñÌt¯•úµôóé6ïÄë>!ñôI³Gäšª }D¼q—¿ˆ¥#ÄDY#SzY;óËAL¿fˆÕ£{®¾æ{svÓKAÊ«hw„<qY=`úgß‹äÓäñ/zô®vÔ½»uÁ|L ÿkÇÈÿ{A0İüŸé Úğ‡\¿HF®îé+İô[›(¹ö¯ED½»÷»dëED®³,®kk¥­ì™Á£×İZvÕÊüjşhÆ^wÄŠ¬ˆÚ{Â5²×«B‰¾ì‰Å3d[AiHïÙ®å9İ—
+ù•<ª*—xË(Øç —¶'÷V‹ı@¢[ıœ3(µ†R[’µá´$Ô#Œºöäîf±› #AZ*O	#À5Àà°ü@6M[´»Ù¶®‘Å­-»å^° æ\ºj¦”¯œ3ô‰Aêjêó?0&Õ¹pª·6a4z}4w½¸0¹¸ò(azQ{%ÃM‚’<9EM”ŒpèwíÖšËğ¤s†°¼43eM…~äÀ\íıX7ô {}…Ğ)ç5#EE.EuŸ¡ëÑ³AçQò%Ê–kB(5„ÖH”µF`n±§ıeºóZÅÃ}¶œt	” sşİ£ K‡ìáÜ7(lá ±ßüéÇ6ûıîıŸ~úıo¿ùéúçßÓÿ  ÿÿÄL3AÏõ  ‹      ÿì½mã8ò'øş>…¦…îš²Õ’Ó6:oöf»ìüßÜ¼X »î@K´­iYÒHrfV{}Ÿı >É $;«»ÀLbº2ÉƒÁˆ ƒ¤ÈàşÓÿü9ø¿Ê²mÚšTÁË<œ…QğÃ©m«í?i»—yaR?uè¿–Õ×:;Ú`ÅñtÅ‹à¯YÛÒzü­HÂôß³„MƒK‘Ò:øûßşÁ‰6Õ¬=]ö½Û×}ó£ªâÇ}^î<“¦¥õÿıoı/ÿñÿ—®ÊüóŸ‚¢¬Ï$Ï~£aÒ4£Qÿ“Q•ÿ38fm˜•?*lğçOí9¿Ê¢È9Ë¿nR4Ó†ÖÙa7}¥û_³vÚÒ·vÚd¿Ñ)IÿyiÚmEwÓsƒçÜöeúõz&õ1+¶ÑÔm–ätBš,¥“”¶$Ë›É!;&¤j³²è~½Ôtr(ËNF'JÒîŸc]^ªÉ™dÅ¤ /“†&Ü\ÎgR½¦YSåäëvŸ—É¯7rI³r’â…4“ª.5mšÉK–ÒR!³"Ï
+:ev/´ãŠäS’gÇb»'ír9¡mQ¶?üœ”E[—yóå“"Q”İh§İmtûù”¥)-¾LZz®rÒRw#×=I~íšQ¤Û(ˆndK’6{¡²=•/´¾–—¶«´“Ñ~_ÿÜfmN¿\÷eÒzº/Û¶<oãê-HË¶¥ém?iÚº,\]¯œuİÒCÁÓšökN·YKò,¹b©ƒpµ¦ç ÚqLöİÎèùv&õ¯×¤ÌËzû]E;Àíw‡CtkÎ$¦ÁÊ<EoÍe?i.Õµ*›¬SÇ¶¦9éÚh¯—wLÒRP^aw”Ú²ÚNÃ%=w´¯¢ÑÓpÖ¥dç£Æ6º5/G¦—m]–í§k'ÀC^¾n¹nÜˆd‹czQõv;ÕWÅ†4ç}ùÖqšÇm§cZ°¤İô\şæËÃ“oUM5#äÒ–·¤Léä×}:©j:iÈ¹2úÖ¹,Ê¦"	¨ß€àbz¾í/m[“¬¨.í¤¬ZŞšÓ¤t½Ô”¨¾Å
+o³âDë¬İq]Š¿%ÍŞKÖdûœÊ8É+ëÀmMŠæPÖgn¸ÑcäçökEâÉ_& ©¦m”æ²?gí—«”5©*JjR$tËËï’Kİ”õ¶*³¢¥µ¨ìç4kÈ>§éX­J¼ŠB)=K.Û¶İ2•ÊäÒL³¢ 5çÄM¿V$M;åE;eOz…†Ê‡ÅhMr¢É¯ûòÍl4I³R·˜†ê¹®1,<Uqë/.ç=­¿l·²2ÖšiSeÅZŠ]^Z-û3U¨5Jêä„¶é}=d‡ØAgr‡Œæ)Âæ'L“®H4ÖW ¥IY“nlÂlÙ7«¼¡­²Šp¾¤ç \ÍØ?ë%=ïdfÕ›´™n(nÊ<Kƒ&Ë_h}Ëé‘)f\ª§š£ƒìĞÎŞvv.Gşn\€ô¦I™ç¤jèVşrkÓI{Òßşr¦iF‚ªÎŠöúg0ªÿ);Weİ’¢İq_}"iùÊä ²ÀĞÏÆ‚ŠÔ´hÀ0œ„/çF&„>-Mùp£U´eÓîx>ÕôğeK-­¯Â„¶‚>¤mëºÜOÁ‡O ¯ô¢Y¶€3ÂÿÏOşI^H“ÔYÕn?ˆ’•ùİ‡Ø‡nxŸ°éÂ¿.e+ÕÌà»Íf³«È‘N÷5%¿N³¢›âlÉK™¥·¶›È¨Sğ”Ïm¦Ìnm=éœ¯|—w&oÓ×,mOl^dZMN³Éi~-ëêDŠf;ß½fiùÚlç7¨²f	¢bÔ7]ıò²'µ9“	÷A›Näo'@b*¬Í"´o‹ç0!5m'aZ—Õ¥ziÒÖÛ²šbÖzs²§9"ó(ŠCW_÷€d¸à9’¦A{š8I)RKš¦€Êí/Â‹'Ôğçßÿ×ükuÊ’²h‚ÿFòCÇæû]S'ÛKÿ†?vèæÇ£‚MO6­éñ’“:¤eûéş"ÿçw=doŸ‚Îo“ö‡ïéyOÓ”¦Ó²¢E7D~ÿi2âky8hZİ_wo[Pº­/ônš—ãwğÿ*€È×Ô›—ã÷Ÿn¡Â"sÑnNWo;tæ?B`.Íç;8^/¢È˜ßÆjtäåÎeÙºa™mFòŒ44å®³lŞlÌ±&_›„ä´hÊVxYóëvOeMõôËŒ|€À*¿4ho€è¥.PDvÎ
+”Ø,¸$//)‚[E±YmñBó²¢tmÌfĞ"Érx0€Çœ44²ê>_š,Aqf[øœÎà‰’ºEqK“`Kj¶r`Sz®Ú¯(xm€/Åi>°C–ŸQ˜)ëö4ÍI}DÔB£8² ((vèe*ËpJÄi›‚®é¹|Á™[ÀßÊò<Í
+¹t‘ågÑÔKy8 (S!Mv,b®4ŠM•$åEY©IƒJzfªãTQÁÌbÛp˜©6óP³ôQ¤³Óhfj#-_‹¼$é”ä¨œgKBM•\*/ĞÔJVìË7÷d™äë4ÉêÄ#¦e%h“æ‘<Ô×ãÜTP×]|rš›Jê
+3•tÈ	jhó…=ˆ¥Õ©,(:„ÎM½”ùåL}=b¾ÂÀZQôC_*kjë_uR¦¨¢æ¦¢öÄ‹\XÃ.¬El£P1-LíK|X[ÌØ™Ô8ÔÔ[Ã¡8SA	9Óš @S9lƒ­-s´›-L…ğÍEhkİROL‘ô2rÑ|©ƒMİ°mÄiN8åNhÑânt9Gàµ—í‚şç¥i³êË—K§ï£°•5–¥´hı-´G>†öólMHB»ÑÊ¶ÇÑÖô,KÚKv­•©Å3©¦™ã’^YŠá_0àÜrU¸¯L]Ğ4ÃaÖíD<m1uÀöşPœ)}ß|eõdMùh5íÍ¯¤FûÙjci©i{ñëÈÿz ±ãQ˜©ŸŠ\´eë¹Õ²É×kª½ü-İ¦÷ÁíÉ4­zá¦¾è?i‚ÚÉúÉÖÿK]ú‡™õ…{{áSä,İØLÅÆîÒÌ!3h?znMÊıHSÿºĞ¦[fûñKkT:”~¬¥Â¤¦´hN%.¹5Ö@ÿîéÉnbÖE=à©BR×å«×>61öZÇf† ñÒf@}S¯ÍÂü|“ÏÍÒ’3û°{¸äèZg³ÂĞì£!
+·zá[’“3é3¨ØZÔ3TĞ±µ¦Ï)Á¦¬±µ¢?d¨ˆ#Ë©|¥lC….h’—è˜[ ¯¤.²âèoúÚ±œ¬5f‘œ)º[û 5)ÒÛ0ˆ­]€¤<Ÿ)ê€ck+àLÅ3t¬Dí;¶v$Øcá±µ/PÓö•z¸°'eUuJHğ½8¶çÑ9Ûmö©ØÚ%pŸñX[¢ûÈ/åh	{eÊJœÊ:û­,Z¼Œ½…b2¶vö—<?•5Ê¶µ‹°§ho­]„¤kÖ!KH‹JÎÚLhO—ó¾ñX‡µ“ °>ã°6N¤H½cplm(0°gt­M†õ0¼q‘>v­=î‰\Glm/…|ì[ûF¼Ö–ƒQÂÛS¯Ç¼Ü£ú·¶^kZ »²±µíĞ’æWl‘[‡,Ç±µÛ°¯3zHŞ¿­‡Î/òy¶öRÒœö%>A­‡ŠT´NòUƒµıÀö¥½;É±µ‘g¶¢‰íˆS‰{k¢º4§
+İ‚­-ˆKƒ7Ü”şq7Ù”{Sâ£µµ¡ĞÁ¦û¯S’W'²Ç‚µ­`ñÌ“bkƒAãß1üÜ÷Ö±ÀYkÛ:Û_Zt/¶6ÜBŞÚ,ulñKQ¥-í‰\E
+ho†ó³ŞÑÂÚuPx|<²vòòˆˆW±½WŠîÒÆ+{ëõèùh[Û}¾fEZ¾¢`{z’”ø(`oSt[!¶v)|Ók“¢£†×jíî±OŞ(pc«İ´ö%Š[ÇÚVKYU_§)úÕ“ÆÖÖ„@{[µ¶÷ÇÜûm)¶·*4y½ÄĞ>MX»IMÓ¬íæœ8ç¦ŞøÉ<|X±÷+.mNkÔX[ü
+|r¦şUM›²µIAIíuÖÃùÆ"kƒ¢-_=¼Z#dKZtP´¶%šÔ»ï[»§>¨Õ¿.{väçÀÚ	d‡fš–ÖÒ¶¿»°c¾Gu»±İ^‡^Nckû»»ò`m'×a×¬57”'à§OñÆYÓò#aş2Öç¼¼¤}ckÇğ~NŒ7OVÏ£tš”Eæé}û#.¥Ó”&Yz)±ctEnşÆ§Fo¢¢‰8»ö©ë»ü|rTé-©¦§ìxÊ™¢ù®ú¸'?Döó‰ß€§m>ü7š¿Ğn}ü½Ğõ÷ä?ÕÉ'àê¨uQ½™çmÂÅìi¹sqâù»ù|¾CÏ£ñ¦ãÈ³>Ey“g¨u½2V-ÏVyÂr1{Ú'dgkäçÿù)ÿ	Ù²“È²ÈŒ¬›•Sœ„xy; =e…¸°“iËê- —¶ôÑ£äÒLk¶ÑÕ#‘Óòphh»Îª7ëŒ|ÄZgóÏYšæôfçã´¦MUMöB'![g$ËŸ³óüº¼44ç'”ŸÃ¬¥çVÊ¼Ã±Óƒ_6;óèã\æÌuª¦òèŞ´&ivi¶«êg+ñëcëRÇ²{Œµ<÷ÌğwišîLn°?uŸc#y„³& ¤¡Ó¬è¦¡»i9„èÏæRá«vKfËèãíT«˜¶eµu]ü-nd°$y¼y§oÂRJoaSOË"ÿªOå‘}Sæ—–J™WoRÀİ¯úì´°Êi—j]îØ±ÕpM“V.ú¨µ¬‘w²Ï©¼fƒäğ¥xë&Y"8cú†ºW·,ì;œf‹§˜ŸÄœ“ÓrrZMÂS<	O³IxšOÂÓb–“ğ´ò6âXáÒ>VÆÖS°íõÉi&™Ë_ò—¥üe%~	U±P•UÁP•UÑP•=ÅA¨ªU¡ª4Tµ†ªÚP×êŠC]s¨«uİ¡®<W¼‡.E_[¯×7&q¦ˆ+#<Íì9f—ƒbGF@DµÔ`Ó…˜´tËK]-?Ş˜0ë	¥­ ÷±û…£C BÄV­·Saˆksår¿î¸g²‰ónæª€©Œc®pmÁÚÑñçO]*ÇÕœÜ„t@jç×*åÒ‚(`²	sJÒ+2„’+ù§0±¹Óò^Åç¬b½zªŞ>]y %qõv»	Y97ç–oIÖÒ«s°˜]Â›„ì*º2£gÌ©$‡':¿…lâÓƒ¸»Åİv÷·Èb3o˜ÇD&?syŠÈY`¾H€¢|­Iu}=e-e÷Tº†tI’¯nµ–†ÚËT† ^ª
+ªÉ1©Ø‘£ß¤ÎĞó¥¥éŒ<¹ª3vcÔ˜²İˆ‘).dÊùd´ÉFo.IB5}›'ëÕ<•ÅE¦Y|¶_.f‰(‡R•×ÑÓA–ír¬‚‹ål%ëŸeŞY¥ó½,+2Íâ«Õ2Võ¦¤8ê,²Y,3Yšç™…Ÿóå|q÷G[`l6ã˜££. ºX)ÏıQIÓ¥‡C”>q‚¦X]lÓÙ~Î2ù"Ô64=¬95 hHé¦›·ìJâŞ¾G ÊKğ°¦É~É
+ ˜YJSÊéÊp¡t±ßì7·]èá;7r¤ÛFù‡í"ªŞ‚( ³5xÌÓ.ù¤Ì¡—‰0sÉìş{Éƒ’ı®Ë	htÙ™ÖKÁ†6u!}êÕFzh>·±‚2ûkºd“náç<Ã§÷’(ÿf¶ÔóLNxY½İÒŞÖw¼¥í$M¯ø¬ÿ–¶î5låqxcz¼Gšƒ·AG+/IË†q9O^EèD˜’šÃì'¨4Ï³ªÉš6V[Õ›|ÇO]ãá5»	û=%-™–uvÌ
+’OÅeuq1÷Dó
+18¾jø`œ»ÓœkÜDw^ îŞIçØ™e æsÌåÛ}.µıKCë×„ƒj›“¦&§,OÁe¿à’{2J˜áô ñ@
+Ÿ€1S0×ÁÆûN°N•rSÈ®IÑó:ßÿÂ¢VüEÿ)úşjü´¦/´n ‰°ºä¹˜t˜İ.vú]ä­\ŠÊ
+´d(0ÂØğ¶0ea0*á@"£ â6*aÉ6¿¦ÚÛ2ñ7¬Dô4«„ êl'`vô=°PW@î­[’¦u7EğÎŞáÅ<ÏèÜ†áï´ÈËÉßË‚$åä¯eÑ”9i&şZ^êŒÖÁĞ×:@£¥ÆŸYõ,ŒÑ¦Áä´d=[.(6wßf‡…»ûsûuŸ#OÂØÆ§At¶”À•ì¬hhDÁ4fó°QÎ–Ÿv£‘ÃdáQağ›âöıp:Ã÷$É½­¬f>jCøµ¬S~z+îAç9Oì| HëşÆôµì~=¼$I-V5+‰}dc/ÇğÊUMO.#à2¾Umt»bMR—yÎ.CŸÉ›È|çÓ¯[»…]/#ˆáªc­[bÂö¿üS]—H_²i…[`³™¡6kOxEh‰8æEtÆô_²ô›µ6¬Ë×«›Â¢|ÖÚ¥t,äÓ·fOØoÍYşvNåoùQşöÖLg
+7S¸™ÂÍn®ps…›+Ü\á
+·P¸…Â-n©pK…[*ÜRáV
+·R¸•Â­n­pk…[+ÜZáîIáîIá6
+·Q¸Âm.´ #-éH‹:ÒX   ­—X+&Öš‰µjâr½³Uw“»×ül‹Ñ6¡µ®õª5§u£¥¯å«%dDÀZ7ª¿ˆèÔXöÍ8\ñÿ­An$rŸæá\üOçnÔ8 ÓDÚj…[‹ÌåBm%3wK‘¶À˜[ˆÌ9ÆÛ\dÎ oJ oRklnÏ®BÛP~<+Y¨9$T’²(N–ñ$2P™2ÄZ PÁ2ÄJ"lŞ—"1C,•3CÌbfs®Dæå\JÎË¸”­UNsêÂûš©.'æ9utˆˆ#<ÚhNÓ˜ÊhNÓ'îÑEsš®9À£Šæ4]	€Íõ’§{Ñœ¦ğè¡9Mç0³y–‚òò,äåeYHËĞÿİiÁØj€ÊØ€ Z‘ĞÈ€¢êĞ„z€'€*L ×Õœ@®L¤ÛÖ¥@u)‰*U çræ¶ÔRAOKMMô44½ñeN†ôtGOhô”EOJô´CO,ôÔAO€÷ÎùnÇÉñTÛÉ±b^'Çè{\Ç‡íä:.½N®kŒ×Éum¶\'¯“ëçur|m'×Ißëäº¦úœ\sö:9•åwr
+âwrâ89™áwráwrá89™áwráwrá89™áwrJ.>''®“c9¨“S9^'§^''¶““é^''^''¶““é^''^''¶““é^'§Äáqr2ßqrÍyĞÉÈ“Ğ!'§¡'§CNN#‡œœFzœœ99rréqr0ää€|ûœÚN®w+.ôõR^/Öõr\/¸õ’Z/šõ²X/|ÁÂ¬[Ù²Ôñr<Õör¬˜×Ë1ú^/×ña{¹K¯—ëãõr]›m/×IÄëå:Áy½\'_ÛËuÒ÷z¹®©>/wN½^Neù½œ‚ø½œ„8^Nfø½œDø½œD8^Nfø½œDø½œD8^Nfø½œ’‹ÏËI€ëåXêåT×Ë)„×ËI„íådº×ËI€×ËI€íådº×ËI€×ËI€íådº×Ë)qx¼œÌw¼Ü9ôr 2äå tÈËi¨ÇËiÀ—ÓÈ!/§‘/§C^N#‡¼œFz¼œy9 ß~/§#¼Ø‡»ØzŸZïDë½f½›¬÷‹õ°ŞóÕ»º`ÓìÉò-WÛÍñTÛÍ±b^7Çè{İ\Ç‡íæ:.½n®kŒ×Íum¶İ\'¯›ëçus|m7×Ißëæº¦úÜ\~ôº9•åws
+âwsâ¸9™áwsáwsá¸9™áwsáwsá¸9™áwsJ.>7'®›c9¨›S9^7§^7'¶›“é^7'^7'¶›“é^7'^7'¶›“é^7§Äáqs2ßqsùqĞÍÈ›Ğ!7§¡7§CnN#‡ÜœFzÜœ¹9rséqs0äæ€|ûİœ:nNDïùkOÈ‘kV\²î!Ç
+y™gş¹­ŸUHòçv_¦_­¤CY¶V’*˜ºS· >¬ñä?8a]kËÊsÉ'MS¤ö52Ş^ëDà¥"^ú,©mY-×V'eÎÂæáX¶™ç%Ù[s:²æt|Í)ˆz¿nPyŸÙa>*­ ôØ)»í("Û'e‘²×¥ƒ™µÁLÇîP²iY,±Ê¥ê*&?ßFaÍÓynëtÛ8„fÚCÉ-ûÜk.Ì÷ ÄØ2Ó2kÚ:« sÛ¢=qƒû¡LÓO€×A$úªÃ¦û‘•±Sêš€øSÕ€g£dÙ	+>êI™ÿœä¤işüS7Jq.è™¯h$e~9;¾`‡Éäû•‰|«â.Ú4Ï!ewÌåíBgèµs´EØ9Zó^jN¶Y5‘Œ¸$GPCrljwBrlj=G-E‹HÜ™ö N#PdÈ6MQöSÂEŸºÌJÄÌLì,`'v0/A7˜Š‡ LÇŒÉ’úE²‚®½ YAL¸âF×bŒ[B~“31ƒFc
+u€Ú²ˆn’f6Yq(1›1ÒÁéÀZp:'J‡%bb§KmÚé&×0ìt“*8~­Ëkúª—ß†0 0h	@l}T°¦$:?Ì17Ì03°³€%ØYÀ¼İ,`‚23$KêÉrº‚d9Qg#/ËzìÄ¸Äç7•03h0¦Ph¡-#‡Y’`fÃ/bVcå £±r€Íø¨99Àbpj"³7Gj×Í±©¹ÆâæØÔPò»˜^S÷3ı–2Œ2 ƒvbˆ²Ÿ:/Ù'I’È½{¦2 Eü ÷'Ö«5ÛÅçUè`/Wïö;¹¬®¼ñCòàš¸¤¨Ÿ”9üúAgØmyINìå`É®ótI¹SÆEó{RãqTnÓÏbaìÜLõ ±Õr‘È]MöU—©®šè=|¼œ³¶öË]¢Â/sèòûŞ’Zœ÷–Ô2~˜Û»KjmÀ’Wëîâ]’÷Nïô}œï+Äü «÷Bwo»££„,YM¤¯ÓºÜ_«ñ&›­·Á£›~ËVÜ JàeZñf­/ô–SÖ=e[{Éæ57p3Q‡‹B",»Ÿê½Éß»¾´"¸¬£hä«Æï‰Šç<=Á^Œ–!iì¥’¦ÜMÿe³ëzúåô‹õÊ½Qsq´óÅC¯?Ÿ/y›U9ı"‚ßıÜ)ï‹ïhV'‘å>xí¦«¶şnëÊK[]Zü(åÚ¼:*p¹\ŞÂCYŸ§	ŞßßÔeJ¦lU½ñìJ}Qâtjv&G*ïÊºwÚwÑ·+ÛıŞßÖøU_/‰M§ŸÜ-k_.ãe3qr0V$»~z}t¾Ó„CjÛïV+r eÇÑ#BŸDA<ÉŒ8šMâõr2›Ï'áê.ô²ÃÁ¯r’Ğ{ŠDFÚ•I²öë6¶
+uÓpÖÃ=:Ô»ôcË€—şÍôš’´,ò¯_&Ò§ih`vYt¤(Û)Éóò•bw¸)¥ ™2è§Ihäsøöò š’– ÍÎfB‡`Ï­åeBr#ë\íé‹afîM‚_"§æ¾9;, 9/(†3¥²Lî¢êÍÇC~ôñ`æà<˜ƒ‡ühğ°`1>™ù[úîõ2—5	¥‡B®èšÃ>¸°ƒö…ßãulî¢kâ›Qğƒ‘ó¢´°éªÌx<6Nİkğ 	ËWœ`Zg#ôÜÅŞ	²àÓãÎûLKä³-üÏZ€ÊTëI°âğÖÛi¼hÑ·¸ÀEÍŸûûìpŠ…’ç…*dÆALşx6/Ê<´¤ÎEQ×XúAÚÜ×”—®Ö–L/C¦”1€-g/#ª»CÚ^6zò­Î1İÊ”Y¾ÚU+lÛÚ5]”!{r›³ä"²B/İô`ÏÉ€ ``46ç õ‘İĞ¿G6œ¨,3Çq-İØ4b]¢™†ÔO£œ¶bİ^Ö8„D€hSb¦æG¼©‡ÙÇt¬P Ôj«ˆge76?ô—f56?ú«	ñÆH3=PšvS ×Ñ™ùVƒM“YÌÂ¥ò­ÒÊ\ÊÊ'°SJİ\ZÜoì)Ú·íl‡-ªØÔÆ7Ía	HXRÙäÏ®Äùé•&KWJ?!f‡½6ÉÄ)>ñá‰æ÷K3CÒ£‘‘'ü£‰CUn-¡†F#>©‰5”n®o8ş÷^Jöğƒ®ºxÕ‡×Zİ2ı»Õz¯î^^²×Ü„øØAÒ´,L™#k~‚a‡I¼G"Ú(‘â¡kz*1=•LOãÓ3¡†é9%,Ó!jMléqücz(?ÿ2~¯é%‰WûÇL—µ¸öš¡ïø“xDÓƒ%h]—µkx"1;‘ŒNb“ƒ0Ãà,´en"¦1DöGÿ1Æ†pƒš¹üNS£O‹§ùƒ¦ÆÊ<{MÈÏ÷ı|‡IÛ+ÇÌ ^ÍU˜%ÉGş?q”Z¥µ¡VfKt!¯B©Î»ŸĞ%¬~±j†ûïæšÔóÌŠKÓŞ–F-aŸİÇÊ´é±ÏM÷AÌc2¼o{¡FÓu+ı¬<cEøå£ˆ1*Ù§Fµ_Œ^&U¹¡Ñ§{,®ôUÊ…,Z1¶Í¡T"œbÿFmg\›1iùWv½¹3(g˜®}^DyoI;Ô¸\÷éé¯pq­Røâs\ÉÁÈàÂ0tOS•:ÏC ÌÖæNÇ5¼‡ck%îo@¼çx$Ğ1´›sí‹ºo‹ŞÍFıİİkÔß{Ÿ¬Ñß….¥}Ô¶¥š;\ZOù†ÿ†È¾ş ©›è$Œü*éN»è¬ßâ›1ûU¦×)!Lù>³ZÅ<ÅËœO@_m¼B.¯¸LF}œWoÁÒšˆÅ°Ë>,ãl³îÛìc›–M+™ÒZ´gùx&ŞÇfïÿ ¾™ı´€‚9«ïlájÉ¦ô@.y{z Ïš6&Ib”êSIÚ€TP—LS;ÊŠÏaZ—UZ¾vƒıñ˜Óñ<ÒU÷cÏnÓîçöy@­Ë¨ÀÔ½L¶‰œ Äëò"s€0BB“w•ÈóÌ!ò.	M: /r‡*À4'¡aoá¸!dtÂ=I´ÿ-ù|Îİñr½)µ\Ó}jPŠ•I@2	JH¤0üQœòwƒ,NgOKúDoß‡Î'‰™O¤è|9A‰!İùü:B;ŸK¾¿óùõw>—ş@×èÓÚùœ†:ŸiHçÛ¬.(‹á7°»rÖ‹a¸m/“ıÓ2±j_$„.ƒ
+Ô°LZ‘IPT"mDÅéb±I[N›§Å|sû†<ôôBIÌì…"uD/T÷õ0bˆ€G÷B¿Ğ^è’ïï…~}ã½Ğ¥?ĞGú4‡öB§†¡^hÚÒÇö«Êbş^ŞótÁ}9;—‹Õş)%šÔ-û(ƒıÅÓ%Œ0ùaÖæñ>J—¶ç[mÈ>¹½¿ê®ÆÈ˜ı¬KÑÉøUH‡†-¿Ñ}>Ú«,ªı]
+S!Ş™,²vëíC&á¡ôŠõ1&lwQÆßu¬§'q=D$]ØUSJfó•AêP&È$(!‘6ÂœGqJ“Í:¶'ÚéòiÏnß‡^%‰™K¤è[êÖ(FğèNæ×ÚÕ\òı½Í¯o¼Ï¹ôzGŸæĞÎçÔ0ÔÿL;ÀÖp#û½’Åü½Ğ|Á7ít³œ/Ó^Ìs‰kt—Õ<ÅXê²¤1#˜L6óhf»x’Ì6³åí[1Ğ·ÂIYû',qÌö‰¸ˆ‹Pr¥:~ïÄ£|çÄ¦=°qâQ°gÛÄ&>´§áÕ¾gb‘Ü2zG@Œ2x«³ÉRşÎ–gÅ¯ÎƒóæŠÏÚywŞc“d&ê7CJ]Â{cŒô>7ö…=Œ!`pìo`$€aó˜7@I=dMV‹ÍÊÙ`¿)­ó¬@†=´’Ñİ	ãhtqÙ_¯×şìXi÷¯ütõ²­öop^”¯wÎ|s6É?~ò–}k ñ·Æâ|x6vú~—W˜Ï nÏ0.á\öç¬ı¢±ÆYxÚP_ŞşÒ¶e2ÍÓ$¥Wù½"Â®¸‰LvA,èÚNjëÒ†èÏæõ†Yq7¯’2ÏIÕè{ÜÆdr‡6ï¶5š).—¯7vİ¸ÃU¯jé&®îG~¡ìÈyÇá|Ù°ûu–¬œì¼[˜š¶}g_"Í›4´zó|/òË¥ùêğ¢ïƒ&sŠ!nj:‚º¶¦*ÖGÎ Î´¸xW³k¨âådy¶:¢hf1ºWöy}u|&n$[Ÿ®­Ğ¦öÃëïwÊÜ<«¶ú®ÃÛ®7¯çª+H5>‡²/§#îÂòSnİf–·ÎôõÀ,5Á·®å™w8ØÀaš½d)­¯à!H¡S‡İ·…+¿o~Î³gây:w.GçïÄïËö4öH|9{1ŞaAú[$Çœ¬ºÔŸz_Şµë“‰]ÊÀ¹ÑÙKáäGÌı|÷YÍzŞt–‡; °ç=õŒ%†¶pÌÕYcD=ˆU]³tûŸÿÇßº¬ÈüÃ¿gI]6å¡]¥Eû-s?HŞĞO7{AÇAÓÙqñ™#û!ÁAŒõ<¹¦P'Jºn:Ğ£zçDÈ³üı½¨k÷‡øÙMwğ<U´S§Œ,°ÙD70ÙrôˆäRÜ¿NÂ‚¼ìI=euŠ³L""PàIvèDíhÊ7êJn+3yïª`jR'tİ(T½ÇÌDmâmúAÁôÀ}–sÓ3h8™–Ó»ÆÆ|ÆsTdSs¬1gwjob˜TàÒ¡ådóT°6Ä
+ÙÙ<®x±RN>KŠÉı uÁÌiáfáP¢€løÙ’µNtôè_ÑR Ë<é)uÊÕR[–ùÔfîÒÊlT:<Úm+^€€Á„Ü³AÎx@2D]”í0ÖÕ'¢ñ{
+üéŠî˜@‚øYÖ1c?òÎÊÛ²â]±agV¦S³®È•ƒaÕöÀACºfú2òl~<`FèŒ**Ô`P{K*vÏÆJX¢ùFª5xYQ½Sâ£TgØb“‡<Ï|Œ±¡æ•Ü'û©ø'·C²Û±ıdØ”Å|r~fòğıGjíc@ïˆŞ³é)'0ÈÂš³L¡rñ&“`Ğ¶±ç §6=4¢@P¹ù¼×=ù'Ï–®­YªT¿ó>Aâe’…ï=pÛÛ!¹£ÚÑOÇë>YÌØº%y¹1âõvöì¡ÇİxG¯EõÖ;~t,VúüÏàø68ÂÂR‹Kşf^%Û'îó -'úvúrœ’+³ûİ”«FXÿ?/M›2šš{¿p€à›Á9ùZ^Z±ğÔ_|ØÖñ¶¡©IKQÊÎhfæX7ymÖÃ’ş
+À¤úŠg8Ş\óéµŞÏ)i‰Ğ´øHĞ|a%ŸİKrãÀ}“äZeã÷+¢OêÚ„
+ÎÂç_@rMúu¨˜ ÁsDîeº|é€`Ú®Ó$Î¾œAú'¹mÚé”Ã¬åwãâaŞƒq›0ˆ6d(`Œ‡//ÊålTòæ‹NÓ+´OP#‹Ø"ƒq€ô—T¿¹u¹æfCì*IÖ=˜QÆ6ªC¡˜<|yQ#ÍÇ[¿-xÄÓƒ¾ÓØ†Dæb>ÌeúW×["GÌ¸œJï-cÅ­xd=,	éĞ?¾øŠP½Eåíıôƒóº÷qñx¢#ó"¼:aÚ¼#rºÂG-?;AN™8ä° ½ ;Êµ|ĞĞoFFT}×®½ÙÖÜXÌ<‡`i; ¶V .ÚŞO·İ8H® |ë¥»7Äzåê„Ë÷+.¯\š¾\¤•#Å0;¨'gOÙg6%Úƒ»‡}ò³_‰°IäêÜúõRÈñÇ6]¯V~2BóÄ·4Ïıó­z»QaıAóDdR+øŠÂ:?ÃÊ<çÙP(b‰{&ƒA‹Í±)ø2g¨¿{ ®N’Ç
+ŒÓ	N®YcßÑüèÅ8#0 FT’¾ÕãÓÍó‚zA^¦ßîÔÅsv>^õ­2iKöÍÕûV{öHÂ:C‚ç¾ÛS&*¡ÏÄì=îòˆ×-¬Ú¸
+®ö•ğÿØ-§{°T P7Ï0®n*'ìH\Ÿï:aI×Çq“c°_ô>Øğ°ßgñÑê3µï ´æÀ“'H˜Tácz{¬÷H…§ÈŸŞ×ß¨è6
+­Å8óm_û]Ëò!l+óâ` ?»> ÃgÒÛåÇô¹?¸ÑfaW(8/U–çÖÈdfè¶Úº“ˆÏyvµÎõš «qN2l‘›éœôøã•6-I~Å{«Î,‹gÛíOT¾Ñâ6<(<:üCÀ}=t‡¢ñııbLŸøo= üD;}KöSqJ=`6­Haßf00böïNx¶…Ú_~ù.ÆÏ÷aqu°¾¥ûˆ;òÙ7<ˆŒtÃ§ÅQT0~ªŠê²ˆu²céœì°é|ÉšlŸÓáW9Á!O|ú7§6âç;fËåDş?Œ½Ñsq´Ó\veF¿0:<L²ñR#¬£O“ØÜ8Wv˜	ÿ);Weİ’¢İaj½ü VB;;$Qàf«mË*°ª“·ü¡ˆ~Œy:·ßæœo†÷0Ó_Q·,R/Dğ ¯Z/-¢êíÌ¶¬3Z´|™“"mRQmß’Y±P‘İXF²‚ÖÏf§èœé!¿d©?ÿÙåÆWpò®p¡ÿ+pYó¢›kŸWã–“u¼ŠÃP³?L¸vŠÚ}(ß86obÍ­ûƒ‡²>ócNZ:OùY·OêFœ/¿/s¸ÁÂÕ8×oŠÛCRcö—A"Ó”Ä¾&E
+w- ûU{YK±—Õ÷™¿6É‚ùŒNóïy
+õYÛv`¸ nü&ìêvNÅ°<¡é9ÀÏ¬MÉc#¿ÉĞ“şLL]°O?÷_ì¹7Æ«Ñ$÷”½‘„YRÓnn„]ÍôÓ+îw°Ø©M“û¬	›Ï”÷¡cÊªê)È‹|Åuvv9U›¬"[ìÓÂXÅ‘ûĞSlQŸáM>È®éö±Xó²(êÜSUlÂcD·î7®ôû§E>™X&C¨À¹‚e|•grg–Ìı5^½cDo1kìèÇ:;É ÚÈ°¹uålÛ‚">Xû'~c["Æf‰+„7œà·'wF1¢ìJ”f™¶ò[y`(íMÊú|u>_ôqSÏ ç´ÃëßrûİkÉ·[õ’1'(ëó7{¤Â¥ùÎG*‚>Rá#‚>R1Ì>	ú¡ŞG*|Ez©0Š<ôH…AA¼M`RıæT¸UÊG*ĞŠ=T Tó'8ÅÇ©0hİñHÅ ‹vº™³A;bLeƒ!è4p„Ü­ƒ¾5Õã®œİÛ¾ÇUXÉ¿u½cß_ãU>~v_NÜõéËiwÁ!ÖsóV°Uê­1J-ÜRÆìš¾µyÈ¨ù	¹ŸİE„ÚH4xg`…‰D·—ûÇOİ4oİıØ¥­…•uÁ´fu8ÆüzÌ>ÔŸ:ÀÈ1É`MMãîÀ´Ä:âÑ÷šÁ˜–täÌƒ¨ö|°GLôÛ£ÃnŒÃáÒwj…ò|È.Œ{E28ÿà/0À«±ÜFbäÒKq·øÓÓ“·¸³j˜3»«[3Áƒs<˜1j4NıŒ1µAGTÓ³×¹G¯Hï+ûÍ†¼QcÃ@ÑGÛ÷GO%ã†–ÁÂ7òáAÈÛVvƒz„Qê0ŠWø²ˆV—²ûHÚa½ù¶½úI
+ù(£ÂEk{ÃE@³â…ÖÉt6›YóŸè©û±‹ÏP Õ^3|+lZ¾Éë›üø°ÍÀ'?·Ÿüô¢F0x×ù£#ğM~pc¸ô;‹ÅâA»À&?°‡ãx˜üÓïü°€ÀâÎäÇ “Ÿ8ê~úÕiM~z0cÔˆM~zMmpòƒTãs]Ö†ş]ã[Ïwqû‘Şrß4í.ÃÚ;M{Ï€5všvÑGÛ÷Ç»ñÓ´G
+?ÜÈ‡‡Ko[}s*gNÓĞQ«ošæ€|bÀg8½õİ3M»›{¦iX,·p_S’&õå¼Wß£¬ÏQğHàˆ ¸,€)úªª
+ …›òæsm÷ôPÖê 2´¤ñÇ_¢ˆDò¼%4€Š³‚„è}ñÖ¼ÕÄ m5=·UVn×SÍ„¦"ı‘½ğª»X‘8EüÖ±Ñg}wC¬–WĞìV™¬…Ø½³îÆr¢ñ˜Õ€»j qğ`"·V=`ºšÄsˆ¼ˆÀsKËÖğvHjWšµêÉÆZeåMÓR€…^QB_&”`…Ê¹M4²°†˜ ¤5ĞÁâé½d‘‹cîø!o¢ZÚæGg0i|<¸ïÒòwg$ßîO°—®zûğ
+­Û×İìŞìVmgu7gW†<Í¡'HKªG„n~Ÿç½"œ£u{Eèd÷ŠĞ­ÚÎfuëƒJ¸“tƒI8W• ÷—,C´ƒÿÎ˜î}©iù¾î(Ø-Uók˜—)÷ß!æ…Ã‚¾µºEüOÖ(pLH«š¾då¥T(ÄOG	€5T™IfKœÊÍ`µ<0lİB~àÁT•RR8£ç \uÿ™Ó3èQëåG#TÉÚªDÅ­7¬k8‚Ê4”?»c¨<œ-éùF8×BJò¯qñòÍ'‘Dû·ô\µ_­k@,,§8âÌ÷äA ç»1›Â ŸO5=È•šåÛ)âß{%9ä1hËñ8¬Z3Ë»AÅµ–ä×o%{ì…S‡Ukfùªå¯øJrö3 ²Nö4$a‚to#Ùû¥’òB¢´,ö
+…Ãê4³¼÷ùÙKÊBœ§áä„‚=fÂP;‚9¾:ùëv7ñà~ÖJ?ËÏºÏ«·`í úƒ†¬oÙ>]aówjŞî¾NÍO¼H¤q¬I>9u#¢9
+ñ¿…HÈü-?Ò—µô,çåœ(¼¬fóÏ÷¼ñm^i–Eá"Mşy9ïË¶qªæîñ –Ä‰gÅ‰Ö¶`¾T‘Nñüâ«A BíiÖÍŠYlÙÛ,Š@ñçS'K²÷,»Ÿ¼!¡›Š„›¬ª"W+F±Øƒn’šÒ‚ßírO19åçüŸÜCĞ6ÍG4¯²ÁW’¸êV‘É³+l-¾Õœ„kO—ó¾ YîyCÄ=Ş5³oÀOáà3Hà•-’çA8ã/lM³bZ^Zë.ÑŸıœıg ã›€#ağ>‚¾mNt!Õíu
+Ÿ›”{›P9g]˜Šmo+4;øqˆä´n¯ğÂÑ½—±}0F58-Ì£VÇä şûääºë|,ï¹šˆ_.Îy`ù\Ù¯ç	ÂiÖœ³†Mf'fR¶wBÃÏñ‚A˜äeƒ•9¾¿ó`â (]0	¨YTK²^Í±Iuz8D©}L0]ÑM²²HèP•lèl?·¡Pşrïi¿\tNœçÀ÷Ùçñ:zÂŸŞ¥éamñ¶OèÓ!†tpÆÈŠÆÔ¨åj±œ­6e½uıDVé|Éá‰Î-Æ„î“Ä"…óvXÓx¿´¡{«Õ2ÖB3_&›Åb1Ã¸›¥Ôy±¼ã-MJ8st±ß$‘…Dx{ZÌ—óÅí/r<ü•~=ÔäL› ªËcM›fºg—Eë¬¢ÍõP—g8·SÆ½`kú[[¢¹Qİn™–¿+ùß‘v()^Á­)l4råûî1t“ÆyvÏ{QÆEjşÙ×|'µz,’Åfê‰Ä;Ó³0ÏÌÚ»IÛÓ¼)¸Ác¼]8‰8sÖ° \¡omZ™Ş 7nEi`Hr"––º·Ş$üÓ©zìm±Léq‚Ü\Z~
+fËàJ¿—ÑGOIÎÚ¢aııÉ½ì:-ÿ7dúy‘Ç@Yc#Ñ"2÷'Ím’b×g‘r*(ë#EvæëAl„fòŞ +Y‘µ¬ßÜ_èîæøô3©32}!ù…åëOâ_&½€Ù‡/W½
+šRÂğ‘ƒ‡ï>p|ô%"Sƒ[Zı£FàßãÍ¿Ç‡cËîö4ŒÎ.ıo‹û·ÅYÜğ¾ö€Ñ!şmwÿ¶»!»ü°1`vnù[İ¿­±:¶+?áÿL÷eúõjoüV–çml"ş}eY€°g^Åó¼rÿOš´vHw¢$íL9%ˆMù™¿‰Íb”˜W›#Ã£”·5fšgMkŸñpÎpèLı‘ày ë“Ôı±İ‘ß÷`´8óâÜÂºé´iºwÂíĞ`S†C'­Šä77ãüùl~ãÁ¿8Ú:Ñ×	İÌÀNP¦>-8¥ô¡
+[øöıÅ±TÙ.›ÓVuveâÍQ_¶}ùÎi=ÏwH¯„†xz¤ cvH'ê£Ãx–;5ÜÏï@)³Îµ9ü³µK˜§û*r{ÎŸŞyà¯à­A~ï/Ö¯j_1oçæLòüA&
+÷³Ú_Ø_,|Ç¥Xæ¥‡ú“¯x¿èç»·ÌˆDcšÜÎtç'Gw(Ç	øqc'/ŸïPùæÅio{"öµÔKF2C€!vÌq§w´‘¼š÷B¹<òw|‹Eé–ö€WWWÚ+–i*Ê×†dAçdÁhøµr{¹¸G?‚ES?\zíû¾J#ÍC	øq+JğJIæò·‡fIâ¯Æ¯10ÄÎz“¼zòtÈßõ¹i&VŞ{\i¼¼WH"Û·-tŸ$¨Ê8¿ÆŒü^îĞ—dÔĞ—¤W`=qû–ÈJÉŞ&3Ş<¾…)œÈƒ³hü³÷pö‰Ò­Oú‘ùyÜó-	x’KfHi¹Ëè1Á?‡¯¦`wG¬ºÑ—WDHk>ÅËµY›Ó>ıFğÃÊ=[È¨ÛíVæ¡,[hˆeà@‡My.kà&r‰§ ù3ÜEqÎ¹9g¹ºÇwÎk´¸õáôì‹øïm³
+£~½MâVï¾9fe¬À¥q~î“ªokHªcÌgÓ®0°h~Ë#Â¿¦5mª²hØÙl3ŸS•7D®×BX®ù†¬§óíH§ÜˆKi½:v>·ÀÍ”Ú°¿6ıŒ¿¯³\7¨ş¿§;Û~úƒdÜSÏmÿFßWOù¿ÓÄá›Á¿£…ûª¹Ûğ¾¿ï¨æn³ûCäë¯æn£ûCä{Bœéˆá{oğ`»T_$âñ#›ªh/L¨áDbì¨ÜÇù{ê0JuÓß›ÕÇë¸§Å#ÇáwIµÏkÜÑâoÂê=u\7K~o|G÷ÙØû}¸Šû,ìw—hs¸Ë¾~w‰b^¡'ÜXtøŒ.T@àóê];›}cŒ+›Ü[Â\¼šNyõ‹ØÊ§N}„øìá¹­ŸGCĞğN ïªoï¬ê]õ"€ˆcœ³| "GëE Ç£õá¤ÕË§?†­uÄ€óXyÔÔªmLyÔĞªmLyÔÌŞ'Éò¨‘½O’£j&ö>I¦ˆÏ‘¯eÖäl?G4×7ŠÀ {§÷¶Ï&0ÀŞ=õáÜGËê‡3“GÄÛWŞ1½‡kS¾Ÿ·GDÛW¾Ÿ·{jCËèÌêğ“ªú5ƒùúÉÍaÓ.õÙ,¬®ÿ»Hõ!oŠıìì¾ƒmCSZ“¢óYÀS3ÇÙHÅèù’¦Š……€gK8úçàw°±4G
+q4½ÀP#™ÂÃŸ£„pc|™OıÖTŒ,O`J€ñˆøã‡}dï”ò’Á=‘€PB
+ÚäN]‚Dc_Ÿ9?U£ò½F=‚¤%nÉšçÌ˜‡ÖÃ¦m0Èo ¢á<4À'ë‡¢„xÉŞ)èAz¶”S“_¡GEl²¦î»¡±IŒGĞE=é£|§¬Ç´kÁšçÀ–‡Ö£7”W½Ğp+â‘÷cq\zß)îmiÆ<Ç­pR
+[²GÏ{šÂIâĞıqøJÂ‹ì+.ÑÀIaÇ5&.0cc–€¤‹;WŠk²oÊüÒò˜Nİ¬Tã7œtä6#ÂŠ	Û¸œÇ«ı×ÍÕŠÛ¶\…³åÇ1Åû¯s»ôº+úJóœEA€¡]Ôy§'ØWÿ¬N7é¼û¹?ÎÍÀQ·(oWÀlç_—²E4»¢J†—ŸæúDÜlá¼±Ï¢õ1\s6¢§™0¶1Îc€ûW}Q½Q,£H„K6üE›'²¼¥õ–äÕ‰üPV$ÉÚ¯?Í¢O;ñû6œ	>äUş‡qòRÕĞ4¯l	+[Şö—¶-Ñt{¤ª(©I‘ˆ˜º?[5hÛF\5Ë”äÓ²¢…}»RäénÉÃ}R> l÷Myå'–ÑÆët‚8É&Èôi“ÔewÜ·å%9íÊKÛ©M1HJÁpš‘¼<^‘EF"y.¢º±å_.€|”ìŠ80'-§?D“élùq}ÚÁ:<|)€¬èk>R>¨?ê«<Ò5Où4Ü”ÂŞ¤*UÊWñ$¹Á¤ëŒÀsÓâ*­¸ÿÊŠ‰GErøq`$îO’gÕVÏæëä9£ìf³qSá˜6ûä^Ú^ñÇóê-ØXc«}àÇHÁtHë²z´G."ì¤(²é³vEÇ$0$¹Å²/dd¢˜x¤8Ëx.æĞ_ö˜şÅÏ¶¨Éè`kj:Ó–Ï8;çĞeTÕ,vºÛ±Aó¼7‡Úçš;¾A7î¡ğ½+³œ{2ès^·Ÿ_gªuàO‰­-›„z²+Ã<ûgıëÕzÂ—àôÔÓ3%Í¥¦Ût³Ùt›wóe7ÅR^Ñü8½‡Ãa„g­"#™
+àˆ#‡´.ÅióŞè)È·òçØóú›ÍğK¾7¶e™·Y…HN÷ÓudM×{bÆáb÷’5Ù>Ë»îÅ~Í)>¡0;¯àÄÛk7°×n4¾-+ãe”Lõlz&¡<Îùz”¨Z‚¹ûI`eÁOØ`cšfÌçYdÇA
+À8ò‚|7ßCöĞ%#¤®ËWDõV¼ÈÈœL#wCx$6„Š	¬ªL_°Œ>šRã«è«<z`\7€ÔÅhTø.úÌzì
+T…ıÑâÎPêì[Fôqg†Ò`†ím‹Q?ÃƒÕ‡IKV']÷`}‘¬q Õqé`6§2só©5	Xç7¨Â«79z¨’ª¬Ø‹†¾-g.µ²V7`tY¯àÆœ
+ğğ°Æ;	õ™äØÌ–½â}÷ÌÖïN#ËSÎ0wê‚”À™7fÏ2×(GæŸCıù0˜ Á|1!4^ÔáòÍokWaaï*<á;9ëî§g»ï~,™«a%Ğ¦©—Ezk„q«Ï!ëëï-9´¨e›sŒ÷ù ³Jëb\ì2)˜RïG~0»¬©Å¶¬4aˆ½½ˆc,Ëüõš¤V¹üdú™Ãˆà_ësçX™~3ø€ğšóUÇ¬_¶ÜpM¼‘F¿­6œh7L÷´œù“^FÌ–ó–ò‰7Ù`4¯‰“…m¾GÕÒ†ÑqÂÈ°$ááE4[¬ŞÆk»—%şŒU¶²ÅS#´mÕç á ÙÛlÀ‡h´c¦ç\ŞòÂZœº¼4Ø[\:OLÚ}{GlÃßÙ¯4?‡±ÎŒ(Ã`¿O*¯Ìi›û†(d ç?`‚æğ·L'ãÒašìô‚E²±S«š¾Ø±ípŠW¹ö¿ƒ°oöÚAÉ]…kÇòaÙÏ|˜ÑâL‰9„¯5¼±|¢ĞW‹Àb®ëu™ßûk	_~Àı\a¿K°ú4êk‚Ã8Áè œLàæI	QÅŸ‚NJã"f¾—¢`TÓcô'lIÒ–Õ„/ºßuyşÁ¬éÓ¤-pêú4"lf[ŒòxÖ…zªº<féö?ÿ¿utÿ!7áÃ¿gI]6å¡UMKêö¯]4mıÓ÷ß=EüßOZ¤ #ÒÿUşÇ×Šş©iEI»åÿLß[àf.—¥êÑ$¿Ô•ÉÙRz‡yÜIñæÁmÁ¶åãæÑËúûÍ#ò™ÇÓ·1õÁÓN÷`·Q}@ûv-A˜%e1íÆv—‘iù(•yÌ¿V'†HNô¥.ùnRlf¢Ã{7W“{Ëş¸şíÀY½z&Âl½ônaÀnê³Ğ¾JÕq•{¯úk |îG-ş¹;<s–İ6´Î½un÷ôPÖT­$¿ÿeÍ7ß÷
+-C¾7œ~š%¤-ëQ¸\ôEp]¢v†–;ù¡âãÌ+v¨£cŞjFXr_nÂ%|$ƒ%j'ªc´hÙWšnºá;' öÇ‚_6n¼¢OÈVXëzb-’sNÑ‚hÁîÇxÂj]ËÇ÷¥‰5ÌòãÎx‘Mä–@}êH³Hx|Ç8²óîIšË4ûw…e™Œz›òwé¼ylOŸ;œ;=İ|	tîZÆ·B±fm÷-Çîotâ˜ÉáĞ"-L¯C›Ø©™a <ºŠ5ğºÆ-LrJêCö&†«‰N`ËòI˜æÓSYg¿•EKò MĞÉÔ“¤š¤J±!ÓC~ÉR(Ò¼._DmLÂn¦Yà	<ü”„÷a™}Û™K™ï‰æ¦%Ÿ~ÖiFA?J*È‹*Ğı®“!âO#Sœ@°02Õ„Ê6X¥8{^ø_*Kù*I€à‡~3ùô&ì²Ü×¹ÛœcZC3ÂH¥l FSu¨®<Z1¤ïÊ®ØÎî„µİ—íér_ S˜[í#^§…ï€cÊÎUY·¤hoàµıò Ì?e)5^Ì†™Í©|5¹‚¹Y!Î\ÁÑ¹ÉÆ<#ŞßÛèÇ( ;÷+íÈ^ Sçy5Æw?mr8doöá¨ßÿˆÜ_¦çfú’Ñ×áüRú’%”{é[(¤9}k&ê÷æ¬?§ú÷üèUš&ÃÍjSøLI²±ÍI±K«${N‘»´J²±ùI±K«$«óXâPGoÔ—×õjÍfCZ^g#d·¶öæMëò:Aí¶©¿\BóÅ?6|ÜMƒÓZ2<HÅb&¢­™ª˜¿ªz6›Ø¨§9Ô :³óükÎPcN9¯ÆînÕh=ŞOy¼v¥ı°ÎùQ8»8îÖ ¢s:Ré è(İÎó+ıœB¥;å†•>ºY÷k}<éÔ~/ñ‡õ³v€$ğiı@GÃv_ÃùjØ)7¬a¤÷ë#ò€ÖüdîÕ3ºóôT–‹½{ìÁH:LqÀ,IĞO‡I*™‰Âş9•TUuV´sñé·lë7’í·o†&•¶­ÜšZaÍêÚ2ø;êì*(şñv=Ò§!ae½tûÿ  ÿÿ{Y3,Î« ‹      ÿŒuLİá³æ¿¸;‡ààîîîNqw÷âÅ]î.Åİ‹»(ÅJB[|³¿»ÙMîıg?É›73óÌÌ“qU U €`xàƒ ü0  àeuà¿óş„»÷Šÿ^ z@Pôu@P ¤ 5@ĞÀ€<`86€`¸ ¶€'  ˜€&`ØŞ€`x  àèÖ€à	Ø®€ 8 V€`8 !@ı?“ş+úY;Àğ,ÿ£÷ù¿¬ ÀÎ€9àXÿGc°şg¿À	°<ÿyü À	  Àÿÿíü?|€¤–Üÿ¸àÓğø < ‹îÜyÜ¤ÙúÇ);%wÅÏ¾T:‚Ìl™ÜFyÛ Lt'û¥­ï·1Ó¹Xˆ2Ê²*mäã!ø§ºô¶Ë‰ÈI¾ß1y(±£j5Nr±¨‰†IM|¶Š³-·2úÇyh(mEä6ñQ£øA|ó!YÑ³J%µòCTO…DøBÁ62±Ãc=«Ûğ±™c,£Ô­÷z->´ÈÙèJÆà§¼ƒAŸ±1=é?íN’$ñ¶±†læ8]äihœƒN™2ïÍEÓˆœG¿ÿ¶œíu*#qˆ_1¢)Rü1å¤u$ÛO$*!Êİ)AzÓ6/şBªœÉ;¦…{iBôIå½â’†=”Ù¼ê_¸¾Ê¡bGËà##L>*~dóL­å®¡¹ˆÛÚÍ!-;‹6%ß
+"²¼QcávR_4—Ö#4†s/÷òˆ·ô˜‡¼1Q£V;¯ı‹¹•7ÉƒîPÙ‰ÃWutü\úJ¢¾«±=²S±Pz x8ˆxTÄ´˜ Œ…3‹Ù¡4=?ÍäF¹ë­êFyW³ÆÛÿe¹æR©iõïBÍq	%ñá•c-ƒb «TK,§¶À^«/¤|ÖÊ^WúÇ'°EF¾1bz½ôc<»çŒºô@ií’/ìlXvC•‘3Ë~9gúóI°X·kQOØpÁé†CªRM¼‡Šû‡œuwa¾WÎ®´á›»cNUê°"¸´DE›÷;Ø²íÕ1ÖüÉ¹¦Í…ˆÔ½û—3ûá›´âØ¬ÏÓ¯ÊÂù¡÷¥uÙSŸPú0­$zDØƒe…¨ï²Ø9ûˆJ_çœ…åñÚĞÆş.¸ª´èÌ‚<C>|@£J]J ãoÅŸAöÅÏbŠÚœŞÙú‰xílF…>6É¢€`ö[ô”j†èXs%2^’^ô7œ†u‹¾µmÜQ~Z%+Ü³iC­2HiEÀ_³×;Tªlõ<]s2‡V2‡#æ,ú }é‡i("&¢”é—pœ˜üº îöb¹ªgsTâÔG¯ÒiŸ»Q¹ÙªòîÃævÈ‘n+
+~:»Ú²jÃÌ–!Ækn¸5\®b.VšCÍ¡~æ—€˜›o²hËğ¡c}† VxºGÙ (C‚23ëC-Œ-®yI–Oûå_ïÃA¾,^á¹P]{‡,UÃ2œV~¸bQ)>eh~2-×GŞD9á’ :\µÚ°‡N	ÁšãÖ¸T¥¨dºT‘GÅè›äx¸”³mšÊ*ª…xí×+Ê49Ê<xKMØ~;n«tl¯bRÉ×¹¦N÷ç«jI1	·¦/.b\±¤ÖFjúÅ®¡€N˜JÂ¥åìÈÕ	ˆ’­}ÜÚá («ÅÍjòP­ÀøÅí¡™=»Õy5sûğÛßwjhyÃyäÖË;µJ¨?Á ¥`%_­H‹]eMI(v²	®òe¦V<˜”õ©À×G\"
+İA/ƒö;ŞàÈ×Í¸î°ÇdËfÎ önÖ,¹–àÂìC¿â¹aêbpò»Ë@VÅ<K	P;]Xœ@ã°ÌàÉVGAOâeS®Àl¿†p]…¾G±
+LP5:ÑÂğo‹7kĞ¥aˆ5‡’Ïï»«ñ;ÉE«Y§ç;8(9€HÁ´U‹«Ïïï]Èxd¨±Ø?Ë ß-1çÉ1pJe‰.¿Éú6'ÊŸæ¨aLBùKıK­ocÖyqšE¸`ßÂà–reÿ-êÉ_¸ı¦ÕŸ4úø»QwEÅtZıÌKİ0¼ûªî½#Ê¿²ÆÛH¾@8¨æbS9ñxmÿO¬€å¡{6ˆ|ù\˜(„|8ßa£»Ÿr%gm”’‹Vö{ ÊÍ~	¦&5@Mæ~Ö…:’VCWA^YˆøPHÊ©E¨éøWúo{X—^«¨p »PFÛåfLÏO©àËÜåO¿{f¦Ä®&‰Ô»ƒ¨Ú¶h6V¼½x²zãÎ(Û"óúFŞà!”Å-I~*cÚË¢!·t(Hj;^îˆğæHb&ÿŠÈÈdœóÀ»--R›XéZ,.òèzş¹§wRë{…`]E:¢¤İwÜ$•nO4yVĞMÄåXH}d¬6“Í0j±`Jæ”/}à¬aû#ÀMFüÃºk;ú5jÚ2¦y´šê‘ÆáÁà^,ß‘à’A¹Áj¼1Méö~ã¬¤¿¹¬oÂtµÅ¡é\QË.c'1	âC:7Ö–Ø0¶C‘xvÆgºš+u|şûáŸr°me3EÂr1²éÜsrÛyãïÎ²„Ëv–c=ã ş4Ü“»§ëQ%‹b)ÔT¥U¨¡/ÂìŒì)¬°\ˆ¬·ªCS¼²¶ˆÌ¸uWVÑº±w»;pé>Ü2ÏM·„¶Èİ€†ŞËò" i¯sv)¢‚2¥Ôõ şû… kİp•¾OMë!Ÿ3>›Á ê¢úÌÏNÎø®?˜	/Lh·Ğzpˆ¬\!_ç?SÀEè–¼qK›“Js~'ñ}õzÇÂ®1 o&‘¤äÚG‚°Õ|Ò³P­,äÿØŸgæÓ¨nÁ²ÆâX•H¸ƒƒ=£õ”¼´û¨ˆr,„ñMX©³g]ál^g!äRM¿&|'¹q„ò¥–€/·¾hé@µÈ2³ñIÕØªZúòèz¼•4)XœWÇéMC$uû"ª™c4÷•Ö›´Mdàm‹—ğ> qœ›ÙÌ„¿th	És˜¼Á¡Ÿ~ş|Èˆ°¨é!Œ8ó@‚SŠ—¿ÅñhÉFÿ`L9ƒû”ü÷æ36N?ÚÉP!r\Ÿ¦@¨t»Ä@‰><
+j•Ÿ\ñ¦:#T„iCH•	P'E])Fìjñ½rZMî¢§Bè±8Œ–ûıl:ä»U:Ş&/Ã"¹Ÿ^bfdJPköÕMÑ‹·ß•zPûv†uyK)”4ıÚzIz´·J—zFLIÒJ‡Ó)üL¿ßƒÅÇ#İ†
+³X{`ÕF!2Ö&jeĞÏNäõkÏ¡¢Ä6yÒ‡ó+Ëhš/T…Š~ÏEÈüÌkxş¦Äü3ıÏİpGLDL>D®¿ğ8(35Éâ]õœ=¸‹“ÜUkjŸ@±¬DíŠyœ /m®i²ú™Ëë]!Ó4rú)Ãò-H,î¿úó$´»1éÍ.<¿­“³\eÇ‰:{Íq‰¤­ÍíÜ¨4>äu¦Ànè»Vf¨…Á‚K¹]KúÓİ¾x’³§T¨É ê3X 7òûN²ß™øu˜êyYŒ•~¹!jx…Ò¶!Â¤h¹8[´€¼zş•"7)«”nzø;¥ç©¥àĞ)ú P©å€ÁiF33L‡»¿#pÅšR”t¾'B¢Ø'é³&á—µtÖU¶¶²··§=l ê}øÔ9§æäuëÙÉ´½XÈƒı«"˜SxóRt8_²èîÂòÓ}z^Qo^´2R4ã~©“€A.ˆpî§P*s™¶sOÊ¡1:†Ë.hŸÅAr†~\İSB”h?¡}TìˆÜ9‘Xœ6æÄŠÓØÛTê‚!h¼9Õ\t|F)òØ<{_ßTµ¼P‚Â^À'ĞD¡O¸Êù¸¬mİ^„VSOî°×„aØŸ’`R#\ñQãæcÛ®Ö¨l`àX­|¯¤üQ•dU'JíHòeÓrÄéı’&Lİ¶+óÎCõB4E]˜ø-æÉ Ú¤ëpXLòWÒ[ò„t7Ârä7»ßã¾%jœ“ AÏšFÛ :®² õâ0^bjØ·*"{Õƒ%³İ¢Û/YËK©£ÆI× ®<¨;êôıMXf.º¦WL¸¬Ô×Vı~/q¾©XVéåèÌ$ ¥Â&2µLŒØdƒ­¬–`t–&¡H(-”Óªaf¹YhBù}ŞÊçÌ1$m åØºù¸'%ÕüBA
+ó8ÊŠ<yV˜Ì¥6
+bŞ$#‘µáÂ^·<‡Ó©ÛÿÔÒÊt?IĞ1¤Œ©NL
+5vÈ€i¶ —ñ¢Í¾ÒW¼Íéd³Rû°1<ãö—‘K”0a×n,ÛÈ¸KFZY-!¸o

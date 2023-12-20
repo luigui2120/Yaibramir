@@ -1,0 +1,76 @@
+/usr/bin/systemctl
+/usr/sbin/service
+PRETTY_NAME="Kali GNU/Linux Rolling"
+NAME="Kali GNU/Linux"
+VERSION_ID="2023.4"
+VERSION="2023.4"
+VERSION_CODENAME=kali-rolling
+ID=kali
+ID_LIKE=debian
+HOME_URL="https://www.kali.org/"
+SUPPORT_URL="https://forums.kali.org/"
+BUG_REPORT_URL="https://bugs.kali.org/"
+ANSI_COLOR="1;31"
+WebHosting.sh: line 411: neofetch: command not found
+● mariadb.service - MariaDB 10.11.6 database server
+     Loaded: loaded (/lib/systemd/system/mariadb.service; disabled; preset: disabled)
+     Active: active (running) since Mon 2023-12-18 08:59:49 -05; 1h 4min ago
+       Docs: man:mariadbd(8)
+             https://mariadb.com/kb/en/library/systemd/
+    Process: 59648 ExecStartPre=/usr/bin/install -m 755 -o mysql -g root -d /var/run/mysqld (code=exited, status=0/SUCCESS)
+    Process: 59650 ExecStartPre=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exited, status=0/SUCCESS)
+    Process: 59652 ExecStartPre=/bin/sh -c [ ! -e /usr/bin/galera_recovery ] && VAR= ||   VAR=`cd /usr/bin/..; /usr/bin/galera_recovery`; [ $? -eq 0 ]   && systemctl set-environment _WSREP_START_POSITION=$VAR || exit 1 (code=exited, status=0/SUCCESS)
+    Process: 59750 ExecStartPost=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exited, status=0/SUCCESS)
+    Process: 59753 ExecStartPost=/etc/mysql/debian-start (code=exited, status=0/SUCCESS)
+   Main PID: 59713 (mariadbd)
+     Status: "Taking your SQL requests now..."
+      Tasks: 8 (limit: 28505)
+     Memory: 243.9M
+        CPU: 1.717s
+     CGroup: /system.slice/mariadb.service
+             └─59713 /usr/sbin/mariadbd
+
+Dec 18 08:59:48 luigui mariadbd[59713]: 2023-12-18  8:59:48 0 [Note] Server socket created on IP: '0.0.0.0'.
+Dec 18 08:59:48 luigui mariadbd[59713]: 2023-12-18  8:59:48 0 [Note] InnoDB: Buffer pool(s) load completed at 231218  8:59:48
+Dec 18 08:59:48 luigui mariadbd[59713]: 2023-12-18  8:59:48 0 [Note] /usr/sbin/mariadbd: ready for connections.
+Dec 18 08:59:48 luigui mariadbd[59713]: Version: '10.11.6-MariaDB-1'  socket: '/run/mysqld/mysqld.sock'  port: 3306  Debian n/a
+Dec 18 08:59:49 luigui systemd[1]: Started mariadb.service - MariaDB 10.11.6 database server.
+Dec 18 08:59:49 luigui /etc/mysql/debian-start[59755]: Upgrading MariaDB tables if necessary.
+Dec 18 08:59:49 luigui /etc/mysql/debian-start[59771]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+Dec 18 09:00:10 luigui mariadbd[59713]: 2023-12-18  9:00:10 31 [Warning] Hostname 'luigui' does not resolve to '192.168.18.232'.
+Dec 18 09:00:10 luigui mariadbd[59713]: 2023-12-18  9:00:10 31 [Note] Hostname 'luigui' has the following IP addresses:
+Dec 18 09:00:10 luigui mariadbd[59713]: 2023-12-18  9:00:10 31 [Note]  - 127.0.1.1
+
+○ dev-null.device - /dev/null
+     Loaded: loaded
+     Active: inactive (dead)
+active
+inactive
+● mariadb.service - MariaDB 10.11.6 database server
+     Loaded: loaded (/lib/systemd/system/mariadb.service; disabled; preset: disabled)
+     Active: active (running) since Mon 2023-12-18 08:59:49 -05; 1h 4min ago
+       Docs: man:mariadbd(8)
+             https://mariadb.com/kb/en/library/systemd/
+    Process: 59648 ExecStartPre=/usr/bin/install -m 755 -o mysql -g root -d /var/run/mysqld (code=exited, status=0/SUCCESS)
+    Process: 59650 ExecStartPre=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exited, status=0/SUCCESS)
+    Process: 59652 ExecStartPre=/bin/sh -c [ ! -e /usr/bin/galera_recovery ] && VAR= ||   VAR=`cd /usr/bin/..; /usr/bin/galera_recovery`; [ $? -eq 0 ]   && systemctl set-environment _WSREP_START_POSITION=$VAR || exit 1 (code=exited, status=0/SUCCESS)
+    Process: 59750 ExecStartPost=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exited, status=0/SUCCESS)
+    Process: 59753 ExecStartPost=/etc/mysql/debian-start (code=exited, status=0/SUCCESS)
+   Main PID: 59713 (mariadbd)
+     Status: "Taking your SQL requests now..."
+      Tasks: 8 (limit: 28505)
+     Memory: 243.9M
+        CPU: 1.717s
+     CGroup: /system.slice/mariadb.service
+             └─59713 /usr/sbin/mariadbd
+
+Dec 18 08:59:48 luigui mariadbd[59713]: 2023-12-18  8:59:48 0 [Note] Server socket created on IP: '0.0.0.0'.
+Dec 18 08:59:48 luigui mariadbd[59713]: 2023-12-18  8:59:48 0 [Note] InnoDB: Buffer pool(s) load completed at 231218  8:59:48
+Dec 18 08:59:48 luigui mariadbd[59713]: 2023-12-18  8:59:48 0 [Note] /usr/sbin/mariadbd: ready for connections.
+Dec 18 08:59:48 luigui mariadbd[59713]: Version: '10.11.6-MariaDB-1'  socket: '/run/mysqld/mysqld.sock'  port: 3306  Debian n/a
+Dec 18 08:59:49 luigui systemd[1]: Started mariadb.service - MariaDB 10.11.6 database server.
+Dec 18 08:59:49 luigui /etc/mysql/debian-start[59755]: Upgrading MariaDB tables if necessary.
+Dec 18 08:59:49 luigui /etc/mysql/debian-start[59771]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+Dec 18 09:00:10 luigui mariadbd[59713]: 2023-12-18  9:00:10 31 [Warning] Hostname 'luigui' does not resolve to '192.168.18.232'.
+Dec 18 09:00:10 luigui mariadbd[59713]: 2023-12-18  9:00:10 31 [Note] Hostname 'luigui' has the following IP addresses:
+Dec 18 09:00:10 luigui mariadbd[59713]: 2023-12-18  9:00:10 31 [Note]  - 127.0.1.1
