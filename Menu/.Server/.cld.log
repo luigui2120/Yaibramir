@@ -28,3 +28,8 @@
 {"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"timeout: no recent network activity","time":"2024-01-10T02:31:38Z","message":"Serve tunnel error"}
 {"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2024-01-10T02:31:38Z","message":"Retrying connection in up to 1s"}
 {"level":"info","event":0,"connection":"a8ed74de-f785-4aa2-9aa6-dc5f886481e7","connIndex":0,"location":"lim01","ip":"198.41.192.7","protocol":"quic","time":"2024-01-10T02:31:40Z","message":"Registered tunnel connection"}
+{"level":"info","event":0,"connIndex":0,"ip":"198.41.192.7","time":"2024-01-10T02:41:36Z","message":"Unregistered tunnel connection"}
+{"level":"warn","event":0,"ip":"198.41.192.7","connIndex":0,"error":"timeout: no recent network activity","time":"2024-01-10T02:41:36Z","message":"Failed to serve quic connection"}
+{"level":"error","event":0,"ip":"198.41.192.7","connIndex":0,"error":"timeout: no recent network activity","time":"2024-01-10T02:41:36Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.7","connIndex":0,"time":"2024-01-10T02:41:36Z","message":"Retrying connection in up to 1s"}
+{"level":"info","event":0,"connection":"3cd2239d-362c-4119-bac5-c672d81e36ca","connIndex":0,"location":"scl03","ip":"198.41.200.233","protocol":"quic","time":"2024-01-10T02:41:38Z","message":"Registered tunnel connection"}

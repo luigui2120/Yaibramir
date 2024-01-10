@@ -23,9 +23,9 @@ $grn [3] $yellow Retornal Inicio
         ;;
       2)
         echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa la carpeta:\e[0m""\e[1;31m]\e[0m" 
-	read -p $'\e[1;31m└──╼\e[0m\e[1;92m ' my_var3
-	website=$my_var3
-	start_cloudflared
+	read -p $'\e[1;31m└──╼\e[0m\e[1;92m ' my_var2
+	website=$my_var2
+	start_cloudflaredTermux
         ;;
       3)
 
@@ -38,7 +38,12 @@ $grn [3] $yellow Retornal Inicio
     esac
   done
 }
-MenuOpcionesPHPTermux
+
+HOST='127.0.0.1'
+HOST2='localhost'
+
+#Puerto
+PORT=8000
 
 #Servicio de Ejecutar el PHP Local
 Inicio_PHP() {
@@ -67,7 +72,7 @@ echo -ne "\n\n${RED}[${WHITE}-${RED}]${BLUE} Using Default Port $PORT...${WHITE}
 }
 
 ## Start Cloudflared
-start_cloudflared() { 
+start_cloudflaredTermux() { 
         ini_cloud=$(pwd)
 	cd ..;cd ..;cd ..;cd .Server && rm .cld.log > /dev/null 2>&1 || exit &
 	cd "$ini_cloud" || exit        
