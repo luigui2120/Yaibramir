@@ -17,3 +17,8 @@
 {"level":"warn","error":"cannot create ICMPv4 proxy: Group ID 0 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied","time":"2024-01-10T02:52:46Z","message":"ICMP proxy feature is disabled"}
 {"level":"info","time":"2024-01-10T02:52:46Z","message":"Starting metrics server on 127.0.0.1:42219/metrics"}
 {"level":"info","event":0,"connection":"22737be5-b4fa-46c0-ae35-b972b84e1ff3","connIndex":0,"location":"scl03","ip":"198.41.200.13","protocol":"quic","time":"2024-01-10T02:52:47Z","message":"Registered tunnel connection"}
+{"level":"info","event":0,"connIndex":0,"ip":"198.41.200.13","time":"2024-01-10T03:26:57Z","message":"Unregistered tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.200.13","connIndex":0,"error":"timeout: no recent network activity","time":"2024-01-10T03:26:57Z","message":"Failed to serve quic connection"}
+{"level":"error","event":0,"ip":"198.41.200.13","connIndex":0,"error":"timeout: no recent network activity","time":"2024-01-10T03:26:57Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.200.13","connIndex":0,"time":"2024-01-10T03:26:57Z","message":"Retrying connection in up to 1s"}
+{"level":"info","event":0,"connection":"d31be3a6-2272-49ca-9875-8ce09d5f41cf","connIndex":0,"location":"scl03","ip":"198.41.200.33","protocol":"quic","time":"2024-01-10T03:26:58Z","message":"Registered tunnel connection"}

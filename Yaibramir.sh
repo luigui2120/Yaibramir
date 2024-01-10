@@ -79,6 +79,8 @@ PermisoTermux() {
         cd ..
         chmod -R ugo+rwx Yaibramir
         sleep 2   
+        cd "$Permiso" || exit
+        sleep 2
         CondicionParaAvanzarInstall
         clear
         sleep 2
