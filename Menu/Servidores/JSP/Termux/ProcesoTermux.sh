@@ -7,8 +7,8 @@ rm -f "$CarpetaContenedora"
 while true; do
 BannerTermux
 echo -e -n "${yellow}
-$grn [1] $yellow PHP con Localhost.run   
-$grn [2] $yellow PHP con Cloudflare                                    
+$grn [1] $yellow JSP con LocalXpose   
+$grn [2] $yellow JSP con Cloudflare                                    
 $grn [3] $yellow Retornal Inicio                                                                                           
 "${blanco}                                                                                         
 
@@ -19,7 +19,7 @@ $grn [3] $yellow Retornal Inicio
         echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa la carpeta:\e[0m""\e[1;31m]\e[0m" 
         read -p $'\e[1;31m└──╼\e[0m\e[1;92m ' my_var1
         website=$my_var1
-        ServerPHPlocalhost.run
+        ApacheTomcatLocklx
         ;;
       2)
         echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa la carpeta:\e[0m""\e[1;31m]\e[0m" 
@@ -234,6 +234,42 @@ Server
 cusport() {
 echo -ne "\n\n${RED}[${WHITE}-${RED}]${BLUE} Using Default Port $PORT...${WHITE}\n"
 
+}
+
+#ApacheTomcatLocklx
+ApacheTomcatLocklx() {
+	ini_Locklx=$(pwd)
+	cd ..;cd ..;cd ..;cd .Server
+  	if [[ -e .loclx ]]; then
+	  rm .loclx
+ 	fi
+	cd "$ini_Locklx" || exit 
+  	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+	{ sleep 1; Inicio_JSP; printf "\e[0m\n";}
+	cd ..;cd .Server; cd apache-tomcat;cd bin;bash shutdown.sh;bash startup.sh > /dev/null 2>&1
+  	cd "$ini_Locklx" || exit 
+  	sleep 2
+  	printf "${BGreen}OK.${clear}\n"
+  	sleep 2
+  	ini_net1=$(cd ..;cd ..;cd ..;cd .Server; pwd)
+    	echo -e "\n${red}[${blanco}-${red}]${blue} Selecciona una región: eu,us"${blanco}
+    	read -p "Opción: " $my_var1
+   	Locklx_region=$my_var1
+   	echo -e "\n${red}[${blanco}-${red}]${blue} Login:"${blanco}
+        cd ../../../.Server
+   	./loclx account login
+   	sleep 2
+   	termux-chroot && ./loclx tunnel --raw-mode http --region "$Locklx_region" --https-redirect -t "$HOST":"$PORT" > $ini_net1/.loclx 2>&1 &
+	sleep 12
+	echo "Espere unos minutos"
+ 	sleep 10  # Aumenta este tiempo si es necesario
+	loclx_url=$(cd ..;cd ..;cd ..;cd .Server; cat .loclx | grep -o '[0-9a-zA-Z.]*.loclx.io' )
+	if [ -n "$loclx_url" ]; then
+  	echo -e "\n${red}[${blanco}-${red}]${blue} URL 1 : ${verde}$loclx_url"
+	else
+   	echo -e "\n${red}[${blanco}-${red}]${blue} No se pudo obtener la URL de Serveo.${clear}"
+	fi
+	MostrarDatos
 }
 
 #ApacheTomcatLocalCloudflare

@@ -387,19 +387,19 @@ ApacheTomcatLocklx() {
    	read -p "Opción: " $my_var1
    	ngrok_region=$my_var1
    	echo -e "\n${red}[${blanco}-${red}]${blue} Login:"${blanco}
-   	loclx account login
+   	cd ../../../.Server
+   	./loclx account login
    	sleep 2
-   	cd ../../../ && ./.Server/loclx tunnel --raw-mode http --region "$ngrok_region" --https-redirect -t "$HOST":"$PORT" > $ini_net1/.loclx 2>&1 &
+   	./loclx tunnel --raw-mode http --region "$ngrok_region" --https-redirect -t "$HOST":"$PORT" > $ini_net1/.loclx 2>&1 &
+   	cd "$ini_net" || exit &
 	else
     	echo "[ - ] Respuesta no válida. Por favor, responde 'y' o 'n'."
    	killall -2 xterm > /dev/null 2>&1
     	ServicioLoclx
 	fi
-	sleep 12
 	echo "Espere unos minutos"
  	sleep 10  # Aumenta este tiempo si es necesario
-	loclx_url=$(cd ..;cd ..;cd ..;cd .Server; cat .loclx | grep -o '[0-9a-zA-Z.]*.loclx.io' )
-	
+	loclx_url=$(cat .loclx | grep -o '[0-9a-zA-Z.]*.loclx.io' )
 	if [ -n "$loclx_url" ]; then
   	echo -e "\n${red}[${blanco}-${red}]${blue} URL 1 : ${verde}$loclx_url"
 	else

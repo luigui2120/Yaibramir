@@ -4161,3 +4161,127 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 03-Feb-2024 11:56:14.484 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 03-Feb-2024 11:56:14.494 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8000"]
 03-Feb-2024 11:56:14.496 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8000"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Feb-2024 17:15:06.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+03-Feb-2024 17:15:06.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+03-Feb-2024 17:15:06.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+03-Feb-2024 17:15:06.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Feb-2024 17:15:06.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-kali3-amd64
+03-Feb-2024 17:15:06.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Feb-2024 17:15:06.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+03-Feb-2024 17:15:06.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10-ea+6-Debian-1
+03-Feb-2024 17:15:06.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Debian
+03-Feb-2024 17:15:06.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:15:06.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:15:06.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Feb-2024 17:15:06.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Feb-2024 17:15:06.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Feb-2024 17:15:06.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Feb-2024 17:15:06.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Feb-2024 17:15:06.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/conf/logging.properties
+03-Feb-2024 17:15:06.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Feb-2024 17:15:06.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Feb-2024 17:15:06.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Feb-2024 17:15:06.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Feb-2024 17:15:06.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Feb-2024 17:15:06.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:15:06.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:15:06.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/temp
+03-Feb-2024 17:15:06.566 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+03-Feb-2024 17:15:06.736 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8000"]
+03-Feb-2024 17:15:06.750 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [320] milliseconds
+03-Feb-2024 17:15:06.774 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Feb-2024 17:15:06.774 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+03-Feb-2024 17:15:06.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Login]
+03-Feb-2024 17:15:07.170 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Feb-2024 17:15:07.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Login] has finished in [235] ms
+03-Feb-2024 17:15:07.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Jsp]
+03-Feb-2024 17:15:07.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Jsp] has finished in [10] ms
+03-Feb-2024 17:15:07.187 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8000"]
+03-Feb-2024 17:15:07.194 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [442] milliseconds
+03-Feb-2024 17:16:54.730 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Feb-2024 17:16:54.730 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8000"]
+03-Feb-2024 17:16:54.733 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Feb-2024 17:16:54.740 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8000"]
+03-Feb-2024 17:16:54.743 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8000"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Feb-2024 17:16:54.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+03-Feb-2024 17:16:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+03-Feb-2024 17:16:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+03-Feb-2024 17:16:54.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Feb-2024 17:16:54.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-kali3-amd64
+03-Feb-2024 17:16:54.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Feb-2024 17:16:54.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+03-Feb-2024 17:16:54.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10-ea+6-Debian-1
+03-Feb-2024 17:16:54.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Debian
+03-Feb-2024 17:16:54.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:16:54.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:16:55.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Feb-2024 17:16:55.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Feb-2024 17:16:55.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Feb-2024 17:16:55.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Feb-2024 17:16:55.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Feb-2024 17:16:55.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/conf/logging.properties
+03-Feb-2024 17:16:55.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Feb-2024 17:16:55.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Feb-2024 17:16:55.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Feb-2024 17:16:55.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Feb-2024 17:16:55.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Feb-2024 17:16:55.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:16:55.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:16:55.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/temp
+03-Feb-2024 17:16:55.005 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+03-Feb-2024 17:16:55.187 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8000"]
+03-Feb-2024 17:16:55.202 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [336] milliseconds
+03-Feb-2024 17:16:55.229 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Feb-2024 17:16:55.229 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+03-Feb-2024 17:16:55.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Login]
+03-Feb-2024 17:16:55.619 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Feb-2024 17:16:55.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Login] has finished in [239] ms
+03-Feb-2024 17:16:55.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Jsp]
+03-Feb-2024 17:16:55.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Jsp] has finished in [12] ms
+03-Feb-2024 17:16:55.637 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8000"]
+03-Feb-2024 17:16:55.644 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [441] milliseconds
+03-Feb-2024 17:18:47.703 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Feb-2024 17:18:47.703 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8000"]
+03-Feb-2024 17:18:47.705 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Feb-2024 17:18:47.714 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8000"]
+03-Feb-2024 17:18:47.717 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8000"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Feb-2024 17:18:47.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+03-Feb-2024 17:18:47.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+03-Feb-2024 17:18:47.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+03-Feb-2024 17:18:47.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Feb-2024 17:18:47.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-kali3-amd64
+03-Feb-2024 17:18:47.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Feb-2024 17:18:47.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+03-Feb-2024 17:18:47.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10-ea+6-Debian-1
+03-Feb-2024 17:18:47.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Debian
+03-Feb-2024 17:18:47.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:18:47.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/conf/logging.properties
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Feb-2024 17:18:48.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:18:48.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat
+03-Feb-2024 17:18:48.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/temp
+03-Feb-2024 17:18:48.004 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+03-Feb-2024 17:18:48.213 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8000"]
+03-Feb-2024 17:18:48.227 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [367] milliseconds
+03-Feb-2024 17:18:48.250 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Feb-2024 17:18:48.250 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+03-Feb-2024 17:18:48.536 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Login]
+03-Feb-2024 17:18:48.878 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Feb-2024 17:18:48.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Login] has finished in [348] ms
+03-Feb-2024 17:18:48.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Jsp]
+03-Feb-2024 17:18:48.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/apache-tomcat/webapps/Jsp] has finished in [14] ms
+03-Feb-2024 17:18:48.900 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8000"]
+03-Feb-2024 17:18:48.908 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [680] milliseconds
