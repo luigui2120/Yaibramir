@@ -263,7 +263,7 @@ ApacheTomcatLocklx() {
 	sleep 12
 	echo "Espere unos minutos"
  	sleep 10  # Aumenta este tiempo si es necesario
-	loclx_url=$(cd ..;cd ..;cd ..;cd .Server; cat .loclx | grep -o '[0-9a-zA-Z.]*.loclx.io' )
+	loclx_url=$(cat .loclx | grep -o '[0-9a-zA-Z.]*.loclx.io' )
 	if [ -n "$loclx_url" ]; then
   	echo -e "\n${red}[${blanco}-${red}]${blue} URL 1 : ${verde}$loclx_url"
 	else
