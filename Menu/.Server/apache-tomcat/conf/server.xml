@@ -160,7 +160,7 @@
       
 <Host name="localhost" appBase="webapps" unpackWARs="true" autoDeploy="true">
     <!-- ... otras configuraciones ... -->
-    <Context path="" docBase="Login" reloadable="true"/>
+    <Context path="" docBase="Jsp" reloadable="true"/>
     <!-- ... otras configuraciones ... -->
 </Host>
 

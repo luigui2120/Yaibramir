@@ -1,24 +1,21 @@
-{"level":"info","time":"2024-01-10T02:52:44Z","message":"Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps"}
-{"level":"info","time":"2024-01-10T02:52:44Z","message":"Requesting new quick Tunnel on trycloudflare.com..."}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"+--------------------------------------------------------------------------------------------+"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"|  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"|  https://ranges-excellent-counters-ownership.trycloudflare.com                             |"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"+--------------------------------------------------------------------------------------------+"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"Version 2023.10.0"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"GOOS: linux, GOVersion: go1.20.6, GoArch: amd64"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"Settings: map[ha-connections:1 logfile:.cld.log protocol:quic url:127.0.0.1:8000]"}
-{"level":"info","autoupdateFreq":86400000,"time":"2024-01-10T02:52:46Z","message":"Autoupdate frequency is set"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"Generated Connector ID: c01613a6-7d5c-46af-8cd2-29fd2c7e14b6"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"Initial protocol quic"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"ICMP proxy will use 192.168.1.59 as source for IPv4"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"ICMP proxy will use 2001:1388:6563:30ee:a605:7c4f:9c4b:e6fc in zone wlan0 as source for IPv6"}
-{"level":"warn","error":"Group ID 0 is not between ping group 1 to 0","time":"2024-01-10T02:52:46Z","message":"The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network"}
-{"level":"warn","error":"cannot create ICMPv4 proxy: Group ID 0 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied","time":"2024-01-10T02:52:46Z","message":"ICMP proxy feature is disabled"}
-{"level":"info","time":"2024-01-10T02:52:46Z","message":"Starting metrics server on 127.0.0.1:42219/metrics"}
-{"level":"info","event":0,"connection":"22737be5-b4fa-46c0-ae35-b972b84e1ff3","connIndex":0,"location":"scl03","ip":"198.41.200.13","protocol":"quic","time":"2024-01-10T02:52:47Z","message":"Registered tunnel connection"}
-{"level":"info","event":0,"connIndex":0,"ip":"198.41.200.13","time":"2024-01-10T03:26:57Z","message":"Unregistered tunnel connection"}
-{"level":"error","event":0,"ip":"198.41.200.13","connIndex":0,"error":"timeout: no recent network activity","time":"2024-01-10T03:26:57Z","message":"Failed to serve quic connection"}
-{"level":"error","event":0,"ip":"198.41.200.13","connIndex":0,"error":"timeout: no recent network activity","time":"2024-01-10T03:26:57Z","message":"Serve tunnel error"}
-{"level":"info","event":0,"ip":"198.41.200.13","connIndex":0,"time":"2024-01-10T03:26:57Z","message":"Retrying connection in up to 1s"}
-{"level":"info","event":0,"connection":"d31be3a6-2272-49ca-9875-8ce09d5f41cf","connIndex":0,"location":"scl03","ip":"198.41.200.33","protocol":"quic","time":"2024-01-10T03:26:58Z","message":"Registered tunnel connection"}
+{"level":"info","time":"2024-02-03T17:41:43Z","message":"Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps"}
+{"level":"info","time":"2024-02-03T17:41:43Z","message":"Requesting new quick Tunnel on trycloudflare.com..."}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"|  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |"}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"|  https://lawsuit-google-pharmaceutical-subjective.trycloudflare.com                        |"}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]"}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"Version 2024.1.5"}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"GOOS: linux, GOVersion: go1.21.5, GoArch: amd64"}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"Settings: map[ha-connections:1 logfile:/home/luigui/ProyectoWeb/Yaibramir/Menu/.Server/.cld.log protocol:quic url:127.0.0.1:8000]"}
+{"level":"info","autoupdateFreq":86400000,"time":"2024-02-03T17:41:45Z","message":"Autoupdate frequency is set"}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"Generated Connector ID: a9413f5b-6964-4070-9169-091aa1ae97c1"}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"Initial protocol quic"}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"ICMP proxy will use 192.168.1.67 as source for IPv4"}
+{"level":"info","time":"2024-02-03T17:41:45Z","message":"ICMP proxy will use 2001:1388:6563:83ec:35d6:54cb:13a1:3e6f in zone eth0 as source for IPv6"}
+{"level":"warn","error":"Group ID 1000 is not between ping group 1 to 0","time":"2024-02-03T17:41:45Z","message":"The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network"}
+{"level":"warn","error":"cannot create ICMPv4 proxy: Group ID 1000 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied","time":"2024-02-03T17:41:45Z","message":"ICMP proxy feature is disabled"}
+{"level":"info","time":"2024-02-03T17:41:46Z","message":"Starting metrics server on 127.0.0.1:35681/metrics"}
+{"level":"info","event":0,"connection":"d13e2d28-79ac-4dbd-9143-c927d9506677","connIndex":0,"location":"lim01","ip":"198.41.192.7","protocol":"quic","time":"2024-02-03T17:41:46Z","message":"Registered tunnel connection"}
+{"level":"error","error":"Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:8000: connect: connection refused","cfRay":"84fc780e75d6a376-LIM","event":1,"originService":"http://127.0.0.1:8000","time":"2024-02-03T17:42:10Z"}
+{"level":"error","event":0,"ip":"198.41.192.7","connIndex":0,"error":"Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:8000: connect: connection refused","type":"http","dest":"https://lawsuit-google-pharmaceutical-subjective.trycloudflare.com/","time":"2024-02-03T17:42:10Z","message":"Request failed"}
