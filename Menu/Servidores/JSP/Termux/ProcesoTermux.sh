@@ -25,7 +25,7 @@ $grn [3] $yellow Retornal Inicio
         echo -e "\e[1;31m┌─[\e[0m""\e[1;37mIngresa la carpeta:\e[0m""\e[1;31m]\e[0m" 
 	read -p $'\e[1;31m└──╼\e[0m\e[1;92m ' my_var2
 	website=$my_var2
-	start_cloudflaredTermux
+	ApacheTomcatLocalCloudflare
         ;;
       3)
 
@@ -265,7 +265,6 @@ ApacheTomcatLocalCloudflare(){
     	ApacheTomcatLocalCloudflare
 	fi
 	sleep 8
-	cd ..;cd ..;cd ..;cd .Server;
 	cldflr_url=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' ".cld.log")
 	cldflr_url2=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' ".cld.log" | sed 's/https:\/\///')
 	cd "$ini_cloud" || exit 
@@ -283,6 +282,7 @@ MostrarDatos(){
         # Verificar la respuesta
         case "$respuesta" in
             [Yy]*)
+                VerificaActual4="$(cd ..;cd ..;cd ..;cd .Server; cd apache-tomcat;cd bin;bash shutdown.sh)"
                 pkill -9 -f "127.0.0.1:8080"
                 killall -2 php > /dev/null 2>&1
                 # Obtener el PID del proceso
@@ -297,6 +297,7 @@ MostrarDatos(){
                 MenuOpciones
                 ;;
             [Nn]*)
+                VerificaActual4="$(cd ..;cd ..;cd ..;cd .Server; cd apache-tomcat;cd bin;bash shutdown.sh)"
                 pkill -9 -f "127.0.0.1:8080"
                 killall -2 php > /dev/null 2>&1
 	# Verificar si se encontró un PID
